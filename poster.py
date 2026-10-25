@@ -25,7 +25,7 @@ ROOT = Path(__file__).parent
 QUEUE = ROOT / "queue"
 POSTED_FILE = ROOT / "posted.json"
 DRY_RUN = os.getenv("DRY_RUN") == "1"
-IG_API = "https://graph.instagram.com/v21.0"
+IG_API = "https://graph.instagram.com/v25.0"
 
 
 def log(msg):
