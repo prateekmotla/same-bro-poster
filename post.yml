@@ -1,0 +1,69 @@
+name: Post videos
+
+# Times are UTC (IST = UTC + 5:30). GitHub can start scheduled runs a few minutes late.
+on:
+  schedule:
+    - cron: "30 3 * * *"    # 9:00 AM IST  -> short
+    - cron: "30 7 * * *"    # 1:00 PM IST  -> short
+    - cron: "30 12 * * 1,3,5" # 6:00 PM IST Mon/Wed/Fri -> long video
+    - cron: "30 13 * * *"   # 7:00 PM IST  -> short
+  workflow_dispatch:         # "Run workflow" button for manual posting/testing
+    inputs:
+      kind:
+        description: "What to post"
+        type: choice
+        options: [short, long]
+        default: short
+      dry_run:
+        description: "Dry run (don't actually post)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poster
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Decide short or long
+        id: kind
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "kind=${{ inputs.kind }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "30 12 * * 1,3,5" ]; then
+            echo "kind=long" >> "$GITHUB_OUTPUT"
+          else
+            echo "kind=short" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Post
+        env:
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL }}
+        run: python poster.py ${{ steps.kind.outputs.kind }}
+
+      - name: Save posted log
+        if: always()
+        run: |
+          git config user.name "poster-bot"
+          git config user.email "poster-bot@users.noreply.github.com"
+          git add posted.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Log posted video" && git pull --rebase && git push)
