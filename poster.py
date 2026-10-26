@@ -42,7 +42,13 @@ def save_posted(data):
     POSTED_FILE.write_text(json.dumps(data, indent=2) + "\n")
 
 
-def next_item(posted, kind):
+def next_items(posted, kind):
+    """For each platform, the oldest approved item of this kind not yet posted there.
+
+    Platforms advance independently, so an Instagram outage never blocks YouTube (and vice versa).
+    Returns [(folder, meta, video, platform), ...]."""
+    out, seen = [], set()
+    default = ["instagram", "youtube"] if kind == "short" else ["youtube"]
     for folder in sorted(p for p in QUEUE.iterdir() if p.is_dir()):
         meta_path = folder / "meta.json"
         video = folder / "video.mp4"
@@ -52,11 +58,11 @@ def next_item(posted, kind):
         if not meta.get("approved") or meta.get("type", "short") != kind:
             continue
         done = posted.get(folder.name, {})
-        default = ["instagram", "youtube"] if kind == "short" else ["youtube"]
-        todo = [p for p in meta.get("platforms", default) if p not in done]
-        if todo:
-            return folder, meta, video, todo
-    return None
+        for p in meta.get("platforms", default):
+            if p not in done and p not in seen:
+                seen.add(p)
+                out.append((folder, meta, video, p))
+    return out
 
 
 # ---------------- Instagram (Instagram API with Instagram Login) ----------------
@@ -169,15 +175,14 @@ def main():
     if kind not in ("short", "long"):
         sys.exit("Usage: python poster.py short|long")
     posted = load_posted()
-    item = next_item(posted, kind)
-    if not item:
+    items = next_items(posted, kind)
+    if not items:
         log(f"No approved '{kind}' videos left in the queue. Skipping.")
         return 0
-    folder, meta, video, todo = item
-    log(f"Posting {folder.name} to {', '.join(todo)}")
 
     failures = 0
-    for platform in todo:
+    for folder, meta, video, platform in items:
+        log(f"Posting {folder.name} to {platform}")
         try:
             if platform == "instagram":
                 pid = post_instagram(folder, meta)
