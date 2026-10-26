@@ -78,5 +78,5 @@ jobs:
               if all(p in plats for p in want):
                   os.remove(f"{d}/video.mp4")
           PY
-          git add -A queue posted.json 2>/dev/null || true
+          git add -A queue posted.json errors.log 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "Log posted video" && git pull --rebase && git push)

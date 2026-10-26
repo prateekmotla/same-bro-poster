@@ -86,7 +86,8 @@ def post_instagram(folder, meta):
         "share_to_feed": "true",
         "access_token": token,
     }, timeout=60)
-    r.raise_for_status()
+    if not r.ok:
+        raise RuntimeError(f"Instagram container failed {r.status_code}: {r.text[:500]}")
     container = r.json()["id"]
 
     # Wait for Instagram to process the video (up to ~10 min)
@@ -104,7 +105,8 @@ def post_instagram(folder, meta):
 
     r = requests.post(f"{IG_API}/{user_id}/media_publish", data={
         "creation_id": container, "access_token": token}, timeout=60)
-    r.raise_for_status()
+    if not r.ok:
+        raise RuntimeError(f"Instagram publish failed {r.status_code}: {r.text[:500]}")
     media_id = r.json()["id"]
     log(f"Instagram: published {media_id}")
     return media_id
@@ -191,6 +193,8 @@ def main():
         except Exception as e:  # keep going so one platform failing doesn't block the other
             failures += 1
             log(f"{platform} FAILED: {e}")
+            with open("errors.log", "a") as fh:
+                fh.write(f"{time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())} {folder.name} {platform}: {str(e)[:600]}\n")
     return 1 if failures else 0
 
 
