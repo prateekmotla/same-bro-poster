@@ -9,7 +9,8 @@ TODO: repo history grows ~1 GB/week of video; move videos to GitHub Release asse
 Render tip: max ~4 render processes at once (8 GB RAM, OOM otherwise). Use run_in_background Bash, not nohup.
 
 ## Queue / status
-- [x] 002 short Live traders (posted Mon 1 PM) · [~] 003 short 91% lose (Mon 7 PM: YouTube OK, Instagram FAILED 'API access blocked' — poster will retry 003 on IG every short slot and NOT move on until IG works or 'instagram' is removed from 003's platforms)
+- [x] 002 short Live traders (posted Mon 1 PM) · [~] 003 short 91% lose (Mon 7 PM: YouTube OK, Instagram FAILED 'API access blocked'. Health check (Actions → 'Instagram health check') shows even /me is blocked = Meta has blocked the app/token; Prateek must fix in Meta App Dashboard. Poster now advances each platform separately, so YouTube keeps posting; IG catches up from 003 once unblocked)
+- TODO Prateek: add a GH_PAT secret (fine-grained PAT, Secrets: read/write on this repo) or the weekly IG token refresh fails and the token expires ~late Dec
 - [x] 100 long Live traders (Mon 6 PM) — swap in same_bro_long_01_fixed.mp4 (caption fix) if ready
 - [ ] 004 short gym business (Tue 9 AM)  · [ ] 005 credit card minimum due (Tue 1 PM) · [ ] 006 sale trick (Tue 7 PM)
 - [ ] 007 no-cost EMI (Wed 9 AM) · [ ] 008 regular vs direct MF (Wed 1 PM) · [ ] 009 task-job scam (Wed 7 PM)
