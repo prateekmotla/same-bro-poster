@@ -65,5 +65,18 @@ jobs:
         run: |
           git config user.name "poster-bot"
           git config user.email "poster-bot@users.noreply.github.com"
-          git add posted.json 2>/dev/null || true
+          python - <<'PY'
+          import json, os
+          posted = json.load(open("posted.json"))
+          for item, plats in posted.items():
+              d = f"queue/{item}"
+              m = f"{d}/meta.json"
+              if not os.path.exists(f"{d}/video.mp4") or not os.path.exists(m):
+                  continue
+              meta = json.load(open(m))
+              want = meta.get("platforms") or (["youtube"] if meta.get("type") == "long" else ["instagram", "youtube"])
+              if all(p in plats for p in want):
+                  os.remove(f"{d}/video.mp4")
+          PY
+          git add -A queue posted.json 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "Log posted video" && git pull --rebase && git push)

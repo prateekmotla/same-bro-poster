@@ -4,6 +4,7 @@ Slots (IST): shorts 9 AM / 1 PM / 7 PM daily; long 6 PM Mon/Wed/Fri. Poster post
 RULES (from Prateek): every short = its OWN topic (no re-cuts of longs). Shorts = "hidden truth / exposé" + "this is me" angle, English captions, fact-checked with source tag.
 Re-cut shorts only as emergency backup if ElevenLabs credits run out.
 Helper: studio/queue_short.py (copy to /home/claude/sid/). Shorts need studio/shorts/bed.wav at /home/claude/sid/shorts/bed.wav.
+TODO: repo history grows ~1 GB/week of video; move videos to GitHub Release assets before it nears 5 GB.
 Render tip: max ~4 render processes at once (8 GB RAM, OOM otherwise). Use run_in_background Bash, not nohup.
 
 ## Queue / status
