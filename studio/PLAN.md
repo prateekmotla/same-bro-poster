@@ -1,13 +1,17 @@
-# Same Bro — weekly batch plan (week of Mon 26 Oct 2026)
+# Same Bro — batch plan (week of Mon 26 Oct 2026)
 
-Slots (IST): shorts 9 AM / 1 PM / 7 PM daily; long 6 PM Mon/Wed/Fri. Poster posts the next approved queue item (folder name order) per type.
-Rule: keep the queue at least 2 days ahead. Shorts mostly = 30–45s re-cuts of the long videos (no extra ElevenLabs credits).
-If ElevenLabs credits run out: stop making new voiceovers, keep making re-cut shorts; resume new VO after credits refill.
+Slots (IST): shorts 9 AM / 1 PM / 7 PM daily; long 6 PM Mon/Wed/Fri. Poster posts the next approved queue item (folder-name order) per type.
+RULES (from Prateek): every short = its OWN topic (no re-cuts of longs). Shorts = "hidden truth / exposé" + "this is me" angle, English captions, fact-checked with source tag.
+Re-cut shorts only as emergency backup if ElevenLabs credits run out.
+Render tip: max ~4 render processes at once (8 GB RAM, OOM otherwise). Use run_in_background Bash, not nohup.
 
-## Status
-- [x] 002 short — Live Traders Are Fooling You (Mon 1 PM)
-- [x] 100 long — How Live Traders REALLY Make Money (Mon 6 PM) — queued; thumbnail_B.jpg for YouTube Test & Compare
-- [ ] re-cut shorts from long 100: Sid's story / 5 incomes / screenshots twist / SEBI ₹546 Cr / 3 questions
-- [ ] 101 long — Why you can't stop scrolling at 2 AM (Wed 6 PM)
-- [ ] 102 long — Salary aate hi khatam: where your money goes (Fri 6 PM)
-- [ ] re-cut shorts from 101 and 102
+## Queue / status
+- [x] 002 short Live traders (posted Mon 1 PM) · [x] 003 short 91% lose (Mon 7 PM)
+- [x] 100 long Live traders (Mon 6 PM) — swap in same_bro_long_01_fixed.mp4 (caption fix) if ready
+- [ ] 004 short gym business (Tue 9 AM)  · [ ] 005 credit card minimum due (Tue 1 PM) · [ ] 006 sale trick (Tue 7 PM)
+- [ ] 007 no-cost EMI (Wed 9 AM) · [ ] 008 regular vs direct MF (Wed 1 PM) · [ ] 009 task-job scam (Wed 7 PM)
+- [ ] 101 long Why you can't stop scrolling at 2 AM (Wed 6 PM)
+- [ ] 010 red notification dot (Thu 9 AM) · Thu 1 PM / 7 PM: new topics needed
+- [ ] 102 long Salary aate hi khatam (Fri 6 PM)
+- Backups (voiced, generic): s04 "kal se pakka", s05 Instagram comparison
+- Topic ideas next: coaching "100% selection" ads, dating apps business model, fake scarcity "only 2 left", fantasy/betting apps & 2025 law, protein/"healthy" snack labels, insurance-investment plans commission
