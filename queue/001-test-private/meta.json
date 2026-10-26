@@ -1,0 +1,14 @@
+{
+  "type": "short",
+  "approved": true,
+  "platforms": [
+    "youtube"
+  ],
+  "title": "Same Bro test upload (private)",
+  "youtube_description": "Automation test. Private.",
+  "tags": [
+    "test"
+  ],
+  "youtube_privacy": "private",
+  "made_for_kids": false
+}
