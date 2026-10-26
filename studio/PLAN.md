@@ -6,7 +6,7 @@ If ElevenLabs credits run out: stop making new voiceovers, keep making re-cut sh
 
 ## Status
 - [x] 002 short — Live Traders Are Fooling You (Mon 1 PM)
-- [ ] 100 long — How Live Traders REALLY Make Money (Mon 6 PM) — rendering in session
+- [x] 100 long — How Live Traders REALLY Make Money (Mon 6 PM) — queued; thumbnail_B.jpg for YouTube Test & Compare
 - [ ] re-cut shorts from long 100: Sid's story / 5 incomes / screenshots twist / SEBI ₹546 Cr / 3 questions
 - [ ] 101 long — Why you can't stop scrolling at 2 AM (Wed 6 PM)
 - [ ] 102 long — Salary aate hi khatam: where your money goes (Fri 6 PM)
