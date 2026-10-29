@@ -3,6 +3,7 @@ Last producer run: Thu 29 Oct, ~1:30–2:30 AM IST.
 
 Slots (IST): shorts 9 AM / 1 PM / 7 PM daily; long 6 PM Mon/Wed/Fri. Poster posts the next approved queue item (folder-name order) per type.
 RULES (from Prateek): every short = its OWN topic (no re-cuts of longs). Shorts = "hidden truth / exposé" + "this is me" angle, English captions, fact-checked with source tag.
+**ELEVENLABS OFF (Prateek, 29 Oct 2026): do NOT use ElevenLabs at all — no new voiceovers, no Scribe transcription.** Only queue videos whose voice audio already exists; otherwise leave the slot empty and tell Prateek.
 Re-cut shorts only as emergency backup if ElevenLabs credits run out.
 Helper: studio/queue_short.py (copy to /home/claude/sid/). Shorts need studio/shorts/bed.wav at /home/claude/sid/shorts/bed.wav.
 New shorts (s15+) use studio/shorts/kit.py (panels, rows, full cards, stamps, bars, checkout/SMS phone screens, generic packet). Copy it with the rest of studio/shorts/*.
@@ -26,4 +27,4 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
 - Topics used: coaching topper ads (011), false urgency (012), shrinkflation (013), delivery-app menu markup (014), COD fee/drip pricing (015), free-trial subscription trap (016), dating-app gender ratio/boosts (017), endowment vs term commission (018)
 - Topic ideas next: fantasy/betting apps & the 2025 online gaming law, protein/"healthy" snack labels (FSSAI), BNPL/'pay later' late fees, chips packet "half air" (nitrogen + slack fill), airport/multiplex ₹250 chai (concession rent), 'MRP ₹99' charm pricing, cashback that's really coins/points, phone 'storage full' → cloud upsell, festive-sale 'bank offer' fine print, loan apps' 'zero interest' processing fee, refurbished/'open box' tricks, PG/hostel brokerage, gold 'making charges'
 - Long idea for Mon 2 Nov: "Dark patterns: 5 tricks shopping apps use on you" (CCPA 13-pattern list + fixes) — can reuse facts from 012/015/016 (false urgency, drip pricing, subscription trap)
-- ElevenLabs: 6 voiceovers this run ≈ 5,000 credits, no credit error.
+- ElevenLabs: 6 voiceovers on 29 Oct ≈ 5,000 credits. Now switched OFF by Prateek. Backups s04/s05 have no vo.mp3 in the repo, so nothing voiced is left to fill Sun 1 Nov onward.
