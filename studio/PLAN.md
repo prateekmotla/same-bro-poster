@@ -3,7 +3,8 @@ Last producer run: Thu 29 Oct, ~1:30–2:30 AM IST.
 
 Slots (IST): shorts 9 AM / 1 PM / 7 PM daily; long 6 PM Mon/Wed/Fri. Poster posts the next approved queue item (folder-name order) per type.
 RULES (from Prateek): every short = its OWN topic (no re-cuts of longs). Shorts = "hidden truth / exposé" + "this is me" angle, English captions, fact-checked with source tag.
-**ELEVENLABS OFF (Prateek, 29 Oct 2026): do NOT use ElevenLabs at all — no new voiceovers, no Scribe transcription.** Only queue videos whose voice audio already exists; otherwise leave the slot empty and tell Prateek.
+**ELEVENLABS OFF (Prateek, 29 Oct 2026): do NOT use ElevenLabs at all — no voiceovers, no Scribe transcription.**
+**NEW FORMAT: TEXT-ONLY shorts** (Prateek's idea) — story told in on-screen text + music bed + pop/whoosh SFX; works muted and with sound. Engine studio/shorts/tshort.py (TextShort). Templates: s21_chips, s22_ninetynine, s23_airport. Lines ≤ ~18 words (story card fits 3 rows, keep overlays above y 1400).
 Re-cut shorts only as emergency backup if ElevenLabs credits run out.
 Helper: studio/queue_short.py (copy to /home/claude/sid/). Shorts need studio/shorts/bed.wav at /home/claude/sid/shorts/bed.wav.
 New shorts (s15+) use studio/shorts/kit.py (panels, rows, full cards, stamps, bars, checkout/SMS phone screens, generic packet). Copy it with the rest of studio/shorts/*.
@@ -22,9 +23,10 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
 - [ ] 102 long Salary aate hi khatam (Fri 6 PM)
 - [ ] 013 shrinkflation (Fri 9 AM, s15_shrink) · [ ] 014 delivery app markup (Fri 1 PM, s16_delivery) · [ ] 015 COD handling fee / drip pricing (Fri 7 PM, s17_cod)
 - [ ] 016 free-trial AutoPay trap (Sat 9 AM, s18_trial) · [ ] 017 dating apps business (Sat 1 PM, s19_dating) · [ ] 018 insurance agent commission (Sat 7 PM, s20_policy)
-- Next needed: Sun 1 Nov 9 AM / 1 PM / 7 PM shorts; long for Mon 2 Nov 6 PM (not made this run — Fri slot is filled and Mon was >3 days out; next run should make it)
+- [ ] 019 chips packet half air (Sun 9 AM, text-only, s21_chips) · [ ] 020 why prices end in 99 (Sun 1 PM, s22_ninetynine) · [ ] 021 airport chai price (Sun 7 PM, s23_airport)
+- Next needed: Mon 2 Nov 9 AM / 1 PM / 7 PM shorts (text-only). Long slots Mon 2 Nov, Wed 4 Nov, Fri 6 Nov 6 PM are EMPTY: longs need a voiceover and ElevenLabs is off — Prateek to decide (own voice recording, or a text-only long format)
 - Backups (voiced, generic): s04 "kal se pakka", s05 Instagram comparison
-- Topics used: coaching topper ads (011), false urgency (012), shrinkflation (013), delivery-app menu markup (014), COD fee/drip pricing (015), free-trial subscription trap (016), dating-app gender ratio/boosts (017), endowment vs term commission (018)
-- Topic ideas next: fantasy/betting apps & the 2025 online gaming law, protein/"healthy" snack labels (FSSAI), BNPL/'pay later' late fees, chips packet "half air" (nitrogen + slack fill), airport/multiplex ₹250 chai (concession rent), 'MRP ₹99' charm pricing, cashback that's really coins/points, phone 'storage full' → cloud upsell, festive-sale 'bank offer' fine print, loan apps' 'zero interest' processing fee, refurbished/'open box' tricks, PG/hostel brokerage, gold 'making charges'
+- Topics used: coaching topper ads (011), false urgency (012), shrinkflation (013), delivery-app menu markup (014), COD fee/drip pricing (015), free-trial subscription trap (016), dating-app gender ratio/boosts (017), endowment vs term commission (018), chips packet air/slack fill (019), ₹99 left-digit pricing (020), airport food prices (021)
+- Topic ideas next: fantasy/betting apps & the 2025 online gaming law, protein/"healthy" snack labels (FSSAI), BNPL/'pay later' late fees, multiplex popcorn price (why cinemas earn from F&B), cashback that's really coins/points, phone 'storage full' → cloud upsell, festive-sale 'bank offer' fine print, loan apps' 'zero interest' processing fee, refurbished/'open box' tricks, PG/hostel brokerage, gold 'making charges'
 - Long idea for Mon 2 Nov: "Dark patterns: 5 tricks shopping apps use on you" (CCPA 13-pattern list + fixes) — can reuse facts from 012/015/016 (false urgency, drip pricing, subscription trap)
-- ElevenLabs: 6 voiceovers on 29 Oct ≈ 5,000 credits. Now switched OFF by Prateek. Backups s04/s05 have no vo.mp3 in the repo, so nothing voiced is left to fill Sun 1 Nov onward.
+- ElevenLabs: 6 voiceovers on 29 Oct ≈ 5,000 credits. Now switched OFF by Prateek. Backups s04/s05 have no vo.mp3 in the repo. Text-only format fills the gap.
