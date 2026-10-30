@@ -16,6 +16,11 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
 - Daily mix: 2 of 3 shorts = MISTAKES of young traders / new SIP investors (checking portfolio daily, stopping SIP in falls, F&O lottery mindset, tips, averaging down, IPO FOMO...). 1 of 3 = TRENDING money/tech news of the week (gold & silver price moves and WHY, hot IPOs, big tech news) — research it the same day, latest numbers only.
 - Every short ENDS with a clear solution/rule + a one-line MORAL card. Most important/interesting thing first, solution last.
 - Education only: never recommend a specific stock/fund/IPO or give buy/sell calls (SEBI finfluencer rules). Fact-check every number with a source.
+- NEXT 4 SHORTS, make in THIS order (Prateek picked, 31 Oct): 
+  1. Expiry-day option buying: dream of turning ₹5k into ₹50k on expiry, ends losing it all (theta decay, lottery mindset; SEBI F&O study numbers; angle must differ from 003 "91% lose") — moral: don't trade expiry like a lottery.
+  2. "Buy every dip" — a dip can be the start of a big fall; lump sums into every dip with no plan. Moral: invest wisely, with a plan/SIP, not FOMO.
+  3. Averaging down a falling stock (catching a falling knife) — moral: average a good business, not a falling price.
+  4. Booking profits early but holding losers forever (disposition effect) — moral: cut losers, let winners run.
 - Mistake topic bank: SIP checked daily (loss aversion), stopping SIP when market falls, 8 funds = same stocks (over-diversification), picking fund by last year's return, weekly-expiry option buying, Telegram tip / pump & dump, averaging down a falling stock, selling winners early & holding losers, revenge trading after a loss, margin/MTF leverage, investing with no emergency fund, applying to every IPO for listing gains, jewellery as "investment" vs gold ETF/digital options, panic when gold/silver falls.
 
 ## Queue / status
