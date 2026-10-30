@@ -43,12 +43,14 @@ def save_posted(data):
 
 
 def next_items(posted, kind):
-    """For each platform, the oldest approved item of this kind not yet posted there.
+    """For each platform, the next approved item of this kind not yet posted there.
 
     Platforms advance independently, so an Instagram outage never blocks YouTube (and vice versa).
+    Items with meta "priority": true (e.g. the Diwali series) are time-sensitive: on a platform that
+    is behind (Instagram backlog), they jump the line as soon as YouTube posts them (same slot).
     Returns [(folder, meta, video, platform), ...]."""
-    out, seen = [], set()
     default = ["instagram", "youtube"] if kind == "short" else ["youtube"]
+    items = []
     for folder in sorted(p for p in QUEUE.iterdir() if p.is_dir()):
         meta_path = folder / "meta.json"
         video = folder / "video.mp4"
@@ -57,11 +59,29 @@ def next_items(posted, kind):
         meta = json.loads(meta_path.read_text())
         if not meta.get("approved") or meta.get("type", "short") != kind:
             continue
-        done = posted.get(folder.name, {})
-        for p in meta.get("platforms", default):
-            if p not in done and p not in seen:
-                seen.add(p)
-                out.append((folder, meta, video, p))
+        items.append((folder, meta, video))
+
+    def pending(platform):
+        return [it for it in items
+                if platform in it[1].get("platforms", default)
+                and platform not in posted.get(it[0].name, {})]
+
+    out = []
+    yt = pending("youtube")
+    yt_now = yt[0] if yt else None
+    if yt_now:
+        out.append((*yt_now, "youtube"))
+    for platform in sorted({p for it in items for p in it[1].get("platforms", default)} - {"youtube"}):
+        cand = pending(platform)
+        if not cand:
+            continue
+        def due(it):  # priority item already out on YouTube (or going out now)
+            return "youtube" in posted.get(it[0].name, {}) or (yt_now and it[0] == yt_now[0])
+        pri = [it for it in cand if it[1].get("priority") and due(it)]
+        rest = [it for it in cand if not (it[1].get("priority") and not due(it))]
+        pick = pri[0] if pri else (rest[0] if rest else None)
+        if pick:
+            out.append((*pick, platform))
     return out
 
 

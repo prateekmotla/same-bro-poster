@@ -28,6 +28,7 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
   3. Phone storage always full — why "storage full" pushes you to paid cloud.
   4. Water ₹20 outside, ₹100 at the airport — is MRP really fixed? (legal metrology rules, airport/multiplex cases).
   5. Service charge? Don't pay — restaurants can't force it (CCPA guidelines, Delhi HC).
+- QUEUE RULE: every Diwali short's meta.json MUST have "priority": true — the poster then posts it on Instagram in the same slot as YouTube, jumping the Instagram backlog (Prateek chose: Diwali first on IG, old backlog fills the other slots).
 - DIWALI SERIES (Prateek PICKED each day, 31 Oct 01:28 — final): ALL Diwali shorts go out BEFORE Diwali (8 Nov). One per day as the EXTRA 4th short, in that day's 7 PM prime slot. Exact topics:
   - Sat 31 Oct (TODAY, 7 PM — URGENT, make first): "Why shagun ends in 1" — ₹101/₹501/₹1100: the real reasons behind the extra ₹1 (tradition/beliefs, explained respectfully), plus a fun money moral.
   - Sun 1 Nov: "Everything on sale, yet record profits?" — how festive sales still make companies money.
