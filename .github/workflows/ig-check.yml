@@ -15,9 +15,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
         run: |
           API=https://graph.instagram.com/v25.0
-          echo "== /me"
-          curl -s "$API/me?fields=user_id,username,account_type&access_token=$IG_ACCESS_TOKEN" | sed "s/$IG_USER_ID/<IG_USER_ID>/g"; echo
-          echo "== publishing limit"
-          curl -s "$API/$IG_USER_ID/content_publishing_limit?fields=config,quota_usage&access_token=$IG_ACCESS_TOKEN" | sed "s/$IG_USER_ID/<IG_USER_ID>/g"; echo
-          echo "== recent media"
-          curl -s "$API/$IG_USER_ID/media?fields=id,timestamp&limit=3&access_token=$IG_ACCESS_TOKEN" | sed "s/$IG_USER_ID/<IG_USER_ID>/g"; echo
+          q() { curl -s "$2" | sed "s/$IG_USER_ID/<IG_USER_ID>/g" | tr -d '\n' | cut -c1-600 > /tmp/r; echo "== $1"; cat /tmp/r; echo; echo "::notice title=$1::$(cat /tmp/r)"; }
+          q me "$API/me?fields=user_id,username,account_type&access_token=$IG_ACCESS_TOKEN"
+          q publishing_limit "$API/$IG_USER_ID/content_publishing_limit?fields=config,quota_usage&access_token=$IG_ACCESS_TOKEN"
+          q recent_media "$API/$IG_USER_ID/media?fields=id,timestamp&limit=3&access_token=$IG_ACCESS_TOKEN"
