@@ -79,4 +79,11 @@ jobs:
                   os.remove(f"{d}/video.mp4")
           PY
           git add -A queue posted.json errors.log 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "Log posted video" && git pull --rebase && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Log posted video"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((i*5))
+          done
+          exit 1
