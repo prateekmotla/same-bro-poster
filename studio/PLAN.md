@@ -14,7 +14,7 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
 
 ## Queue / status
 - [x] 002 Live traders · [~] 003 91% lose (YouTube OK; Instagram FAILED 'API access blocked' — still failing every slot as of 28 Oct 7 PM. Meta has blocked the app/token; Prateek must fix in Meta App Dashboard. Poster advances each platform separately; IG catches up from 003 once unblocked)
-- TODO Prateek: add a GH_PAT secret (fine-grained PAT, Secrets: read/write on this repo) or the weekly IG token refresh fails and the token expires ~late Dec
+- [x] Instagram token refresh no longer needs GH_PAT: weekly workflow stores the refreshed token encrypted in ig_token.enc (key = YT_CLIENT_SECRET+IG_USER_ID secrets); scripts/ig_token.sh loads it for post/ig-check
 - [x] 100 long Live traders (Mon 6 PM)
 - [x] 004 gym business · [x] 005 credit card minimum due · [x] 006 sale trick (Tue) — YouTube only
 - [x] 007 no-cost EMI · [x] 008 regular vs direct MF · [x] 009 task-job scam (Wed) — YouTube only

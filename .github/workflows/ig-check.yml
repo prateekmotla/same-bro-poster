@@ -9,9 +9,16 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - name: Query Instagram API
+      - uses: actions/checkout@v4
+
+      - name: Load Instagram token
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          TOKEN_KEY: ${{ secrets.YT_CLIENT_SECRET }}${{ secrets.IG_USER_ID }}
+        run: source scripts/ig_token.sh load
+
+      - name: Query Instagram API
+        env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
         run: |
           API=https://graph.instagram.com/v25.0

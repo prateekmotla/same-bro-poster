@@ -49,10 +49,15 @@ jobs:
             echo "kind=short" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Load Instagram token
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          TOKEN_KEY: ${{ secrets.YT_CLIENT_SECRET }}${{ secrets.IG_USER_ID }}
+        run: source scripts/ig_token.sh load
+
       - name: Post
         env:
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}

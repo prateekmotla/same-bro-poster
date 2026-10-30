@@ -1,24 +1,35 @@
 name: Refresh Instagram token
 
-# Instagram long-lived tokens last 60 days. This refreshes it every Monday
-# and saves the new one back into the IG_ACCESS_TOKEN secret automatically.
+# Instagram long-lived tokens last 60 days. Every Monday this refreshes the token and
+# stores it encrypted in ig_token.enc (no GitHub PAT needed).
 on:
   schedule:
     - cron: "0 4 * * 1"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: poster
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - name: Refresh and save token
+      - uses: actions/checkout@v4
+      - name: Refresh and store token
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          TOKEN_KEY: ${{ secrets.YT_CLIENT_SECRET }}${{ secrets.IG_USER_ID }}
+        run: bash scripts/ig_token.sh refresh
+      - name: Commit
         run: |
-          set -e
-          NEW=$(curl -sf "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_ACCESS_TOKEN}" | jq -r .access_token)
-          if [ -z "$NEW" ] || [ "$NEW" = "null" ]; then echo "Refresh failed"; exit 1; fi
-          echo "::add-mask::$NEW"
-          gh secret set IG_ACCESS_TOKEN --body "$NEW" --repo "$GITHUB_REPOSITORY"
-          echo "Token refreshed."
+          git config user.name "poster-bot"
+          git config user.email "poster-bot@users.noreply.github.com"
+          git add ig_token.enc
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh Instagram token"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && exit 0; git rebase --abort 2>/dev/null || true; sleep $((i*5)); done
+          exit 1
