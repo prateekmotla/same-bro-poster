@@ -1,7 +1,7 @@
 # Same Bro — batch plan (week of Mon 26 Oct 2026)
 Last producer run: Thu 29 Oct, ~1:30–2:30 AM IST.
 
-Slots (IST): shorts 9 AM / 1 PM / 7 PM daily; long 6 PM Mon/Wed/Fri. Poster posts the next approved queue item (folder-name order) per type.
+Slots (IST): shorts 9 AM / 1 PM / 7 PM / 9 PM daily (9 PM added 31 Oct); long 6 PM Mon/Wed/Fri. Poster posts the next approved queue item (folder-name order) per type.
 RULES (from Prateek): every short = its OWN topic (no re-cuts of longs). Shorts = "hidden truth / exposé" + "this is me" angle, English captions, fact-checked with source tag.
 **ELEVENLABS OFF (Prateek, 29 Oct 2026): do NOT use ElevenLabs at all — no voiceovers, no Scribe transcription.**
 **NEW FORMAT: TEXT-ONLY shorts** (Prateek's idea) — story told in on-screen text + music bed + pop/whoosh SFX; works muted and with sound. Engine studio/shorts/tshort.py (TextShort). Templates: s21_chips, s22_ninetynine, s23_airport. Lines ≤ ~18 words (story card fits 3 rows, keep overlays above y 1400).
@@ -28,6 +28,7 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
   3. Phone storage always full — why "storage full" pushes you to paid cloud.
   4. Water ₹20 outside, ₹100 at the airport — is MRP really fixed? (legal metrology rules, airport/multiplex cases).
   5. Service charge? Don't pay — restaurants can't force it (CCPA guidelines, Delhi HC).
+- DIWALI SERIES (Prateek, 31 Oct): ONE Diwali reel EVERY day Mon 2 Nov – Sun 8 Nov (Diwali), as an EXTRA 4th short (9 PM slot is new). Queue order must put exactly one Diwali short per day among the 4. Sun 8 Nov = MUHURAT TRADING: explain what it is and WHY it happens (Samvat new year, tradition), whether beginners should trade it or not (honest, education only), end with advice + moral. Other Diwali topics: pending Prateek's pick — see chat; if not set, use Diwali-money angles that fit the channel (gold buying on Dhanteras, Diwali bonus, Samvat returns).
 - Mistake topic bank: SIP checked daily (loss aversion), stopping SIP when market falls, 8 funds = same stocks (over-diversification), picking fund by last year's return, weekly-expiry option buying, Telegram tip / pump & dump, averaging down a falling stock, selling winners early & holding losers, revenge trading after a loss, margin/MTF leverage, investing with no emergency fund, applying to every IPO for listing gains, jewellery as "investment" vs gold ETF/digital options, panic when gold/silver falls.
 
 ## Queue / status
