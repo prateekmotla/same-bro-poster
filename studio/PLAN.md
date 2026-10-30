@@ -12,6 +12,12 @@ TODO: repo history grows ~1 GB/week of video; move videos to GitHub Release asse
 Render tip: max 2 renders at once (8 GB RAM). Bash run_in_background was unavailable again; `setsid nohup ... &` works. 2 shorts in parallel ≈ 12–13 min.
 Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or words.
 
+## CONTENT DIRECTION (Prateek, 31 Oct 2026) — overrides older topic ideas
+- Daily mix: 2 of 3 shorts = MISTAKES of young traders / new SIP investors (checking portfolio daily, stopping SIP in falls, F&O lottery mindset, tips, averaging down, IPO FOMO...). 1 of 3 = TRENDING money/tech news of the week (gold & silver price moves and WHY, hot IPOs, big tech news) — research it the same day, latest numbers only.
+- Every short ENDS with a clear solution/rule + a one-line MORAL card. Most important/interesting thing first, solution last.
+- Education only: never recommend a specific stock/fund/IPO or give buy/sell calls (SEBI finfluencer rules). Fact-check every number with a source.
+- Mistake topic bank: SIP checked daily (loss aversion), stopping SIP when market falls, 8 funds = same stocks (over-diversification), picking fund by last year's return, weekly-expiry option buying, Telegram tip / pump & dump, averaging down a falling stock, selling winners early & holding losers, revenge trading after a loss, margin/MTF leverage, investing with no emergency fund, applying to every IPO for listing gains, jewellery as "investment" vs gold ETF/digital options, panic when gold/silver falls.
+
 ## Queue / status
 - [x] 002 Live traders · [~] 003 91% lose (YouTube OK; Instagram FAILED 'API access blocked' — still failing every slot as of 28 Oct 7 PM. Meta has blocked the app/token; Prateek must fix in Meta App Dashboard. Poster advances each platform separately; IG catches up from 003 once unblocked)
 - [x] Instagram token refresh no longer needs GH_PAT: weekly workflow stores the refreshed token encrypted in ig_token.enc (key = YT_CLIENT_SECRET+IG_USER_ID secrets); scripts/ig_token.sh loads it for post/ig-check
