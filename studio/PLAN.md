@@ -22,6 +22,12 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
   2. "Buy every dip" — a dip can be the start of a big fall; lump sums into every dip with no plan. Moral: invest wisely, with a plan/SIP, not FOMO.
   3. Averaging down a falling stock (catching a falling knife) — moral: average a good business, not a falling price.
   4. Booking profits early but holding losers forever (disposition effect) — moral: cut losers, let winners run.
+- 3rd-SLOT EVERYDAY HIDDEN-TRUTH topics (Prateek picked, 31 Oct) — use these in this order when the 3rd slot is an everyday topic (alternate with trending money/tech news; Dhanteras/gold news is timely in the first week of Nov):
+  1. Free Wi-Fi isn't free — cafés/airports trade it for your data.
+  2. "Multigrain" = mostly maida — how ingredient order / labels fool you (FSSAI rules).
+  3. Phone storage always full — why "storage full" pushes you to paid cloud.
+  4. Water ₹20 outside, ₹100 at the airport — is MRP really fixed? (legal metrology rules, airport/multiplex cases).
+  5. Service charge? Don't pay — restaurants can't force it (CCPA guidelines, Delhi HC).
 - Mistake topic bank: SIP checked daily (loss aversion), stopping SIP when market falls, 8 funds = same stocks (over-diversification), picking fund by last year's return, weekly-expiry option buying, Telegram tip / pump & dump, averaging down a falling stock, selling winners early & holding losers, revenge trading after a loss, margin/MTF leverage, investing with no emergency fund, applying to every IPO for listing gains, jewellery as "investment" vs gold ETF/digital options, panic when gold/silver falls.
 
 ## Queue / status
