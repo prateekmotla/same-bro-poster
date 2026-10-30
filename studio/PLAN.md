@@ -28,13 +28,13 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
   3. Phone storage always full — why "storage full" pushes you to paid cloud.
   4. Water ₹20 outside, ₹100 at the airport — is MRP really fixed? (legal metrology rules, airport/multiplex cases).
   5. Service charge? Don't pay — restaurants can't force it (CCPA guidelines, Delhi HC).
-- DIWALI SERIES (Prateek, 31 Oct — UPDATED 01:25): ALL Diwali shorts must go out BEFORE Diwali (8 Nov) for festival reach. One Diwali short per day as the EXTRA 4th short, posted in the 7 PM prime slot (order the queue so the Diwali short lands at 7 PM that day). Fixed order:
+- DIWALI SERIES (Prateek PICKED each day, 31 Oct 01:28 — final): ALL Diwali shorts go out BEFORE Diwali (8 Nov). One per day as the EXTRA 4th short, in that day's 7 PM prime slot. Exact topics:
   - Sun 1 Nov: "Everything on sale, yet record profits?" — how festive sales still make companies money.
   - Mon 2 Nov: "90% of India's crackers come from one town" — Sivakasi, and why cracker prices jump every Diwali.
   - Tue 3 Nov: "Why is the Diwali bonus even a thing?" — history + Payment of Bonus Act, and how to use the bonus smartly.
-  - Wed 4 Nov: "Silver coin = pure silver?" — Lakshmi-Ganesh coins, purity/hallmark marks, hidden making cost.
-  - Thu 5 Nov (eve of Dhanteras): "Does gold really rise after Dhanteras?" — what past prices show; buy-on-Dhanteras belief vs data.
-  - Fri 6 Nov (Dhanteras): "Why traders worship their bahi-khata" — Chopda puja, Samvat = business new year.
+  - Wed 4 Nov: "Digital gold isn't regulated" — what SEBI warned about digital gold; safer regulated options exist (no product names).
+  - Thu 5 Nov (eve of Dhanteras): "Does gold really rise after Dhanteras?" — buy-on-Dhanteras belief vs what past prices show.
+  - Fri 6 Nov (Dhanteras): "Diwali card party = F&O brain" — the same gambling instinct, bigger table; moral.
   - Sat 7 Nov (eve of Diwali): MUHURAT TRADING — what it is, WHY it happens (Samvat new year, tradition), should beginners trade it or not (honest, education only), advice + moral.
 - Mistake topic bank: SIP checked daily (loss aversion), stopping SIP when market falls, 8 funds = same stocks (over-diversification), picking fund by last year's return, weekly-expiry option buying, Telegram tip / pump & dump, averaging down a falling stock, selling winners early & holding losers, revenge trading after a loss, margin/MTF leverage, investing with no emergency fund, applying to every IPO for listing gains, jewellery as "investment" vs gold ETF/digital options, panic when gold/silver falls.
 
