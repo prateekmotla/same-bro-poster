@@ -29,6 +29,7 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
   4. Water ₹20 outside, ₹100 at the airport — is MRP really fixed? (legal metrology rules, airport/multiplex cases).
   5. Service charge? Don't pay — restaurants can't force it (CCPA guidelines, Delhi HC).
 - DIWALI SERIES (Prateek PICKED each day, 31 Oct 01:28 — final): ALL Diwali shorts go out BEFORE Diwali (8 Nov). One per day as the EXTRA 4th short, in that day's 7 PM prime slot. Exact topics:
+  - Sat 31 Oct (TODAY, 7 PM — URGENT, make first): "Why shagun ends in 1" — ₹101/₹501/₹1100: the real reasons behind the extra ₹1 (tradition/beliefs, explained respectfully), plus a fun money moral.
   - Sun 1 Nov: "Everything on sale, yet record profits?" — how festive sales still make companies money.
   - Mon 2 Nov: "90% of India's crackers come from one town" — Sivakasi, and why cracker prices jump every Diwali.
   - Tue 3 Nov: "Why is the Diwali bonus even a thing?" — history + Payment of Bonus Act, and how to use the bonus smartly.
