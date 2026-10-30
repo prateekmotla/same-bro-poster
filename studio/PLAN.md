@@ -14,6 +14,7 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
 
 ## CONTENT DIRECTION (Prateek, 31 Oct 2026) — overrides older topic ideas
 - Daily mix: 2 of 3 shorts = MISTAKES of young traders / new SIP investors (checking portfolio daily, stopping SIP in falls, F&O lottery mindset, tips, averaging down, IPO FOMO...). 1 of 3 = TRENDING money/tech news of the week (gold & silver price moves and WHY, hot IPOs, big tech news) — research it the same day, latest numbers only.
+- PROVEN WINNER (Prateek, 31 Oct): 013 "Same ₹10, LESS Biscuit" (shrinkflation) did well on YouTube — people love learning interesting hidden truths about daily-life things they never noticed. So: the 3rd daily slot ALTERNATES between trending money/tech news and an everyday hidden-truth topic (like shrinkflation). Apply the same "you see it daily but never knew why" feel to the trader/SIP mistake shorts too.
 - Every short ENDS with a clear solution/rule + a one-line MORAL card. Most important/interesting thing first, solution last.
 - Education only: never recommend a specific stock/fund/IPO or give buy/sell calls (SEBI finfluencer rules). Fact-check every number with a source.
 - NEXT 4 SHORTS, make in THIS order (Prateek picked, 31 Oct): 
