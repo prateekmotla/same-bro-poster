@@ -15,7 +15,7 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
 ## VOICEOVER RULE (Prateek, 31 Oct 2026 20:42) — overrides the 29 Oct "ElevenLabs off / text-only" rule
 - NO video is posted without a voiceover. Use ElevenLabs for EVERY Same Bro video (voice: Hinglish narrator, Delhi 22-yr-old slang, no shuddh Hindi; Sid self-talk only sometimes, inner voice lower with echo). On-screen text stays English.
 - Held (approved=false, "hold" in meta.json) because they are text-only: 019 chips, 020 ninety-nine, 020a festive sale (DIWALI 1 Nov 7 PM), 021 airport chai, 022 expiry-day, 023 buy every dip, 023a Sivakasi (DIWALI 2 Nov 7 PM), 024 averaging down. Remake each WITH voiceover (reuse its make.py story/visuals; time visuals to the narration), then set approved=true, keep folder name/priority. Diwali ones first.
-- 017a "Why shagun ends in 1" already went out text-only on 31 Oct 7 PM.
+- 017a "Why shagun ends in 1" went out text-only on 31 Oct 7 PM. Prateek wants it deleted and REUPLOADED with voice: remake it into queue/017b-why-shagun-ends-in-1-voiced (held, priority) from studio/shorts/s30_shagun — do this right after 020a.
 
 ## CONTENT DIRECTION (Prateek, 31 Oct 2026) — overrides older topic ideas
 - Daily mix: 2 of 3 shorts = MISTAKES of young traders / new SIP investors (checking portfolio daily, stopping SIP in falls, F&O lottery mindset, tips, averaging down, IPO FOMO...). 1 of 3 = TRENDING money/tech news of the week (gold & silver price moves and WHY, hot IPOs, big tech news) — research it the same day, latest numbers only.
