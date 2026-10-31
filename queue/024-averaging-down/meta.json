@@ -1,6 +1,6 @@
 {
   "type": "short",
-  "approved": true,
+  "approved": false,
   "platforms": [
     "instagram",
     "youtube"
@@ -18,5 +18,6 @@
   ],
   "category_id": 27,
   "youtube_privacy": "public",
-  "made_for_kids": false
+  "made_for_kids": false,
+  "hold": "no voiceover - remake with ElevenLabs voice (Prateek, 31 Oct)"
 }

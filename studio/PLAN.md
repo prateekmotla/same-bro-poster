@@ -12,6 +12,11 @@ TODO: repo history grows ~1 GB/week of video; move videos to GitHub Release asse
 Render tip: max 2 renders at once (8 GB RAM). Bash run_in_background was unavailable again; `setsid nohup ... &` works. 2 shorts in parallel ≈ 12–13 min.
 Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or words.
 
+## VOICEOVER RULE (Prateek, 31 Oct 2026 20:42) — overrides the 29 Oct "ElevenLabs off / text-only" rule
+- NO video is posted without a voiceover. Use ElevenLabs for EVERY Same Bro video (voice: Hinglish narrator, Delhi 22-yr-old slang, no shuddh Hindi; Sid self-talk only sometimes, inner voice lower with echo). On-screen text stays English.
+- Held (approved=false, "hold" in meta.json) because they are text-only: 019 chips, 020 ninety-nine, 020a festive sale (DIWALI 1 Nov 7 PM), 021 airport chai, 022 expiry-day, 023 buy every dip, 023a Sivakasi (DIWALI 2 Nov 7 PM), 024 averaging down. Remake each WITH voiceover (reuse its make.py story/visuals; time visuals to the narration), then set approved=true, keep folder name/priority. Diwali ones first.
+- 017a "Why shagun ends in 1" already went out text-only on 31 Oct 7 PM.
+
 ## CONTENT DIRECTION (Prateek, 31 Oct 2026) — overrides older topic ideas
 - Daily mix: 2 of 3 shorts = MISTAKES of young traders / new SIP investors (checking portfolio daily, stopping SIP in falls, F&O lottery mindset, tips, averaging down, IPO FOMO...). 1 of 3 = TRENDING money/tech news of the week (gold & silver price moves and WHY, hot IPOs, big tech news) — research it the same day, latest numbers only.
 - PROVEN WINNER (Prateek, 31 Oct): 013 "Same ₹10, LESS Biscuit" (shrinkflation) did well on YouTube — people love learning interesting hidden truths about daily-life things they never noticed. So: the 3rd daily slot ALTERNATES between trending money/tech news and an everyday hidden-truth topic (like shrinkflation). Apply the same "you see it daily but never knew why" feel to the trader/SIP mistake shorts too.
