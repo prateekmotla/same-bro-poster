@@ -3,6 +3,7 @@ import sys
 
 sys.path.insert(0, "/home/claude/sid/shorts")
 import tshort as TS  # noqa: E402
+import vtshort as VT  # noqa: E402
 import kit as K  # noqa: E402
 import trade as TR  # noqa: E402
 from kit import T, k, U, V, S, YEL, RED, GRN, WHITE, GREY, BLUE  # noqa: E402
@@ -14,13 +15,13 @@ CAPS = [
     "This trap has a name: the DISPOSITION EFFECT. Your brain hates booking a loss.",
     "A study of 10,000 trading accounts: a winner was almost 60% MORE likely to be sold than a loser.",
     "So the winners leave early, and the portfolio slowly fills up with losers.",
-    "A study of Finnish investors put the cost at about 3% to 6% of returns.",
+    "The winners they SOLD beat the losers they KEPT by 3.4% over the next year.",
     "Rule: write your exit BEFORE you buy. Sell when your reason breaks, not when you feel OK.",
     "MORAL: Cut your losers, let your winners run.",
     "Send this to the friend whose 'long-term' stocks are all red.",
 ]
 HOOK = [("SELL WINNERS,", WHITE), ("KEEP LOSERS?", RED), ("THE BRAIN TRAP", YEL)]
-SRC = "Source: Odean (1998); Seru, Shumway & Stoffman"
+SRC = "Source: Odean (1998), Journal of Finance"
 sh = None
 
 
@@ -97,10 +98,11 @@ def o_fill(c, t, lt):
 def o_cost(c, t, lt):
     st = sh.s(6)
     U.dim(c, 0.88)
-    T(c, "THE COST", 540, 420, 70, WHITE, k(t, st + 0.3, st + 0.6), lw=8)
-    T(c, "3% to 6%", 540, 640, 150, RED, k(t, st + 1.2, st + 1.5), lw=14)
-    T(c, "of your returns", 540, 760, 60, YEL, k(t, st + 1.6, st + 1.9), lw=8)
-    T(c, "study of Finnish investors", 540, 860, 38, GREY, k(t, st + 1.6, st + 1.9), lw=5)
+    T(c, "NEXT 12 MONTHS", 540, 420, 70, WHITE, k(t, st + 0.3, st + 0.6), lw=8)
+    K.hbar(c, t, st + 1.0, 140, 560, 800, 80, 0.9, GRN, "Winners SOLD", "beat")
+    K.hbar(c, t, st + 1.8, 140, 760, 800, 80, 0.55, RED, "Losers KEPT", "lagged")
+    T(c, "+3.4%", 540, 1050, 150, YEL, k(t, st + 2.8, st + 3.1), lw=14)
+    T(c, "gap you gave away", 540, 1170, 56, WHITE, k(t, st + 3.2, st + 3.5), lw=8)
 
 
 def o_rule(c, t, lt):
@@ -122,7 +124,7 @@ def o_end(c, t, lt):
 
 def build():
     global sh
-    sh = TS.TextShort(D, CAPS, HOOK, [], SRC)
+    sh = VT.VoicedText(D, CAPS, HOOK, [], SRC)
     s = sh.s
     aw = lambda **kw: (lambda c, t, lt: scene(c, t, lt, **kw))
     sw = lambda **kw: (lambda c, t, lt: studio(c, t, lt, **kw))
