@@ -1,0 +1,9 @@
+[casual] Cafe ke board pe likha hai, free wifi. Sid ne number daala, OTP daala, das second mein connected.
+Par bhai, online kuch bhi sach mein free nahi hota. Paise se nahi doge, toh kisi aur tarah se doge.
+Free services aksar ads ya data sharing se kamaati hain. Aur tune abhi apna number de diya.
+[serious] Asli risk ye hai. CERT-In warn karta hai, public wifi pe unprotected connection ko criminals aaraam se intercept kar sakte hain.
+Matlab data chori, paison ka loss, yahan tak ki identity fraud bhi.
+Isliye CERT-In bolta hai, public wifi pe na banking, na shopping, na personal info.
+[calm] Rule. Payment mobile data pe karo, auto-connect band rakho, aur zaroorat ho toh trusted VPN use karo.
+Moral. Agar cheez free hai, toh price shayad tum khud ho.
+Ye us dost ko bhejo, jo mall ka har free wifi join kar leta hai.

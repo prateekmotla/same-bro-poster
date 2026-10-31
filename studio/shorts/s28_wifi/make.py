@@ -3,6 +3,7 @@ import sys
 
 sys.path.insert(0, "/home/claude/sid/shorts")
 import tshort as TS  # noqa: E402
+import vtshort as VT  # noqa: E402
 import kit as K  # noqa: E402
 import trade as TR  # noqa: E402
 from kit import T, k, U, V, S, YEL, RED, GRN, WHITE, GREY, BLUE  # noqa: E402
@@ -133,7 +134,7 @@ def o_end(c, t, lt):
 
 def build():
     global sh
-    sh = TS.TextShort(D, CAPS, HOOK, [], SRC)
+    sh = VT.VoicedText(D, CAPS, HOOK, [], SRC)
     s = sh.s
     cw = lambda **kw: (lambda c, t, lt: cafe(c, t, lt, **kw))
     sw = lambda **kw: (lambda c, t, lt: studio(c, t, lt, **kw))
