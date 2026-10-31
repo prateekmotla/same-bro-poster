@@ -1,6 +1,6 @@
 {
   "type": "short",
-  "approved": false,
+  "approved": true,
   "platforms": [
     "instagram",
     "youtube"
@@ -20,5 +20,5 @@
   "category_id": 27,
   "youtube_privacy": "public",
   "made_for_kids": false,
-  "hold": "no voiceover - remake with ElevenLabs voice (Prateek, 31 Oct)"
+  "voiceover": "ElevenLabs eleven_v4, Rinku (Hinglish), remade 31 Oct 2026"
 }

@@ -3,7 +3,9 @@ import sys
 
 sys.path.insert(0, "/home/claude/sid/shorts")
 import tshort as TS  # noqa: E402
+import vtshort as VT  # noqa: E402
 import kit as K  # noqa: E402
+import trade as TR  # noqa: E402
 from kit import T, k, U, V, S, YEL, RED, GRN, WHITE, GREY, BLUE  # noqa: E402
 
 D = "/home/claude/sid/shorts/s23_airport"
@@ -15,6 +17,7 @@ CAPS = [
     "A LocalCircles survey of flyers: about HALF said they paid 2x to 3x the city price.",
     "Since Dec 2024, some airports have an UDAN Yatri Cafe: water at ₹10, cheap chai and samosa.",
     "Rule: EMPTY bottle, refill after security. Pack snacks. Find the UDAN Yatri Cafe.",
+    "MORAL: No options = no price limit. Plan ahead.",
     "Send this to the friend who paid ₹300 for one airport coffee.",
 ]
 HOOK = [("WHY AIRPORT CHAI", WHITE), ("COSTS ₹250", RED), ("THE HIDDEN REASON", YEL)]
@@ -143,13 +146,17 @@ def o_rule(c, t, lt):
                       ("3. Pack snacks / find UDAN", WHITE, 46, 2.9, "left", 160)], y0=1070, gap=100)
 
 
+def o_moral(c, t, lt):
+    TR.moral(c, t, sh.s(8), "NO OPTIONS?", "PLAN AHEAD")
+
+
 def o_end(c, t, lt):
     K.end_card(c, "SEND TO THE FRIEND", "WHO PAID ₹300 FOR COFFEE", YEL)
 
 
 def build():
     global sh
-    sh = TS.TextShort(D, CAPS, HOOK, [], SRC)
+    sh = VT.VoicedText(D, CAPS, HOOK, [], SRC)
     s = sh.s
     aw = lambda **kw: (lambda c, t, lt: scene(c, t, lt, **kw))
     sw = lambda **kw: (lambda c, t, lt: studio(c, t, lt, **kw))
@@ -162,7 +169,8 @@ def build():
         (s(5), s(6), sw(), (1.78, 960, 540), (1.85, 960, 520), o_survey, 'studio'),
         (s(6), s(7), aw(mouth='bigsmile'), (1.9, 1000, 500), (2.0, 1000, 470), o_udan, 'warm'),
         (s(7), s(8), aw(mouth='smirk', arms=((60, 120), (14, -10))), (1.9, 1000, 500), (2.0, 1000, 480), o_rule, 'warm'),
-        (s(8), sh.dur + 1, aw(mouth='smile', arms=((14, -10), (100, 40))), (1.9, 1000, 500), (2.1, 1000, 470), o_end, 'warm'),
+        (s(8), s(9), lambda c, t, lt: (V.studio(c, t), K.sid(c, t, 960, 330, 0.5, mouth='smile')), (1.78, 960, 540), (1.85, 960, 520), o_moral, 'studio'),
+        (s(9), sh.dur + 1, aw(mouth='smile', arms=((14, -10), (100, 40))), (1.9, 1000, 500), (2.1, 1000, 470), o_end, 'warm'),
     ]
     return sh
 
@@ -174,3 +182,4 @@ if __name__ == "__main__":
         sh.preview([1.2, 4.0] + [a + (b - a) * 0.85 for a, b in L[1:]], f"{D}/prev.png")
     else:
         sh.render(f"{D}/short.mp4")
+    print("dur", round(sh.dur, 1))

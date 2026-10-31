@@ -2,7 +2,9 @@ import sys
 
 sys.path.insert(0, "/home/claude/sid/shorts")
 import tshort as TS  # noqa: E402
+import vtshort as VT  # noqa: E402
 import kit as K  # noqa: E402
+import trade as TR  # noqa: E402
 from kit import T, k, U, V, S, YEL, RED, GRN, WHITE, GREY  # noqa: E402
 
 D = "/home/claude/sid/shorts/s22_ninetynine"
@@ -14,6 +16,7 @@ CAPS = [
     "NYU researchers showed it in 2005: the effect is strongest when the FIRST digit changes.",
     "That's why everything ends in 99. ₹499. ₹1,999. ₹99,999 phones.",
     "Rule: round UP in your head. ₹999 = ₹1,000. ₹1,999 = ₹2,000. Then decide.",
+    "MORAL: Read the full price, not the first digit.",
     "Send this to the friend who buys anything that ends in 99.",
 ]
 HOOK = [("WHY EVERYTHING", WHITE), ("ENDS IN 99", RED), ("THE BRAIN TRICK", YEL)]
@@ -105,13 +108,17 @@ def o_rule(c, t, lt):
                       ("THEN decide", GRN, 56, 3.8)], y0=1080, gap=105)
 
 
+def o_moral(c, t, lt):
+    TR.moral(c, t, sh.s(8), "READ THE FULL PRICE,", "NOT THE FIRST DIGIT")
+
+
 def o_end(c, t, lt):
     K.end_card(c, "SEND TO THE FRIEND", "WHO FALLS FOR EVERY 99", YEL)
 
 
 def build():
     global sh
-    sh = TS.TextShort(D, CAPS, HOOK, [], SRC)
+    sh = VT.VoicedText(D, CAPS, HOOK, [], SRC)
     s = sh.s
     stw = lambda **kw: (lambda c, t, lt: street(c, t, lt, **kw))
     sw = lambda **kw: (lambda c, t, lt: studio(c, t, lt, **kw))
@@ -123,7 +130,8 @@ def build():
         (s(5), s(6), sw(mouth='smirk', arms=((60, 120), (14, -10))), (1.9, 960, 500), (2.0, 960, 470), o_nyu, 'studio'),
         (s(6), s(7), sw(), (1.78, 960, 540), (1.85, 960, 520), o_all, 'studio'),
         (s(7), s(8), stw(mouth='smirk', squint=0.4), (1.9, 960, 500), (2.0, 960, 480), o_rule, 'morning'),
-        (s(8), sh.dur + 1, stw(mouth='smile', arms=((14, -10), (100, 40))), (1.9, 960, 500), (2.1, 960, 470), o_end, 'morning'),
+        (s(8), s(9), lambda c, t, lt: (V.studio(c, t), K.sid(c, t, 960, 330, 0.5, mouth='smile')), (1.78, 960, 540), (1.85, 960, 520), o_moral, 'studio'),
+        (s(9), sh.dur + 1, stw(mouth='smile', arms=((14, -10), (100, 40))), (1.9, 960, 500), (2.1, 960, 470), o_end, 'morning'),
     ]
     return sh
 
@@ -135,3 +143,4 @@ if __name__ == "__main__":
         sh.preview([1.2, 3.5] + [a + (b - a) * 0.85 for a, b in L[1:]], f"{D}/prev.png")
     else:
         sh.render(f"{D}/short.mp4")
+    print("dur", round(sh.dur, 1))

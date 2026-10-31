@@ -3,7 +3,9 @@ import sys
 
 sys.path.insert(0, "/home/claude/sid/shorts")
 import tshort as TS  # noqa: E402
+import vtshort as VT  # noqa: E402
 import kit as K  # noqa: E402
+import trade as TR  # noqa: E402
 from kit import T, k, U, V, S, YEL, RED, GRN, WHITE, GREY, BLUE  # noqa: E402
 
 D = "/home/claude/sid/shorts/s21_chips"
@@ -15,6 +17,7 @@ CAPS = [
     "The HIDDEN part: a fat packet LOOKS like more food. Eyes judge size, not grams.",
     "That extra space even has a name: SLACK FILL. Freshness AND marketing, both.",
     "Rule: ignore the packet size. Check the NET WEIGHT, compare price per gram.",
+    "MORAL: Judge the grams, not the packet.",
     "Send this to the friend who says chips companies sell air.",
 ]
 HOOK = [("CHIPS PACKET", WHITE), ("HALF AIR?", RED), ("THE REAL REASON", YEL)]
@@ -128,13 +131,17 @@ def o_rule(c, t, lt):
                       ("3. Price per gram", WHITE, 48, 2.8, "left", 170)], y0=1070, gap=100)
 
 
+def o_moral(c, t, lt):
+    TR.moral(c, t, sh.s(8), "JUDGE THE GRAMS,", "NOT THE PACKET")
+
+
 def o_end(c, t, lt):
     K.end_card(c, "SEND TO THE FRIEND", "WHO SAYS \"THEY SELL AIR\"", YEL)
 
 
 def build():
     global sh
-    sh = TS.TextShort(D, CAPS, HOOK, [], SRC)
+    sh = VT.VoicedText(D, CAPS, HOOK, [], SRC)
     s = sh.s
     rw = lambda **kw: (lambda c, t, lt: room(c, t, lt, **kw))
     sw = lambda **kw: (lambda c, t, lt: studio(c, t, lt, **kw))
@@ -147,7 +154,8 @@ def build():
         (s(5), s(6), rw(mouth='flat', squint=0.5), (1.78, 960, 540), (1.85, 960, 520), o_eyes, 'night'),
         (s(6), s(7), sw(), (1.78, 960, 540), (1.85, 960, 520), o_slack, 'studio'),
         (s(7), s(8), rw(mode='day', mouth='smirk'), (1.9, 1000, 500), (2.0, 1000, 480), o_rule, 'morning'),
-        (s(8), sh.dur + 1, rw(mode='day', mouth='smile', arms=((14, -10), (100, 40))), (1.9, 1000, 500), (2.1, 1000, 470),
+        (s(8), s(9), lambda c, t, lt: (V.studio(c, t), K.sid(c, t, 960, 330, 0.5, mouth='smile')), (1.78, 960, 540), (1.85, 960, 520), o_moral, 'studio'),
+        (s(9), sh.dur + 1, rw(mode='day', mouth='smile', arms=((14, -10), (100, 40))), (1.9, 1000, 500), (2.1, 1000, 470),
          o_end, 'morning'),
     ]
     return sh
@@ -160,3 +168,4 @@ if __name__ == "__main__":
         sh.preview([1.2, 4.5] + [a + (b - a) * 0.85 for a, b in L[1:]], f"{D}/prev.png")
     else:
         sh.render(f"{D}/short.mp4")
+    print("dur", round(sh.dur, 1))
