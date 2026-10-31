@@ -2,7 +2,7 @@ import math
 import sys
 
 sys.path.insert(0, "/home/claude/sid/shorts")
-import tshort as TS  # noqa: E402
+import vshort as VS  # noqa: E402
 import kit as K  # noqa: E402
 import trade as TR  # noqa: E402
 import fest as F  # noqa: E402
@@ -117,7 +117,7 @@ def o_end(c, t, lt):
 
 def build():
     global sh
-    sh = TS.TextShort(D, CAPS, HOOK, [], SRC)
+    sh = VS.Short(D, CAPS, HOOK, [], SRC)
     s = sh.s
     rw = lambda **kw: (lambda c, t, lt: scene(c, t, lt, **kw))
     sw = lambda **kw: (lambda c, t, lt: studio(c, t, lt, **kw))

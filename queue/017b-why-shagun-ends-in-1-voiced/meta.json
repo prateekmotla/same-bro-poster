@@ -1,6 +1,6 @@
 {
   "type": "short",
-  "approved": false,
+  "approved": true,
   "platforms": [
     "instagram",
     "youtube"
@@ -20,6 +20,5 @@
   "category_id": 27,
   "youtube_privacy": "public",
   "made_for_kids": false,
-  "priority": true,
-  "hold": "REUPLOAD: voiced remake of 017a (posted 31 Oct text-only; Prateek asked to delete it and reupload with voice). Remake from studio/shorts/s30_shagun with ElevenLabs voice, then approve."
+  "priority": true
 }
