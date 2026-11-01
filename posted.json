@@ -75,6 +75,10 @@
     "youtube": {
       "id": "QC73kiKJbLQ",
       "at": "2026-10-28T08:18:41Z"
+    },
+    "instagram": {
+      "id": "18098310371128900",
+      "at": "2026-11-01T08:18:56Z"
     }
   },
   "101-scrolling-long": {
@@ -173,6 +177,12 @@
     "youtube": {
       "id": "LjOKgozXR00",
       "at": "2026-11-01T04:22:25Z"
+    }
+  },
+  "020-why-prices-end-in-99": {
+    "youtube": {
+      "id": "_sbFVFKfDZs",
+      "at": "2026-11-01T08:17:46Z"
     }
   }
 }
