@@ -91,6 +91,10 @@
     "youtube": {
       "id": "K7mFcjPX8Gw",
       "at": "2026-10-28T14:20:26Z"
+    },
+    "instagram": {
+      "id": "18129766021892549",
+      "at": "2026-11-01T16:06:13Z"
     }
   },
   "010-red-notification-dot": {
@@ -193,6 +197,12 @@
     "instagram": {
       "id": "18220663558342650",
       "at": "2026-11-01T14:09:20Z"
+    }
+  },
+  "021-airport-chai-price": {
+    "youtube": {
+      "id": "KmnLqKG_IdU",
+      "at": "2026-11-01T16:05:22Z"
     }
   }
 }
