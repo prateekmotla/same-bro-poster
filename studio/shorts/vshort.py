@@ -24,8 +24,37 @@ FXV.GRADES.setdefault('red', dict(lift=(0.05, 0.0, 0.01), gain=(1.08, 0.9, 0.9),
 FXV.GRADES.setdefault('money', dict(lift=(0.0, 0.03, 0.02), gain=(0.98, 1.05, 0.98), sat=1.05, vig=0.8, bloom=0.4))
 
 
+def words_line_times(d):
+    """Exact line start/end from ElevenLabs Scribe word timings ({d}/words.json, saved from creative_transcribe_audio).
+    Words are matched to vo.txt lines by token count (Scribe returns the script tokens in order). None if it doesn't fit."""
+    import os
+    if not os.path.exists(f"{d}/words.json"):
+        return None
+    W = json.load(open(f"{d}/words.json"))
+    W = [w for w in (W.get("words", W) if isinstance(W, dict) else W) if w.get("type", "word") == "word"]
+    raw = [l for l in open(f"{d}/vo.txt").read().split('\n') if l.strip()]
+    if sum(len(l.split()) for l in raw) != len(W):
+        print("words.json does not match vo.txt token count, falling back to silence gaps")
+        return None
+    L, i = [], 0
+    for l in raw:
+        toks = l.split()
+        ws = [w for w, tk in zip(W[i:i + len(toks)], toks) if not (tk.startswith('[') and tk.endswith(']'))]
+        i += len(toks)
+        L.append([ws[0]["start"], ws[-1]["end"]])
+    for j in range(len(L) - 1):  # line ends where the next one starts (no caption gaps)
+        L[j][1] = max(L[j][1], L[j + 1][0] - 0.02)
+    txt = [re.sub(r'\[[^\]]*\]\s*', '', l).strip() for l in raw]
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                f"{d}/vo.mp3"], capture_output=True, text=True).stdout)
+    return L, txt, dur
+
+
 def line_times(d):
-    """Line start/end from silence gaps (no transcription needed)."""
+    """Line start/end: Scribe word timings if words.json exists, else silence gaps (no transcription needed)."""
+    wl = words_line_times(d)
+    if wl:
+        return wl
     txt = [re.sub(r'\[[^\]]*\]\s*', '', l).strip() for l in open(f"{d}/vo.txt").read().split('\n') if l.strip()]
     out = subprocess.run(["ffmpeg", "-i", f"{d}/vo.mp3", "-af", "silencedetect=n=-35dB:d=0.22", "-f", "null", "-"],
                          capture_output=True, text=True).stderr
@@ -136,13 +165,18 @@ class Short:
         sheet.save(out)
 
     def render(self, out, bed=True):
+        """Voice + NEW music bed (core/music2.py, Prateek 2 Nov 2026): per-video key/tempo/motif from the folder name,
+        mood from self.mood ('tense' trading, 'chill' night/life, 'warm' Diwali), ~14 dB under the voice, ducked on words."""
+        import os
+        import music2 as M2
         n = int((self.dur + 0.8) * FPS)
+        seed = getattr(self, 'seed', None) or os.path.basename(self.d.rstrip('/'))
+        info = M2.mix(f"{self.d}/vo.mp3", self.dur + 0.8, seed, getattr(self, 'mood', 'chill'), f"{self.d}/mix.wav")
+        json.dump(info, open(f"{self.d}/music.json", "w"))
+        print("music", info)
         p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{VW}x{VH}",
-                              "-r", str(FPS), "-i", "-", "-i", f"{self.d}/vo.mp3", "-i", "/home/claude/sid/shorts/bed.wav",
-                              "-filter_complex",
-                              "[1:a]aresample=44100,highpass=f=70,apad,volume=1.5,asplit=2[vo][key];[2:a]volume=0.22[b];"
-                              "[b][key]sidechaincompress=threshold=0.02:ratio=8:attack=15:release=350[bd];"
-                              "[vo][bd]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5[a]",
+                              "-r", str(FPS), "-i", "-", "-i", f"{self.d}/mix.wav",
+                              "-filter_complex", "[1:a]aresample=44100,loudnorm=I=-14:TP=-1.5:LRA=11[a]",
                               "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-b:v", "4M",
                               "-maxrate", "5M", "-bufsize", "8M", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
                               "-shortest", "-movflags", "+faststart", out], stdin=subprocess.PIPE)

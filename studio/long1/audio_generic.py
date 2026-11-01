@@ -1,4 +1,4 @@
-"""Generic bed + whooshes for a long video. Usage: python3 audio_generic.py <dir> <duration> <cut1,cut2,...>"""
+"""(bed.wav here is the OLD bed, no longer used by mix_generic.sh since 2 Nov 2026 -> core/music2.py) Generic bed + whooshes for a long video. Usage: python3 audio_generic.py <dir> <duration> <cut1,cut2,...>"""
 import sys
 import wave
 
