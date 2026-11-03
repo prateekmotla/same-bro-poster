@@ -157,6 +157,10 @@
     "youtube": {
       "id": "recovered-unknown",
       "at": "2026-10-30T14:23:00Z"
+    },
+    "instagram": {
+      "id": "17977926009157644",
+      "at": "2026-11-03T16:28:15Z"
     }
   },
   "016-free-trial-autopay": {
@@ -273,6 +277,12 @@
     "instagram": {
       "id": "18105777737321707",
       "at": "2026-11-03T14:30:18Z"
+    }
+  },
+  "027-revenge-trading": {
+    "youtube": {
+      "id": "3zrXqgKHtJs",
+      "at": "2026-11-03T16:27:36Z"
     }
   }
 }
