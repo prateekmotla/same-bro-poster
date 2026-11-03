@@ -131,6 +131,10 @@
     "youtube": {
       "id": "ogZpTgi9rB0",
       "at": "2026-10-30T04:16:56Z"
+    },
+    "instagram": {
+      "id": "18114879584133845",
+      "at": "2026-11-03T04:25:50Z"
     }
   },
   "014-delivery-app-markup": {
@@ -243,6 +247,12 @@
     "youtube": {
       "id": "i1CRLOE3ZcM",
       "at": "2026-11-02T16:31:48Z"
+    }
+  },
+  "025-sell-winners-keep-losers": {
+    "youtube": {
+      "id": "ev_KbYbV4fk",
+      "at": "2026-11-03T04:24:30Z"
     }
   }
 }
