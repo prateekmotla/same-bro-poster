@@ -1,0 +1,64 @@
+name: Instagram 5 PM (Same Bro psychology series)
+
+# Starts 4:20 PM IST (GitHub cron can run late); the script waits until 5:00 PM IST, then posts.
+on:
+  schedule:
+    - cron: "50 10 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (don't actually post)"
+        type: boolean
+        default: false
+      wait:
+        description: "Wait until 5 PM IST before posting"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poster
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Load Instagram token
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          TOKEN_KEY: ${{ secrets.YT_CLIENT_SECRET }}${{ secrets.IG_USER_ID }}
+        run: source scripts/ig_token.sh load
+
+      - name: Post
+        env:
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          WAIT: ${{ (github.event_name == 'schedule' || inputs.wait) && '1' || '0' }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python post_ig_5pm.py
+
+      - name: Save posted log
+        if: always()
+        run: |
+          git config user.name "poster-bot"
+          git config user.email "poster-bot@users.noreply.github.com"
+          git add -A posted.json errors.log 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Log 5 PM Instagram post"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((i*5))
+          done
+          exit 1
