@@ -217,6 +217,10 @@
     "youtube": {
       "id": "LjOKgozXR00",
       "at": "2026-11-01T04:22:25Z"
+    },
+    "instagram": {
+      "id": "18030666701857533",
+      "at": "2026-11-05T04:29:02Z"
     }
   },
   "020-why-prices-end-in-99": {
@@ -323,6 +327,12 @@
     "youtube": {
       "id": "snxtXKCkhBM",
       "at": "2026-11-04T16:25:18Z"
+    }
+  },
+  "031-stop-checking-sip-daily": {
+    "youtube": {
+      "id": "s2XzKwSQYrw",
+      "at": "2026-11-05T04:28:23Z"
     }
   }
 }
