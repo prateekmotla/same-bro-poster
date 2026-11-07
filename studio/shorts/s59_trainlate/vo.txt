@@ -1,0 +1,9 @@
+[casual] Guess करो, train तीन घंटे से ज़्यादा late. तुम्हारा plan cancel. पैसे डूब गए?
+Sid, station पे. Board पे लिखा, running late. Plan खत्म. सोचा, ticket cancel करूँगा, तो charge कटेगा.
+[serious] Rule सुनो. Train तीन घंटे से ज़्यादा late हो, और तुम travel ना करो, तो पूरा किराया वापस. Full refund.
+Catch बस एक है. E-ticket है, तो train के actually निकलने से पहले, IRCTC पे TDR file करो. Counter ticket है, तो counter पे surrender करो.
+और ये पैसे अपने आप नहीं आते. TDR नहीं, तो refund नहीं.
+[casual] Same bro? Train late थी, और ticket ऐसे ही waste होने दिया?
+Fix. पहले live status check करो. तीन घंटे पार, और नहीं जाना? IRCTC खोलो, File TDR, reason चुनो, train late more than three hours. Done.
+Moral. Late train तुम्हारी गलती नहीं. उसका किराया भी तुम मत भरो.
+ये उस दोस्त को भेजो, जो हर बार train से घर जाता है.
