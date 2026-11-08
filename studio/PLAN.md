@@ -12,6 +12,23 @@ Previous run: Tue 3 Nov, ~1:25 AM IST (scheduled run) — BLOCKED: this session'
 Previous run: Mon 2 Nov, ~1:25–2:30 AM IST (scheduled run) — NEW MUSIC (core/music2.py) wired into vshort + long1 mix; NEW VOICE (Prateek's clone "prateek"); made 4 voiced shorts for Thu 5 Nov (031, 032, 032a Diwali, 033). Queue now ends Thu 5 Nov 9 PM.
 Previous run: Sun 1 Nov, ~1:25–2:30 AM IST — made 8 voiced shorts 025-030 (Tue 3 + Wed 4 Nov).
 
+## GROWTH PLAYBOOK (Prateek asked 8 Nov 2026 ~7 PM IST: more views, watch-to-end, shares, fast follower growth) — apply from the next run
+- LENGTH: target 25-40 s (the 8 Nov batch ran 52-61 s = too long for completion). Sid's moment = 1 line; fix = 1 rule; cut filler. Also saves credits.
+- SECOND 1: the payoff line on screen immediately (e.g. '₹1.5 LAKH FOR REFUSING A TOILET'), not a soft 'Guess...'.
+- LOOP ENDING: last line should flow back into the opening line so viewers rewatch.
+- SERIES with numbers in title/caption: 'Rules Nobody Told You #N', 'Scam of the Week #N', 'They're Betting On You #N' (gym format). Gives a reason to follow.
+- SHARE LINE aimed at a specific person: 'Send this to your mom/papa' for scams/money; 'tag the friend who...' for habits.
+- INSTAGRAM: end caption with a question for comments; pin a comment with the source/checklist; when possible also post a 5-slide carousel of the same facts (saves); use Trial Reels to test hooks on non-followers.
+- DAILY MIX: 9 AM rights/rule (saves) · 1 PM hidden truth gym-format (shares) · 7 PM scam alert (family shares) · 9 PM money/tech tip or the 1 trending topic.
+- DATA: connect Metricool (or paste weekly IG/YT numbers here) so the loop runs on real watch-time/shares.
+- TOPIC BANK (Prateek OK'd 8 Nov — VERIFY every fact before use):
+  - They're betting on you: multiplex popcorn > ticket price; 'free delivery above ₹199' (basket size); ₹100 off first order (acquisition cost); milk at the back of the supermarket; DMart owns its stores; IPL teams earn even when losing; why every app wants your contacts.
+  - Rights you can use today: flight delay/cancellation — what DGCA says airlines owe; failed ATM/UPI txn — RBI refund TAT + ₹100/day compensation; shop refusing ₹10 coin (legal tender); paid carry-bag with store branding (consumer court cases); toll plaza waiting-time rule (NHAI).
+  - Scams that hit parents: fake traffic e-challan SMS link; 'electricity cut tonight' SMS; 'sent money by mistake, please return'; fake courier 'parcel held'; fake QR stickers at parking.
+  - Money basics: checking your own credit score doesn't lower it; ₹12 lakh no tax under new regime (verify current budget); minimum-balance charges; top insurance-claim rejection reasons.
+  - Food labels / tech: 'no added sugar' still sugary; 'fruit drink' vs 'fruit juice' (FSSAI); incognito isn't private; charging to 80% for battery life.
+  - Men's health (Prateek asked 8 Nov: 'masturbation habit kills wanting sex'): ONLY as an evidence-based MYTH vs FACT short, because the blunt claim is not supported — medical sources treat masturbation as normal; the real debated issue is COMPULSIVE porn use and its link to low desire / ED (mixed evidence). Angle: 'Does it really kill your drive? What doctors actually say' — cite urology/medical sources (e.g. NHS, Cleveland Clinic, peer-reviewed reviews), no explicit visuals or words (YouTube/IG age-restrict and cut reach of sexual content; audience includes 17-year-olds), on-screen text clean ('self-pleasure', 'adult content'), fix = 'if it feels compulsive or affects your life, talk to a doctor'. Never shame; no NoFap / semen-retention claims as fact.
+
 ## PERFORMANCE INSIGHTS (newest first)
 ### Sun 8 Nov 2026 (1:25 AM run)
 - Metricool: still NO connector/tools in the scheduled run (ToolSearch finds none) -> no per-post data, 6th run in a row. Worked from the 1 Nov baseline (top: gym 'betting you won't come' ~20K; shagun / card min due / SIP regular-vs-direct ~2K. Bottom: festive-sale reels ~150 x2; F&O stat reels 1.3-1.8K). Prateek: connect Metricool to this routine or paste IG/YT numbers here — the first general-public batch (041-044) goes out today/Mon and needs real numbers.
