@@ -1,0 +1,8 @@
+[casual] UPI fail, पर पैसा कट गया? Bank late करे, तो तुम्हें रोज़ के सौ रुपये देने पड़ते हैं.
+Sid ने चाय वाले को pay किया. Failed. पर account से पैसा गायब.
+[serious] RBI का rule. Failed UPI का पैसा, अगले working day तक वापस आना चाहिए.
+उसके बाद हर दिन की देरी पे, सौ रुपये compensation. Automatic. ATM में limit है, पांच दिन.
+[casual] Same bro? तीन दिन से customer care पे hold पे बैठे हो?
+Fix. App में transaction ID के साथ complaint डालो. तीस दिन में bank जवाब ना दे, तो RBI ombudsman, cms dot rbi dot org dot in.
+Moral. तुम्हारा time भी पैसा है. Rule में लिखा है.
+ये उस दोस्त को भेजो, जिसका पैसा हमेशा अटकता है.
