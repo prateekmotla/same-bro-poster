@@ -151,7 +151,8 @@ def post_youtube(folder, meta, video):
     body = {
         "snippet": {
             "title": title[:100],
-            "description": meta.get("youtube_description") or meta.get("caption", ""),
+            # YouTube rejects '<' and '>' in descriptions (invalidDescription)
+            "description": (meta.get("youtube_description") or meta.get("caption", "")).replace("<", "‹").replace(">", "›")[:4900],
             "tags": meta.get("tags", []),
             "categoryId": str(meta.get("category_id", 1)),  # 1 = Film & Animation
         },
