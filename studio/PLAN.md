@@ -125,6 +125,12 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
   - Sat 7 Nov (eve of Diwali): MUHURAT TRADING — what it is, WHY it happens (Samvat new year, tradition), should beginners trade it or not (honest, education only), advice + moral.
 - Mistake topic bank: SIP checked daily (loss aversion), stopping SIP when market falls, 8 funds = same stocks (over-diversification), picking fund by last year's return, weekly-expiry option buying, Telegram tip / pump & dump, averaging down a falling stock, selling winners early & holding losers, revenge trading after a loss, margin/MTF leverage, investing with no emergency fund, applying to every IPO for listing gains, jewellery as "investment" vs gold ETF/digital options, panic when gold/silver falls.
 
+## CAMPAIGN100 progress (see studio/CAMPAIGN100.md)
+- PAUSED 9 Nov 18:48 UTC by Prateek ('stop for now, I will tell you then restart'): producer scheduled task disabled. Do NOT resume until he says so.
+- 9 Nov run 1 (flow OVjvMvju7aNIqeG6l4A5): queued HELD 057 Games #2 4-cup shuffle (s68_cups2, game.py now supports ncups=4) · 058 Brave vs Normal #1 stuck lift (s69_lift, NEW engine shorts/dilemma.py) · 059 Scam of the Week #2 fake customs parcel call (s70_parcel, CBIC/PIB 16 Jun 2024) · 060 Rules #3 DGCA flight-delay meals/6h refund/hotel (s71_flight). Voice done but not rendered: 061 odd face out (s72_oddemoji, NEW engine shorts/oddgrid.py; make.py ready) and 062 drowning 'reach or throw, don't go' (s73_drown; make.py to write). 062 swapped from stray-dog chase (MSF motorcycle advice = approach slowly then accelerate away, conflicts with the row).
+- Credits 9 Nov run 1: 057 225, 058 636, 059 630, 060 567, 061 254, 062 630 = 2,942.
+- Note: campaign folder 100 will sort next to the existing 100-live-traders-long folder.
+
 ## Queue / status
 - [x] 002 Live traders · [~] 003 91% lose (YouTube OK; Instagram FAILED 'API access blocked' — still failing every slot as of 28 Oct 7 PM. Meta has blocked the app/token; Prateek must fix in Meta App Dashboard. Poster advances each platform separately; IG catches up from 003 once unblocked)
 - [x] Instagram token refresh no longer needs GH_PAT: weekly workflow stores the refreshed token encrypted in ig_token.enc (key = YT_CLIENT_SECRET+IG_USER_ID secrets); scripts/ig_token.sh loads it for post/ig-check
