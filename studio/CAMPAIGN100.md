@@ -18,8 +18,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 2 | 058 | Thu 12 Nov | 7 PM | BRAVE vs NORMAL | Stuck in a lift: force doors (Brave) vs press alarm & wait (Normal) | [x] 058-brave-vs-normal-stuck-lift |
 | 3 | 059 | Thu 12 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Your parcel is held' fake courier call | [~ claimed 2026-11-09T18:22Z] |
 | 4 | 060 | Fri 13 Nov | 9 AM | RULES | Flight delayed 2+ hrs: what airline MUST give you (DGCA CAR) | [~ claimed 2026-11-09T18:22Z] |
-| 5 | 061 | Fri 13 Nov | 1 PM | GAMES | Odd emoji out (grid, 3 levels) — build odd-one-out engine | [ ] |
-| 6 | 062 | Fri 13 Nov | 7 PM | BRAVE vs NORMAL | Stray dog chasing bike: speed up vs slow down/stop | [ ] |
+| 5 | 061 | Fri 13 Nov | 1 PM | GAMES | Odd emoji out (grid, 3 levels) — build odd-one-out engine | [~ claimed 2026-11-09T18:40Z] |
+| 6 | 062 | Fri 13 Nov | 7 PM | BRAVE vs NORMAL | Stray dog chasing bike: speed up vs slow down/stop | [~ claimed 2026-11-09T18:40Z] |
 | 7 | 063 | Fri 13 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why milk is always at the back of the store | [ ] |
 | 8 | 064 | Sat 14 Nov | 9 AM | RULES | Paid carry bag with store logo: you can refuse (consumer court cases) | [ ] |
 | 9 | 065 | Sat 14 Nov | 1 PM | GAMES | Spot 3 differences: Sid's room | [ ] |
