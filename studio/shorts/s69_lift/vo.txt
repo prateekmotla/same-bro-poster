@@ -1,0 +1,7 @@
+[intense] Lift बीच में अटक गई. Brave बोला, door खोल के निकलते हैं. Normal बोला, alarm दबाओ और wait करो. तुम किसके साथ हो?
+[intense] Brave ने हाथ से doors खींच दिए. सामने दीवार, और floor आधा ऊपर. अब चढ़ के निकलेगा?
+[casual] Normal ने alarm button दबाया, फिर phone से guard को call किया, और आराम से wait करने लगा.
+कौन सही है? Comment करो, B या N.
+[serious] सही है Normal. Lift कभी भी अचानक चल सकती है. और बाहर निकलते वक्त चल गई, तो बहुत बड़ा खतरा.
+Lift free fall नहीं करती, safety brakes होते हैं, और हवा भी काफी होती है. तो alarm दबाओ, call करो, और help का wait करो.
+[casual] Brave बनना cool है, पर smart बनना ज़रूरी. तुम पहले क्या करते?

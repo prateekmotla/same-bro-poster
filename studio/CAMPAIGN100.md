@@ -15,7 +15,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | # | Folder | Date | Slot | Series | Topic | Status |
 |---|---|---|---|---|---|---|
 | 1 | 057 | Thu 12 Nov | 1 PM | GAMES | Cup shuffle #2 (HARD, 4 cups) | [x] 057-same-bro-games-4-cups |
-| 2 | 058 | Thu 12 Nov | 7 PM | BRAVE vs NORMAL | Stuck in a lift: force doors (Brave) vs press alarm & wait (Normal) | [~ claimed 2026-11-09T18:22Z] |
+| 2 | 058 | Thu 12 Nov | 7 PM | BRAVE vs NORMAL | Stuck in a lift: force doors (Brave) vs press alarm & wait (Normal) | [x] 058-brave-vs-normal-stuck-lift |
 | 3 | 059 | Thu 12 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Your parcel is held' fake courier call | [~ claimed 2026-11-09T18:22Z] |
 | 4 | 060 | Fri 13 Nov | 9 AM | RULES | Flight delayed 2+ hrs: what airline MUST give you (DGCA CAR) | [~ claimed 2026-11-09T18:22Z] |
 | 5 | 061 | Fri 13 Nov | 1 PM | GAMES | Odd emoji out (grid, 3 levels) — build odd-one-out engine | [ ] |
