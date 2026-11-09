@@ -1,0 +1,3 @@
+[excited] Level up. इस बार चार cups. Ball पे नज़र रखो, आँख मत झपकाना.
+[casual] रुको! Ball किस cup में है? Comment करो, एक, दो, तीन या चार.
+[excited] Ball यहाँ है! [casual] सही पकड़ा? Comment में बताओ. नहीं पकड़ा? फिर से देखो.

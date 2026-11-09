@@ -31,8 +31,11 @@ def ease(x):
 
 class CupGame:
     def __init__(self, d, segs, caps, title, series, levels=((4, 0.72), (4, 0.5), (4, 0.34)), seed=7,
-                 start_cup=1, cup_col=(0.86, 0.16, 0.2), mood='chill'):
+                 start_cup=1, cup_col=(0.86, 0.16, 0.2), mood='chill', ncups=3):
         self.d, self.segs, self.caps, self.title, self.series = d, segs, caps, title, series
+        self.n = ncups
+        self.SX = SLOTX if ncups == 3 else [180 + i * 240 for i in range(ncups)]
+        self.cs = 1.0 if ncups == 3 else 0.84
         self.cup_col, self.mood = cup_col, mood
         rnd = random.Random(seed)
         # timeline
@@ -42,7 +45,7 @@ class CupGame:
         last = None
         for li, (n, dur) in enumerate(levels):
             for _ in range(n):
-                pairs = [(0, 1), (1, 2), (0, 2)]
+                pairs = [(a_, b_) for a_ in range(ncups) for b_ in range(a_ + 1, ncups)]
                 p = rnd.choice([q for q in pairs if q != last])
                 last = p
                 self.swaps.append((t, t + dur, p[0], p[1], li))
@@ -56,7 +59,7 @@ class CupGame:
         self.voice_at = [0.0, self.t_freeze, self.t_reveal]
         # cup identity per slot; ball under cup id start_cup (which starts in slot start_cup)
         self.ball_cup = start_cup
-        slots = [0, 1, 2]  # slots[cup_id] = slot index
+        slots = list(range(ncups))  # slots[cup_id] = slot index
         for (_, _, a, b, _) in self.swaps:
             ia, ib = slots.index(a), slots.index(b)
             slots[ia], slots[ib] = b, a
@@ -66,8 +69,9 @@ class CupGame:
 
     def cup_pos(self, t):
         """returns list of (x, y_offset, scale, depth) per cup id."""
-        slots = [0, 1, 2]
-        pos = [[SLOTX[s], 0.0, 1.0, 0] for s in slots]
+        SX = self.SX
+        slots = list(range(self.n))
+        pos = [[SX[s], 0.0, 1.0, 0] for s in slots]
         for (t0, t1, a, b, _) in self.swaps:
             ia, ib = slots.index(a), slots.index(b)
             if t >= t1:
@@ -75,15 +79,15 @@ class CupGame:
                 continue
             if t > t0:
                 e = ease((t - t0) / (t1 - t0))
-                xa = SLOTX[a] + (SLOTX[b] - SLOTX[a]) * e
-                xb = SLOTX[b] + (SLOTX[a] - SLOTX[b]) * e
+                xa = SX[a] + (SX[b] - SX[a]) * e
+                xb = SX[b] + (SX[a] - SX[b]) * e
                 arc = math.sin(math.pi * e)
-                pos = [[SLOTX[s], 0.0, 1.0, 0] for s in slots]
+                pos = [[SX[s], 0.0, 1.0, 0] for s in slots]
                 pos[ia] = [xa, -70 * arc, 1 - 0.08 * arc, -1]
                 pos[ib] = [xb, 25 * arc, 1 + 0.06 * arc, 1]
                 return pos
             break
-        return [[SLOTX[s], 0.0, 1.0, 0] for s in slots]
+        return [[SX[s], 0.0, 1.0, 0] for s in slots]
 
     def level_at(self, t):
         for (t0, t1, a, b, li) in self.swaps:
@@ -144,24 +148,24 @@ class CupGame:
         self.scene(c, t)
         pos = self.cup_pos(t)
         # lift amounts
-        lift = [0.0, 0.0, 0.0]
+        lift = [0.0] * self.n
         if t < self.t_down:
             up = ease((t - self.t_show) / 0.35) * (1 - ease((t - (self.t_down - 0.4)) / 0.4))
-            lift = [up] * 3
+            lift = [up] * self.n
         if t > self.t_reveal:
             u = ease((t - self.t_reveal) / 0.35)
-            lift = [u * 0.25, u * 0.25, u * 0.25]
+            lift = [u * 0.25] * self.n
             lift[self.ball_cup] = u
         # ball under ball cup (drawn before cups)
         bx = pos[self.ball_cup][0]
         if max(lift) > 0.02:
             self.ball(c, bx, TABLE_Y)
-        order = sorted(range(3), key=lambda j: pos[j][3])
+        order = sorted(range(self.n), key=lambda j: pos[j][3])
         for j in order:
             x, yo, s, _ = pos[j]
-            c.save(); c.translate(x, TABLE_Y + 8); c.scale(1, 0.2); c.arc(0, 0, 125 * s, 0, 2 * math.pi); c.restore()
+            c.save(); c.translate(x, TABLE_Y + 8); c.scale(1, 0.2); c.arc(0, 0, 125 * s * self.cs, 0, 2 * math.pi); c.restore()
             c.set_source_rgba(0, 0, 0, 0.35); c.fill()
-            self.cup(c, x, TABLE_Y + yo, s, lift[j])
+            self.cup(c, x, TABLE_Y + yo, s * self.cs, lift[j])
         if t > self.t_reveal + 0.3:
             a = k(t, self.t_reveal + 0.3, self.t_reveal + 0.6)
             K.stamp(c, t, self.t_reveal + 0.3, f"CUP {self.final_slot + 1}!", 540, 1600, GRN, 70, -0.04)
@@ -194,11 +198,11 @@ class CupGame:
             a = k(t, self.t_freeze, self.t_freeze + 0.2)
             T(o, "STOP!", 540, 250, 120, RED, a, lw=14)
             T(o, "WHERE'S THE BALL?", 540, 360, 70, WHITE, a, lw=10)
-            for n, x in enumerate(SLOTX):
+            for n, x in enumerate(self.SX):
                 o.arc(x, 1400, 52, 0, 2 * math.pi); o.set_source_rgba(*YEL, a); o.fill()
                 T(o, str(n + 1), x, 1424, 64, (0.08, 0.08, 0.1), a, stroke=None)
             S.rrect(o, 140, 1500, 800, 110, 55); o.set_source_rgba(0.05, 0.05, 0.08, 0.9 * a); o.fill()
-            T(o, "COMMENT 1, 2 OR 3", 540, 1575, 58, YEL, a, stroke=None)
+            T(o, "COMMENT 1, 2 OR 3" if self.n == 3 else "COMMENT " + ", ".join(str(q + 1) for q in range(self.n - 1)) + f" OR {self.n}", 540, 1575, 58 if self.n == 3 else 52, YEL, a, stroke=None)
             if t > self.t_count:
                 n = 3 - int(t - self.t_count)
                 f = (t - self.t_count) % 1

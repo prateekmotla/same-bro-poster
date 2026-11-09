@@ -142,7 +142,7 @@ class Short:
             a = min(1, t / 0.15) * min(1, (2.6 - t) / 0.3)
             S.rrect(o, 40, 170, 1000, 60 + 110 * len(self.hook), 30); o.set_source_rgba(0.02, 0.02, 0.04, 0.82 * a); o.fill()
             for k_, (txt, col) in enumerate(self.hook):
-                T(o, txt, 540, 270 + k_ * 110, 92 if len(txt) < 15 else 74, col, a, lw=12)
+                T(o, txt, 540, 270 + k_ * 110, 92 if len(txt) < 15 else 74 if len(txt) < 20 else 60, col, a, lw=12)
         if self.sources and t > 2.6:
             S.rrect(o, 140, 60, 800, 46, 23); o.set_source_rgba(0, 0, 0, 0.5); o.fill()
             T(o, self.sources, 540, 92, 24, (0.85, 0.87, 0.95), stroke=None, bold=False)
