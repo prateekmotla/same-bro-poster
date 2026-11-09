@@ -1,6 +1,7 @@
 # SAME BRO — 100-SHORT CAMPAIGN (Prateek, live 9 Nov 2026 ~11:45 PM IST)
 
-Prateek asked: generate 100 shorts and schedule them. Cadence agreed in chat: 4/day in the existing slots (9 AM, 1 PM, 7 PM, 9 PM IST) — not 1 per hour (spam risk). Goal: a legit, brand-safe channel brands will pay to promote.
+Prateek asked (9 Nov 11:50 PM): GENERATE ALL 100 FIRST, schedule LATER. Every campaign short is queued HELD: meta.json "approved": false and "hold": "campaign100 - awaiting Prateek's schedule". The poster skips them. Do NOT set approved=true until Prateek agrees a schedule. Date/slot columns below are only a proposal.
+Claiming (runs overlap): before working on a row, mark it [~ claimed <UTC time>], commit and push; a claim older than 4 h with no queue folder may be taken over. Goal: a legit, brand-safe channel brands will pay to promote.
 
 RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 - 30-40 s. Dilemma/choice or payoff on screen in the first 3-4 s. Show both sides, reveal the right answer at the end, loop ending.
