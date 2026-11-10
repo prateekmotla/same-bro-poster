@@ -24,12 +24,12 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 8 | 064 | Sat 14 Nov | 9 AM | RULES | Paid carry bag with store logo: you can refuse (consumer court cases) | [x] 064-logo-carry-bag-charge |
 | 9 | 065 | Sat 14 Nov | 1 PM | GAMES | Spot 3 differences: Sid's room | [x] 065-same-bro-games-spot-3-differences |
 | 10 | 066 | Sat 14 Nov | 7 PM | BRAVE vs NORMAL | Car at flooded underpass: drive through vs stop & turn back (stuck = get out to high ground) | [x] 066-brave-vs-normal-flooded-underpass |
-| 11 | 067 | Sat 14 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Electricity cut tonight' SMS | [ ] |
-| 12 | 068 | Sun 15 Nov | 9 AM | RULES | Toll queue 100 m / 10 sec rule (NHAI 2021) | [ ] |
-| 13 | 069 | Sun 15 Nov | 1 PM | GAMES | Count the ₹10 coins | [ ] |
-| 14 | 070 | Sun 15 Nov | 7 PM | BRAVE vs NORMAL | Building fire: lift vs stairs | [ ] |
-| 15 | 071 | Sun 15 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why every app wants your contacts | [ ] |
-| 16 | 072 | Mon 16 Nov | 9 AM | RULES | Hospital can't refuse emergency treatment (SC, Parmanand Katara) | [ ] |
+| 11 | 067 | Sat 14 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Electricity cut tonight' SMS | [~ claimed 2026-11-10 05:46 UTC] |
+| 12 | 068 | Sun 15 Nov | 9 AM | RULES | Toll queue 100 m / 10 sec rule (NHAI 2021) | [~ claimed 2026-11-10 05:46 UTC] |
+| 13 | 069 | Sun 15 Nov | 1 PM | GAMES | Count the ₹10 coins | [~ claimed 2026-11-10 05:46 UTC] |
+| 14 | 070 | Sun 15 Nov | 7 PM | BRAVE vs NORMAL | Building fire: lift vs stairs | [~ claimed 2026-11-10 05:46 UTC] |
+| 15 | 071 | Sun 15 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why every app wants your contacts | [~ claimed 2026-11-10 05:46 UTC] |
+| 16 | 072 | Mon 16 Nov | 9 AM | RULES | Hospital can't refuse emergency treatment (SC, Parmanand Katara) | [~ claimed 2026-11-10 05:46 UTC] |
 | 17 | 073 | Mon 16 Nov | 1 PM | GAMES | Cup shuffle #3 (IMPOSSIBLE) | [ ] |
 | 18 | 074 | Mon 16 Nov | 7 PM | BRAVE vs NORMAL | Friend choking: give water vs back blows | [ ] |
 | 19 | 075 | Mon 16 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Sent money by mistake, please return' | [ ] |
