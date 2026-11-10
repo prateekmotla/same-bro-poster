@@ -20,8 +20,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 4 | 060 | Fri 13 Nov | 9 AM | RULES | Flight delayed 2+ hrs: what airline MUST give you (DGCA CAR) | [x] 060-flight-delay-meals-rights |
 | 5 | 061 | Fri 13 Nov | 1 PM | GAMES | Odd emoji out (grid, 3 levels) — build odd-one-out engine | [x] 061-same-bro-games-odd-face-out |
 | 6 | 062 | Fri 13 Nov | 7 PM | BRAVE vs NORMAL | SWAPPED (dog-chase advice conflicts: MSF says approach slow then accelerate away): Friend drowning: jump in vs reach/throw a float (Red Cross "Reach or throw, don't go") | [x] 062-brave-vs-normal-drowning |
-| 7 | 063 | Fri 13 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why milk is always at the back of the store | [~ claimed 2026-11-10 05:18 UTC] |
-| 8 | 064 | Sat 14 Nov | 9 AM | RULES | Paid carry bag with store logo: you can refuse (consumer court cases) | [~ claimed 2026-11-10 05:18 UTC] |
+| 7 | 063 | Fri 13 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why milk is always at the back of the store | [x] 063-milk-at-the-back |
+| 8 | 064 | Sat 14 Nov | 9 AM | RULES | Paid carry bag with store logo: you can refuse (consumer court cases) | [x] 064-logo-carry-bag-charge |
 | 9 | 065 | Sat 14 Nov | 1 PM | GAMES | Spot 3 differences: Sid's room | [~ claimed 2026-11-10 05:29 UTC] |
 | 10 | 066 | Sat 14 Nov | 7 PM | BRAVE vs NORMAL | Car in flooded underpass: drive through vs get out to high ground | [~ claimed 2026-11-10 05:29 UTC] |
 | 11 | 067 | Sat 14 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Electricity cut tonight' SMS | [ ] |
