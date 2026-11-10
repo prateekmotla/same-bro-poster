@@ -1,0 +1,6 @@
+[intense] Petrol भरवाया, counter पे QR scan किया, पैसे कट गए. पर owner बोला, payment आया ही नहीं.
+किसी ने रात में असली QR के ऊपर अपना QR चिपका दिया था. Madhya Pradesh में petrol pumps और shops पे, ठीक यही हुआ.
+[casual] Scan करके pay से पहले, तुम क्या check करोगे? A, amount. B, जिसे पैसे जा रहे हैं, उसका नाम. Comment करो.
+[serious] सही है B. NPCI कहता है, पैसे भेजने से पहले screen पे receiver का नाम check करो. नाम shop का नहीं, तो रुक जाओ.
+QR ऊपर से चिपका लगे, तो पूछ लो. और fraud हो जाए, तो तुरंत 1930 पे call करो.
+[casual] अगली बार scan करो, तो नाम ज़रूर पढ़ना. ये घर वालों को भेज दो.

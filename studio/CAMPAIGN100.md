@@ -40,7 +40,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 24 | 080 | Wed 18 Nov | 9 AM | RULES | Traffic cop can't take your car keys (verify MV Act/state rules) | [x] 080-cop-cant-snatch-keys |
 | 25 | 081 | Wed 18 Nov | 1 PM | GAMES | Memory flash: which item vanished? | [~ claimed 2026-11-10T06:57Z] |
 | 26 | 082 | Wed 18 Nov | 7 PM | BRAVE vs NORMAL | Lost in a forest: keep walking vs stay put | [x] 082-brave-vs-normal-lost-in-forest |
-| 27 | 083 | Wed 18 Nov | 9 PM | SCAM/TRUTH | SCAM: Fake QR sticker at parking/petrol pump | [~ claimed 2026-11-10T06:57Z] |
+| 27 | 083 | Wed 18 Nov | 9 PM | SCAM/TRUTH | SCAM: Fake QR sticker at parking/petrol pump | [x] 083-fake-qr-sticker-scam |
 | 28 | 084 | Thu 19 Nov | 9 AM | RULES | DigiLocker licence/RC = valid as original (MoRTH 2018) | [~ claimed 2026-11-10T06:57Z] |
 | 29 | 085 | Thu 19 Nov | 1 PM | GAMES | Odd colour out (eye test) | [ ] |
 | 30 | 086 | Thu 19 Nov | 7 PM | BRAVE vs NORMAL | Earthquake indoors: run out vs drop-cover-hold | [ ] |
