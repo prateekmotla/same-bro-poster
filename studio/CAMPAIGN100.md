@@ -34,7 +34,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 18 | 074 | Mon 16 Nov | 7 PM | BRAVE vs NORMAL | Friend choking: give water vs back blows | [x] 074-brave-vs-normal-choking |
 | 19 | 075 | Mon 16 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Sent money by mistake, please return' | [x] 075-sent-by-mistake-scam |
 | 20 | 076 | Tue 17 Nov | 9 AM | RULES | Zero FIR: any police station must register it | [x] 076-zero-fir-any-police-station |
-| 21 | 077 | Tue 17 Nov | 1 PM | GAMES | Which line is longer? (illusion) | [~ claimed 2026-11-10 05:55 UTC] |
+| 21 | 077 | Tue 17 Nov | 1 PM | GAMES | Which line is longer? (illusion) | [x] 077-same-bro-games-which-line-longer |
 | 22 | 078 | Tue 17 Nov | 7 PM | BRAVE vs NORMAL | Snake bite on trek: suck venom/tie tight vs stay still & hospital | [x] 078-brave-vs-normal-snake-bite |
 | 23 | 079 | Tue 17 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'Free delivery above ₹199' = bigger basket | [ ] |
 | 24 | 080 | Wed 18 Nov | 9 AM | RULES | Traffic cop can't take your car keys (verify MV Act/state rules) | [ ] |
