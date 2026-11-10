@@ -1,0 +1,7 @@
+[casual] हर नया app पहले यही मांगता है. Contacts allow करो. पर क्यों?
+पहला reason, growth. तुम्हारे contacts से वो तुम्हारे दोस्तों को invite भेजते हैं, और अपनी list बड़ी करते हैं.
+[serious] सोचो, तुमने allow किया, तो तुम्हारे दोस्तों के numbers भी, उनसे पूछे बिना, company के पास.
+और सबसे खतरनाक, कुछ fake loan apps ने contacts लेके, लोगों के घर वालों और दोस्तों को धमकी भरे calls किए.
+इसीलिए Google ने दो हज़ार तेईस से, personal loan apps का contacts और photos access बंद कर दिया.
+[casual] Fix. Permission पे सोच के tap करो. Chat app को contacts चाहिए, torch app को नहीं. Settings में जाके, बेकार permissions हटाओ.
+Same bro? आज ही check करो, कितने apps के पास तुम्हारे contacts हैं. Comment करो.

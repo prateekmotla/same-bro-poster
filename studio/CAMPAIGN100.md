@@ -28,8 +28,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 12 | 068 | Sun 15 Nov | 9 AM | RULES | SWAPPED angle (rule withdrawn by NHAI circular 19 Aug 2024): the viral '100 m queue = free toll' rule is GONE | [x] 068-toll-100m-rule-withdrawn |
 | 13 | 069 | Sun 15 Nov | 1 PM | GAMES | Count the ₹10 coins | [x] 069-same-bro-games-count-10-rupee-coins |
 | 14 | 070 | Sun 15 Nov | 7 PM | BRAVE vs NORMAL | Building fire: lift vs stairs | [x] 070-brave-vs-normal-fire-lift-or-stairs |
-| 15 | 071 | Sun 15 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why every app wants your contacts | [~ claimed 2026-11-10 05:46 UTC] |
-| 16 | 072 | Mon 16 Nov | 9 AM | RULES | Hospital can't refuse emergency treatment (SC, Parmanand Katara) | [~ claimed 2026-11-10 05:46 UTC] |
+| 15 | 071 | Sun 15 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why every app wants your contacts | [x] 071-why-apps-want-contacts |
+| 16 | 072 | Mon 16 Nov | 9 AM | RULES | Hospital can't refuse emergency treatment (SC, Parmanand Katara) | [x] 072-hospital-emergency-treat-first |
 | 17 | 073 | Mon 16 Nov | 1 PM | GAMES | Cup shuffle #3 (IMPOSSIBLE) | [x] 073-same-bro-games-impossible-cups |
 | 18 | 074 | Mon 16 Nov | 7 PM | BRAVE vs NORMAL | Friend choking: give water vs back blows | [x] 074-brave-vs-normal-choking |
 | 19 | 075 | Mon 16 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Sent money by mistake, please return' | [~ claimed 2026-11-10 05:55 UTC] |
