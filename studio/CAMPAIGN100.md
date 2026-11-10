@@ -37,7 +37,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 21 | 077 | Tue 17 Nov | 1 PM | GAMES | Which line is longer? (illusion) | [x] 077-same-bro-games-which-line-longer |
 | 22 | 078 | Tue 17 Nov | 7 PM | BRAVE vs NORMAL | Snake bite on trek: suck venom/tie tight vs stay still & hospital | [x] 078-brave-vs-normal-snake-bite |
 | 23 | 079 | Tue 17 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'Free delivery above ₹199' = bigger basket | [~ claimed 2026-11-10T06:57Z] |
-| 24 | 080 | Wed 18 Nov | 9 AM | RULES | Traffic cop can't take your car keys (verify MV Act/state rules) | [~ claimed 2026-11-10T06:57Z] |
+| 24 | 080 | Wed 18 Nov | 9 AM | RULES | Traffic cop can't take your car keys (verify MV Act/state rules) | [x] 080-cop-cant-snatch-keys |
 | 25 | 081 | Wed 18 Nov | 1 PM | GAMES | Memory flash: which item vanished? | [~ claimed 2026-11-10T06:57Z] |
 | 26 | 082 | Wed 18 Nov | 7 PM | BRAVE vs NORMAL | Lost in a forest: keep walking vs stay put | [~ claimed 2026-11-10T06:57Z] |
 | 27 | 083 | Wed 18 Nov | 9 PM | SCAM/TRUTH | SCAM: Fake QR sticker at parking/petrol pump | [~ claimed 2026-11-10T06:57Z] |
