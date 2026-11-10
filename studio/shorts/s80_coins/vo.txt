@@ -1,0 +1,3 @@
+[excited] Count the ten rupee coins! Table पे बहुत सारे coins हैं, पर गिनना सिर्फ दस वाले. Timer चालू.
+[casual] रुको! कितने ten rupee coins? Comment करो, number.
+[excited] Answer है, नौ! [casual] सही गिना? तो तुम्हारा focus top class है. फिर से try करो.

@@ -26,8 +26,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 10 | 066 | Sat 14 Nov | 7 PM | BRAVE vs NORMAL | Car at flooded underpass: drive through vs stop & turn back (stuck = get out to high ground) | [x] 066-brave-vs-normal-flooded-underpass |
 | 11 | 067 | Sat 14 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Electricity cut tonight' SMS | [x] 067-power-cut-sms-scam |
 | 12 | 068 | Sun 15 Nov | 9 AM | RULES | SWAPPED angle (rule withdrawn by NHAI circular 19 Aug 2024): the viral '100 m queue = free toll' rule is GONE | [x] 068-toll-100m-rule-withdrawn |
-| 13 | 069 | Sun 15 Nov | 1 PM | GAMES | Count the ₹10 coins | [~ claimed 2026-11-10 05:46 UTC] |
-| 14 | 070 | Sun 15 Nov | 7 PM | BRAVE vs NORMAL | Building fire: lift vs stairs | [~ claimed 2026-11-10 05:46 UTC] |
+| 13 | 069 | Sun 15 Nov | 1 PM | GAMES | Count the ₹10 coins | [x] 069-same-bro-games-count-10-rupee-coins |
+| 14 | 070 | Sun 15 Nov | 7 PM | BRAVE vs NORMAL | Building fire: lift vs stairs | [x] 070-brave-vs-normal-fire-lift-or-stairs |
 | 15 | 071 | Sun 15 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why every app wants your contacts | [~ claimed 2026-11-10 05:46 UTC] |
 | 16 | 072 | Mon 16 Nov | 9 AM | RULES | Hospital can't refuse emergency treatment (SC, Parmanand Katara) | [~ claimed 2026-11-10 05:46 UTC] |
 | 17 | 073 | Mon 16 Nov | 1 PM | GAMES | Cup shuffle #3 (IMPOSSIBLE) | [~ claimed 2026-11-10 05:55 UTC] |

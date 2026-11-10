@@ -1,0 +1,7 @@
+[intense] Building में आग लगी, और तुम आठवीं floor पे हो. Brave बोला, lift से fast नीचे चलते हैं. Normal बोला, stairs से. तुम किसके साथ हो?
+Brave lift में घुस गया. पर आग में lift बीच में रुक सकती है, और shaft में धुआँ भर जाता है.
+[casual] Normal ने alarm बजाया, और नीचे झुक के, धुएँ से बचते हुए, stairs से नीचे उतर गया.
+कौन सही है? Comment करो, B या N.
+[serious] सही है Normal. Fire services का पहला rule, आग में कभी lift मत लो. बिजली कटी, तो तुम अंदर फँसे.
+Stairs लो, धुआँ हो तो नीचे झुक के चलो, और एक सौ एक या एक सौ बारह पे call करो.
+[casual] Fast नहीं, safe निकलना है. तुम पहले क्या करते?
