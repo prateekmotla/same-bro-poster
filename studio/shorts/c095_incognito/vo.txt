@@ -1,0 +1,6 @@
+[casual] Incognito tab खोला, और लगा अब कोई नहीं देख सकता. सच में?
+Incognito बस इतना करता है, कि तुम्हारे phone में history और cookies save नहीं होतीं. बस.
+तो incognito में भी कौन देख सकता है? A, कोई नहीं. B, websites, office या college का wifi, और internet company. Comment करो.
+[serious] सही है B. Google का incognito page खुद लिखता है, websites, employer या school, और internet provider को activity दिख सकती है.
+और 2024 में Google को एक case में, incognito का collect किया data delete करने पे मानना पड़ा.
+[casual] Incognito मतलब घर वालों से छुपा, दुनिया से नहीं. ये दोस्त को भेजो.

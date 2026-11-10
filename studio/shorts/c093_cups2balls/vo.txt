@@ -1,0 +1,3 @@
+[excited] इस बार दो balls, चार cups. दोनों track करनी हैं, एक भी miss हुई तो हार.
+[casual] रुको! दोनों balls किन cups में हैं? Comment करो, दो numbers.
+[excited] यहाँ हैं! [casual] दोनों पकड़ीं? तो तुम legend हो. नहीं? फिर से देखो.

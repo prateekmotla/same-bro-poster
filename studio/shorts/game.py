@@ -31,7 +31,7 @@ def ease(x):
 
 class CupGame:
     def __init__(self, d, segs, caps, title, series, levels=((4, 0.72), (4, 0.5), (4, 0.34)), seed=7,
-                 start_cup=1, cup_col=(0.86, 0.16, 0.2), mood='chill', ncups=3):
+                 start_cup=1, cup_col=(0.86, 0.16, 0.2), mood='chill', ncups=3, ball2=None):
         self.d, self.segs, self.caps, self.title, self.series = d, segs, caps, title, series
         self.n = ncups
         self.SX = SLOTX if ncups == 3 else [180 + i * 240 for i in range(ncups)]
@@ -59,13 +59,15 @@ class CupGame:
         self.voice_at = [0.0, self.t_freeze, self.t_reveal]
         # cup identity per slot; ball under cup id start_cup (which starts in slot start_cup)
         self.ball_cup = start_cup
+        self.balls = [start_cup] + ([ball2] if ball2 is not None else [])
         slots = list(range(ncups))  # slots[cup_id] = slot index
         for (_, _, a, b, _) in self.swaps:
             ia, ib = slots.index(a), slots.index(b)
             slots[ia], slots[ib] = b, a
         self.final_slot = slots[self.ball_cup]
+        self.final_slots = sorted(slots[b] for b in self.balls)
         self.levels = ["EASY", "HARD", "IMPOSSIBLE"]
-        json.dump(dict(final_answer=self.final_slot + 1, swaps=len(self.swaps), dur=self.dur), open(f"{d}/game.json", "w"))
+        json.dump(dict(final_answer=self.final_slot + 1, final_answers=[q + 1 for q in self.final_slots], swaps=len(self.swaps), dur=self.dur), open(f"{d}/game.json", "w"))
 
     def cup_pos(self, t):
         """returns list of (x, y_offset, scale, depth) per cup id."""
@@ -155,11 +157,12 @@ class CupGame:
         if t > self.t_reveal:
             u = ease((t - self.t_reveal) / 0.35)
             lift = [u * 0.25] * self.n
-            lift[self.ball_cup] = u
+            for b_ in self.balls:
+                lift[b_] = u
         # ball under ball cup (drawn before cups)
-        bx = pos[self.ball_cup][0]
         if max(lift) > 0.02:
-            self.ball(c, bx, TABLE_Y)
+            for b_ in self.balls:
+                self.ball(c, pos[b_][0], TABLE_Y)
         order = sorted(range(self.n), key=lambda j: pos[j][3])
         for j in order:
             x, yo, s, _ = pos[j]
@@ -168,7 +171,8 @@ class CupGame:
             self.cup(c, x, TABLE_Y + yo, s * self.cs, lift[j])
         if t > self.t_reveal + 0.3:
             a = k(t, self.t_reveal + 0.3, self.t_reveal + 0.6)
-            K.stamp(c, t, self.t_reveal + 0.3, f"CUP {self.final_slot + 1}!", 540, 1600, GRN, 70, -0.04)
+            lab = f"CUP {self.final_slot + 1}!" if len(self.balls) == 1 else "CUPS " + " & ".join(str(q + 1) for q in self.final_slots) + "!"
+            K.stamp(c, t, self.t_reveal + 0.3, lab, 540, 1600, GRN, 70, -0.04)
         sf.flush()
         rgb = VS.FXV.post(sf, 'studio', i, 0)
         ov = cairo.ImageSurface(cairo.FORMAT_ARGB32, VW, VH)
@@ -197,12 +201,12 @@ class CupGame:
         if self.t_freeze <= t < self.t_reveal:
             a = k(t, self.t_freeze, self.t_freeze + 0.2)
             T(o, "STOP!", 540, 250, 120, RED, a, lw=14)
-            T(o, "WHERE'S THE BALL?", 540, 360, 70, WHITE, a, lw=10)
+            T(o, "WHERE'S THE BALL?" if len(self.balls) == 1 else "WHERE ARE BOTH BALLS?", 540, 360, 70 if len(self.balls) == 1 else 64, WHITE, a, lw=10)
             for n, x in enumerate(self.SX):
                 o.arc(x, 1400, 52, 0, 2 * math.pi); o.set_source_rgba(*YEL, a); o.fill()
                 T(o, str(n + 1), x, 1424, 64, (0.08, 0.08, 0.1), a, stroke=None)
             S.rrect(o, 140, 1500, 800, 110, 55); o.set_source_rgba(0.05, 0.05, 0.08, 0.9 * a); o.fill()
-            T(o, "COMMENT 1, 2 OR 3" if self.n == 3 else "COMMENT " + ", ".join(str(q + 1) for q in range(self.n - 1)) + f" OR {self.n}", 540, 1575, 58 if self.n == 3 else 52, YEL, a, stroke=None)
+            T(o, "COMMENT 2 CUPS, LIKE 1 + 3" if len(self.balls) == 2 else "COMMENT 1, 2 OR 3" if self.n == 3 else "COMMENT " + ", ".join(str(q + 1) for q in range(self.n - 1)) + f" OR {self.n}", 540, 1575, 58 if self.n == 3 else 52, YEL, a, stroke=None)
             if t > self.t_count:
                 n = 3 - int(t - self.t_count)
                 f = (t - self.t_count) % 1

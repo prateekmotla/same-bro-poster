@@ -1,0 +1,7 @@
+[intense] Highway पे गाड़ी, brake दबाया, और pedal सीधा नीचे. Brakes fail. Brave बोला, handbrake पूरा खींचो. Normal बोला, gear नीचे करो, धीरे धीरे रोको. तुम किसके साथ हो?
+[intense] Brave ने speed पे handbrake एक झटके में खींच दिया. पीछे के wheels lock, और गाड़ी फिसलने लगी.
+[casual] Normal ने hazard lights on कीं, brake pedal बार बार दबाया, एक एक gear नीचे किया, और handbrake धीरे धीरे खींचा.
+कौन सही है? Comment करो, B या N.
+[serious] सही है Normal. Road safety experts कहते हैं, speed पे handbrake झटके से खींचा, तो wheels lock होके गाड़ी घूम सकती है.
+Pedal pump करो, gear धीरे धीरे नीचे करो, handbrake आराम से, और side में safe जगह पे रोको.
+[casual] Brakes fail हों, तो झटका नहीं, धीरे धीरे. तुम क्या करते?

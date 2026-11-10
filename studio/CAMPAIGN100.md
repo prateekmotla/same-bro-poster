@@ -48,9 +48,9 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 32 | 088 | Fri 20 Nov | 9 AM | RULES | RTI for ₹10: get answers from any govt office | [~ claimed 10 Nov 07:56Z] |
 | 33 | 089 | Fri 20 Nov | 1 PM | GAMES | Find hidden SAME BRO text | [~ claimed 10 Nov 07:56Z] |
 | 34 | 090 | Fri 20 Nov | 7 PM | BRAVE vs NORMAL | Lightning in open: shelter under tree vs crouch low away | [~ claimed 10 Nov 07:56Z] |
-| 35 | 091 | Fri 20 Nov | 9 PM | SCAM/TRUTH | SCAM: AI voice clone 'your son is in trouble' call | [~ claimed 10 Nov 09:59Z] |
+| 35 | 091 | Fri 20 Nov | 9 PM | SCAM/TRUTH | SCAM: AI voice clone 'your son is in trouble' call | [x] 091-ai-voice-clone-scam |
 | 36 | 092 | Sat 21 Nov | 9 AM | RULES | Credit card not closed in 7 days = ₹500/day to you (RBI 2022) | [~ claimed 10 Nov 09:59Z] |
-| 37 | 093 | Sat 21 Nov | 1 PM | GAMES | Cup shuffle #4 (2 balls) | [~ claimed 10 Nov 09:59Z] |
+| 37 | 093 | Sat 21 Nov | 1 PM | GAMES | Cup shuffle #4 (2 balls) | [x] 093-same-bro-games-two-balls |
 | 38 | 094 | Sat 21 Nov | 7 PM | BRAVE vs NORMAL | Brakes fail: yank handbrake vs downshift + gradual handbrake | [~ claimed 10 Nov 09:59Z] |
 | 39 | 095 | Sat 21 Nov | 9 PM | SCAM/TRUTH | TRUTH: Incognito mode isn't private | [~ claimed 10 Nov 09:59Z] |
 | 40 | 096 | Sun 22 Nov | 9 AM | RULES | Insurance free-look period: return policy, get money back (IRDAI 30 days) | [~ claimed 10 Nov 09:59Z] |
