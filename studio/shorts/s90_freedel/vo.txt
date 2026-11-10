@@ -1,0 +1,6 @@
+[casual] Cart एक सौ अस्सी का, delivery fee तीस रुपये. और लिखा है, free delivery एक सौ निन्यानवे के ऊपर. तुम क्या करोगे?
+A, तीस रुपये दे दो. B, चालीस का कुछ और add कर दो. Comment करो.
+[serious] ये number random नहीं है. ये सोच समझ के रखा जाता है, ताकि तुम्हारा basket बड़ा हो.
+UPS की एक study में, साठ percent लोगों ने, सिर्फ free shipping के लिए cart में extra items डाले.
+[casual] तो सही क्या है? अगर वो चीज़ तुम्हें वैसे भी चाहिए थी, तो B. वरना A, तीस रुपये सस्ते पड़ेंगे.
+Free delivery free नहीं होती, बस बिल बड़ा हो जाता है. तुम A हो या B?

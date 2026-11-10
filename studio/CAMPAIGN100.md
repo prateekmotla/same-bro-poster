@@ -36,7 +36,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 20 | 076 | Tue 17 Nov | 9 AM | RULES | Zero FIR: any police station must register it | [x] 076-zero-fir-any-police-station |
 | 21 | 077 | Tue 17 Nov | 1 PM | GAMES | Which line is longer? (illusion) | [x] 077-same-bro-games-which-line-longer |
 | 22 | 078 | Tue 17 Nov | 7 PM | BRAVE vs NORMAL | Snake bite on trek: suck venom/tie tight vs stay still & hospital | [x] 078-brave-vs-normal-snake-bite |
-| 23 | 079 | Tue 17 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'Free delivery above ₹199' = bigger basket | [~ claimed 2026-11-10T06:57Z] |
+| 23 | 079 | Tue 17 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'Free delivery above ₹199' = bigger basket | [x] 079-free-delivery-above-199 |
 | 24 | 080 | Wed 18 Nov | 9 AM | RULES | Traffic cop can't take your car keys (verify MV Act/state rules) | [x] 080-cop-cant-snatch-keys |
 | 25 | 081 | Wed 18 Nov | 1 PM | GAMES | Memory flash: which item vanished? | [~ claimed 2026-11-10T06:57Z] |
 | 26 | 082 | Wed 18 Nov | 7 PM | BRAVE vs NORMAL | Lost in a forest: keep walking vs stay put | [x] 082-brave-vs-normal-lost-in-forest |
