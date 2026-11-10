@@ -141,6 +141,9 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
 - Credits 10 Nov run 3: 073 260, 074 644, 075 635, 076 534, 077 427, 078 677 = 3,177. No Scribe. Day total ~8,850. Balance not shown; no credit errors.
 - Timing tip: vshort's char-weight snap mis-placed lines on 076 and 078 (bounds.json written by hand from silencedetect), check line starts vs the silence list before rendering.
 - Campaign progress after run 3: 22 of 100 made (057-078). Next free row: 079.
+- 10 Nov run 4 (scheduled, ~12:27-1:20 PM IST, flow L2ZEw7CgzVfBl7nvNY6Z): queued HELD 079 They're Tricking You #3 free delivery above Rs 199, UPS/comScore 2015 60% added items for free shipping (s90_freedel) · 080 Rules #8 cop can't snatch keys to force pending challans, Telangana HC 20 Jan 2026 (s91_keys; row angle narrowed from 'can't take keys' to the HC order) · 081 Games #8 memory flash, answer SUNGLASSES, NEW engine shorts/memgame.py (s92_memory) · 082 Brave vs Normal #7 lost in forest, STOP + stay put, BC AdventureSmart/SAR (s93_lost, voice 1.06x) · 083 Scam of the Week #5 fake QR sticker, MP Khajuraho/Chhatarpur Jan 2025 + NPCI 'check the name' (s94_qr) · 084 Rules #9 DigiLocker/mParivahan DL+RC valid, MoRTH advisory Aug 2018 (s95_digi).
+- Credits 10 Nov run 4: 079 543, 080 567, 081 237, 082 630, 083 589, 084 560 = 3,126. No Scribe. Day total ~11,980. No credit errors.
+- Campaign progress after run 4: 28 of 100 made (057-084). Next free row: 085.
 - Credits 10 Nov run 1: 063 659, 064 741, 065 240, 066 649 = 2,289 (061/062 voice reused from 9 Nov).
 - Note: campaign folder 100 will sort next to the existing 100-live-traders-long folder.
 
