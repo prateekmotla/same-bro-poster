@@ -1,0 +1,6 @@
+[intense] Account में बस दो सौ रुपये थे, minimum balance का charge कटा, और balance minus में चला गया?
+[casual] क्या bank minimum balance के charge से तुम्हारा balance negative कर सकता है? A, हाँ. B, बिल्कुल नहीं. Comment करो.
+[serious] सही है B. RBI का 2014 का rule, सिर्फ़ minimum balance charge की वजह से balance negative नहीं हो सकता.
+और charge से पहले bank को SMS या email से बताना पड़ेगा, और balance भरने के लिए कम से कम एक महीना देना होगा.
+Charge भी कमी के हिसाब से ही. Bank ना माने, तो RBI Ombudsman पे complaint करो.
+[casual] Balance minus में दिखे? अब rule तुम्हें पता है. Save कर लो.
