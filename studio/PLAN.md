@@ -146,6 +146,11 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
 - Campaign progress after run 4: 28 of 100 made (057-084). Next free row: 085.
 - Credits 10 Nov run 1: 063 659, 064 741, 065 240, 066 649 = 2,289 (061/062 voice reused from 9 Nov).
 - Note: campaign folder 100 will sort next to the existing 100-live-traders-long folder.
+- 10 Nov run 5 (scheduled, ~3:30-4:15 PM IST, flow Rs74z3PpS4NcNew5OJnv): 085-090 were still claimed by another run (07:56Z), so this run claimed 091-096 and queued HELD: 091 Scam of the Week #6 AI voice-clone 'son in trouble' call, hang up + call back saved number + family code word + 1930, TN Cyber Crime Police / bank advisories, Business Standard Jan 2026 (c091_voiceclone, voice 1.05x) · 092 Rules #11 credit card closure in 7 working days or Rs 500/day, RBI MD cards 2022 (c092_cardclose) · 093 Games #11 cup shuffle with TWO balls, 4 cups, answer cups 2 & 3 — game.py now has ball2= (c093_cups2balls) · 094 Brave vs Normal #10 brakes fail: gradual gear-down/handbrake vs yank, RACV + Michelin (c094_brakes, voice 1.1x, 41.5 s) · 095 They're Tricking You #5 incognito not private, Chrome incognito page + Brown v. Google 2024 (c095_incognito) · 096 Rules #12 insurance free-look 30 days, IRDAI 2024 (c096_freelook).
+- Series numbers used by run 5 ASSUME the claimed 085-090 get: Games #9 (085) / #10 (089), Brave vs Normal #8 (086) / #9 (090), They're Tricking You #4 (087), Rules #10 (088). If that run swaps a series, renumber.
+- Script dirs from run 5 on are named c<folder>_<slug> (e.g. c091_voiceclone) to avoid s96+ name clashes between parallel runs. bounds.json = line STARTS only (no end time).
+- Credits 10 Nov run 5: 091 650, 092 598, 093 231, 094 709, 095 582, 096 585 = 3,355. No Scribe. Day total ~15,300. No credit errors.
+- Campaign progress after run 5: 34 of 100 made (057-084, 091-096). 085-090 claimed by another run; next free row: 097.
 
 ## Queue / status
 - [x] 002 Live traders · [~] 003 91% lose (YouTube OK; Instagram FAILED 'API access blocked' — still failing every slot as of 28 Oct 7 PM. Meta has blocked the app/token; Prateek must fix in Meta App Dashboard. Poster advances each platform separately; IG catches up from 003 once unblocked)

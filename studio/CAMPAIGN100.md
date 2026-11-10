@@ -52,8 +52,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 36 | 092 | Sat 21 Nov | 9 AM | RULES | Credit card not closed in 7 days = ₹500/day to you (RBI 2022) | [x] 092-credit-card-closure-500-a-day |
 | 37 | 093 | Sat 21 Nov | 1 PM | GAMES | Cup shuffle #4 (2 balls) | [x] 093-same-bro-games-two-balls |
 | 38 | 094 | Sat 21 Nov | 7 PM | BRAVE vs NORMAL | Brakes fail: yank handbrake vs downshift + gradual handbrake | [x] 094-brave-vs-normal-brakes-fail |
-| 39 | 095 | Sat 21 Nov | 9 PM | SCAM/TRUTH | TRUTH: Incognito mode isn't private | [~ claimed 10 Nov 09:59Z] |
-| 40 | 096 | Sun 22 Nov | 9 AM | RULES | Insurance free-look period: return policy, get money back (IRDAI 30 days) | [~ claimed 10 Nov 09:59Z] |
+| 39 | 095 | Sat 21 Nov | 9 PM | SCAM/TRUTH | TRUTH: Incognito mode isn't private | [x] 095-incognito-not-private |
+| 40 | 096 | Sun 22 Nov | 9 AM | RULES | Insurance free-look period: return policy, get money back (IRDAI 30 days) | [x] 096-insurance-free-look-30-days |
 | 41 | 097 | Sun 22 Nov | 1 PM | GAMES | Spot 3 differences: metro coach | [ ] |
 | 42 | 098 | Sun 22 Nov | 7 PM | BRAVE vs NORMAL | Swept by river current: swim against vs float downstream | [ ] |
 | 43 | 099 | Sun 22 Nov | 9 PM | SCAM/TRUTH | SCAM: Fake customer-care number on Google | [ ] |
