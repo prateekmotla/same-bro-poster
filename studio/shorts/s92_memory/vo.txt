@@ -1,0 +1,3 @@
+[excited] Memory test! इन items को ध्यान से देखो, सिर्फ कुछ seconds. फिर एक गायब हो जाएगा.
+[casual] रुको! कौन सा item गायब हुआ? Comment करो.
+[excited] Answer है, sunglasses! [casual] पकड़ लिया? तो तुम्हारी memory तेज़ है. फिर से try करो.
