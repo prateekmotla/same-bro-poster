@@ -24,8 +24,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 8 | 064 | Sat 14 Nov | 9 AM | RULES | Paid carry bag with store logo: you can refuse (consumer court cases) | [x] 064-logo-carry-bag-charge |
 | 9 | 065 | Sat 14 Nov | 1 PM | GAMES | Spot 3 differences: Sid's room | [x] 065-same-bro-games-spot-3-differences |
 | 10 | 066 | Sat 14 Nov | 7 PM | BRAVE vs NORMAL | Car at flooded underpass: drive through vs stop & turn back (stuck = get out to high ground) | [x] 066-brave-vs-normal-flooded-underpass |
-| 11 | 067 | Sat 14 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Electricity cut tonight' SMS | [~ claimed 2026-11-10 05:46 UTC] |
-| 12 | 068 | Sun 15 Nov | 9 AM | RULES | Toll queue 100 m / 10 sec rule (NHAI 2021) | [~ claimed 2026-11-10 05:46 UTC] |
+| 11 | 067 | Sat 14 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Electricity cut tonight' SMS | [x] 067-power-cut-sms-scam |
+| 12 | 068 | Sun 15 Nov | 9 AM | RULES | SWAPPED angle (rule withdrawn by NHAI circular 19 Aug 2024): the viral '100 m queue = free toll' rule is GONE | [x] 068-toll-100m-rule-withdrawn |
 | 13 | 069 | Sun 15 Nov | 1 PM | GAMES | Count the ₹10 coins | [~ claimed 2026-11-10 05:46 UTC] |
 | 14 | 070 | Sun 15 Nov | 7 PM | BRAVE vs NORMAL | Building fire: lift vs stairs | [~ claimed 2026-11-10 05:46 UTC] |
 | 15 | 071 | Sun 15 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why every app wants your contacts | [~ claimed 2026-11-10 05:46 UTC] |
