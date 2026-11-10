@@ -42,29 +42,35 @@ def coin(c, x, y, kind, rot=0.0, a=1.0):
 
 class CountGame(OG.OddGrid):
     def __init__(self, d, segs, caps, title, series, target=10, n_target=9, others=((1, 6), (2, 6), (5, 7)), hunt=12.0,
-                 seed=3, mood='chill', draw=coin):
+                 seed=3, mood='chill', draw=coin, total=False, gap=112, step=0.35, margin=70):
+        """total=True: count ALL items and add their values (kinds = values); reveal shows a running ₹ total."""
         self.d, self.segs, self.caps, self.title, self.series, self.mood = d, segs, caps, title, series, mood
-        self.draw, self.target = draw, target
+        self.draw, self.target, self.total, self.step = draw, target, total, step
         rnd = random.Random(seed)
-        kinds = [target] * n_target + [kk for kk, n in others for _ in range(n)]
+        kinds = ([] if total else [target] * n_target) + [kk for kk, n in others for _ in range(n)]
         rnd.shuffle(kinds)
         pts = []
         x0, y0, w, h = BOX
         for kd in kinds:
             for _ in range(2000):
-                p = (x0 + 70 + rnd.random() * (w - 140), y0 + 70 + rnd.random() * (h - 140))
-                if all(math.dist(p, q) > 112 for q, _, _ in pts):
+                p = (x0 + margin + rnd.random() * (w - 2 * margin), y0 + margin + rnd.random() * (h - 2 * margin))
+                if all(math.dist(p, q) > gap for q, _, _ in pts):
                     break
             pts.append((p, kd, rnd.uniform(-0.6, 0.6)))
         self.items = pts
-        self.targets = sorted([p for p, kd, _ in pts if kd == target], key=lambda p: (p[1] // 200, p[0]))
+        sel = [(p, kd) for p, kd, _ in pts if total or kd == target]
+        sel.sort(key=lambda e: (e[0][1] // 200, e[0][0]))
+        self.targets = [p for p, _ in sel]
+        self.values = [kd for _, kd in sel]
+        if total:
+            n_target = sum(self.values)
         t0, t1 = 0.05, 0.05 + hunt
         self.lv = [[t0, t1, 0, None, (0, 0)]]
         self.t_freeze = t1
         v2 = segs[1][1] - segs[1][0]
         self.t_count = self.t_freeze + v2 + 0.2
         self.t_reveal = self.t_count + 3.0
-        self.dur = self.t_reveal + max(segs[2][1] - segs[2][0], 0.35 * n_target + 2.5) + 1.4
+        self.dur = self.t_reveal + max(segs[2][1] - segs[2][0], step * len(self.targets) + 2.5) + 1.4
         self.voice_at = [0.0, self.t_freeze, self.t_reveal]
         self.answer = n_target
         json.dump(dict(answer=n_target, dur=self.dur), open(f"{d}/game.json", "w"))
@@ -92,12 +98,17 @@ class CountGame(OG.OddGrid):
             c.restore()
         if t >= self.t_reveal:
             for n, (x, y) in enumerate(self.targets):
-                a = k(t, self.t_reveal + 0.2 + n * 0.35, self.t_reveal + 0.4 + n * 0.35)
+                a = k(t, self.t_reveal + 0.2 + n * self.step, self.t_reveal + 0.4 + n * self.step)
                 if a <= 0:
                     continue
                 c.arc(x, y, 62 * (1.5 - 0.5 * U.eob(a)), 0, 2 * math.pi); c.set_source_rgba(*GRN, a); c.set_line_width(8); c.stroke()
-                c.arc(x + 46, y - 46, 24, 0, 2 * math.pi); c.set_source_rgba(*GRN, a); c.fill()
-                T(c, str(n + 1), x + 46, y - 35, 30, (0.03, 0.1, 0.05), a, stroke=None)
+                if self.total:
+                    lab = f"+{self.values[n]}"
+                    S.rrect(c, x + 10, y - 80, 30 + 22 * len(lab), 50, 25); c.set_source_rgba(*GRN, a); c.fill()
+                    T(c, lab, x + 25 + 11 * len(lab), y - 43, 32, (0.03, 0.1, 0.05), a, stroke=None)
+                else:
+                    c.arc(x + 46, y - 46, 24, 0, 2 * math.pi); c.set_source_rgba(*GRN, a); c.fill()
+                    T(c, str(n + 1), x + 46, y - 35, 30, (0.03, 0.1, 0.05), a, stroke=None)
         sf.flush()
         rgb = VS.FXV.post(sf, 'studio', i, 0)
         ov = cairo.ImageSurface(cairo.FORMAT_ARGB32, VW, VH)
@@ -121,7 +132,7 @@ class CountGame(OG.OddGrid):
         elif t < self.t_reveal:
             T(o, "STOP!", 540, 240, 120, RED, lw=14)
             S.rrect(o, 120, 310, 840, 96, 48); o.set_source_rgba(0.05, 0.05, 0.08, 0.92); o.fill()
-            T(o, "HOW MANY? COMMENT THE NUMBER", 540, 374, 44, YEL, stroke=None)
+            T(o, "TOTAL? COMMENT THE AMOUNT" if self.total else "HOW MANY? COMMENT THE NUMBER", 540, 374, 44, YEL, stroke=None)
             if t > self.t_count:
                 m = 3 - int(t - self.t_count)
                 f = (t - self.t_count) % 1
@@ -132,8 +143,13 @@ class CountGame(OG.OddGrid):
                 o.restore()
         else:
             n = len(self.targets)
-            done = t > self.t_reveal + 0.4 + n * 0.35
-            T(o, f"ANSWER: {self.answer}" if done else "COUNTING...", 540, 260, 90 if done else 70, GRN if done else WHITE, lw=12)
+            done = t > self.t_reveal + 0.4 + n * self.step
+            if self.total:
+                m = sum(1 for j in range(n) if t > self.t_reveal + 0.4 + j * self.step)
+                run = sum(self.values[:m])
+                T(o, f"TOTAL: ₹{self.answer}" if done else f"₹{run}", 540, 260, 90 if done else 80, GRN if done else WHITE, lw=12)
+            else:
+                T(o, f"ANSWER: {self.answer}" if done else "COUNTING...", 540, 260, 90 if done else 70, GRN if done else WHITE, lw=12)
             if t > self.dur - 2.4:
                 K.stamp(o, t, self.dur - 2.4, "PLAY AGAIN >", 540, 380, RED, 54, -0.04)
         for n_, (a0, a1) in enumerate(self.segs):
