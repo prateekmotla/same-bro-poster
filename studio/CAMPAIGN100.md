@@ -30,12 +30,12 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 14 | 070 | Sun 15 Nov | 7 PM | BRAVE vs NORMAL | Building fire: lift vs stairs | [~ claimed 2026-11-10 05:46 UTC] |
 | 15 | 071 | Sun 15 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why every app wants your contacts | [~ claimed 2026-11-10 05:46 UTC] |
 | 16 | 072 | Mon 16 Nov | 9 AM | RULES | Hospital can't refuse emergency treatment (SC, Parmanand Katara) | [~ claimed 2026-11-10 05:46 UTC] |
-| 17 | 073 | Mon 16 Nov | 1 PM | GAMES | Cup shuffle #3 (IMPOSSIBLE) | [ ] |
-| 18 | 074 | Mon 16 Nov | 7 PM | BRAVE vs NORMAL | Friend choking: give water vs back blows | [ ] |
-| 19 | 075 | Mon 16 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Sent money by mistake, please return' | [ ] |
-| 20 | 076 | Tue 17 Nov | 9 AM | RULES | Zero FIR: any police station must register it | [ ] |
-| 21 | 077 | Tue 17 Nov | 1 PM | GAMES | Which line is longer? (illusion) | [ ] |
-| 22 | 078 | Tue 17 Nov | 7 PM | BRAVE vs NORMAL | Snake bite on trek: suck venom/tie tight vs stay still & hospital | [ ] |
+| 17 | 073 | Mon 16 Nov | 1 PM | GAMES | Cup shuffle #3 (IMPOSSIBLE) | [~ claimed 2026-11-10 05:55 UTC] |
+| 18 | 074 | Mon 16 Nov | 7 PM | BRAVE vs NORMAL | Friend choking: give water vs back blows | [~ claimed 2026-11-10 05:55 UTC] |
+| 19 | 075 | Mon 16 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Sent money by mistake, please return' | [~ claimed 2026-11-10 05:55 UTC] |
+| 20 | 076 | Tue 17 Nov | 9 AM | RULES | Zero FIR: any police station must register it | [~ claimed 2026-11-10 05:55 UTC] |
+| 21 | 077 | Tue 17 Nov | 1 PM | GAMES | Which line is longer? (illusion) | [~ claimed 2026-11-10 05:55 UTC] |
+| 22 | 078 | Tue 17 Nov | 7 PM | BRAVE vs NORMAL | Snake bite on trek: suck venom/tie tight vs stay still & hospital | [~ claimed 2026-11-10 05:55 UTC] |
 | 23 | 079 | Tue 17 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'Free delivery above ₹199' = bigger basket | [ ] |
 | 24 | 080 | Wed 18 Nov | 9 AM | RULES | Traffic cop can't take your car keys (verify MV Act/state rules) | [ ] |
 | 25 | 081 | Wed 18 Nov | 1 PM | GAMES | Memory flash: which item vanished? | [ ] |
