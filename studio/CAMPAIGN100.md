@@ -42,12 +42,12 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 26 | 082 | Wed 18 Nov | 7 PM | BRAVE vs NORMAL | Lost in a forest: keep walking vs stay put | [x] 082-brave-vs-normal-lost-in-forest |
 | 27 | 083 | Wed 18 Nov | 9 PM | SCAM/TRUTH | SCAM: Fake QR sticker at parking/petrol pump | [x] 083-fake-qr-sticker-scam |
 | 28 | 084 | Thu 19 Nov | 9 AM | RULES | DigiLocker licence/RC = valid as original (MoRTH 2018) | [x] 084-digilocker-licence-valid |
-| 29 | 085 | Thu 19 Nov | 1 PM | GAMES | Odd colour out (eye test) | [ ] |
-| 30 | 086 | Thu 19 Nov | 7 PM | BRAVE vs NORMAL | Earthquake indoors: run out vs drop-cover-hold | [ ] |
-| 31 | 087 | Thu 19 Nov | 9 PM | SCAM/TRUTH | TRUTH: IPL teams earn even when they lose | [ ] |
-| 32 | 088 | Fri 20 Nov | 9 AM | RULES | RTI for ₹10: get answers from any govt office | [ ] |
-| 33 | 089 | Fri 20 Nov | 1 PM | GAMES | Find hidden SAME BRO text | [ ] |
-| 34 | 090 | Fri 20 Nov | 7 PM | BRAVE vs NORMAL | Lightning in open: shelter under tree vs crouch low away | [ ] |
+| 29 | 085 | Thu 19 Nov | 1 PM | GAMES | Odd colour out (eye test) | [~ claimed 10 Nov 07:56Z] |
+| 30 | 086 | Thu 19 Nov | 7 PM | BRAVE vs NORMAL | Earthquake indoors: run out vs drop-cover-hold | [~ claimed 10 Nov 07:56Z] |
+| 31 | 087 | Thu 19 Nov | 9 PM | SCAM/TRUTH | TRUTH: IPL teams earn even when they lose | [~ claimed 10 Nov 07:56Z] |
+| 32 | 088 | Fri 20 Nov | 9 AM | RULES | RTI for ₹10: get answers from any govt office | [~ claimed 10 Nov 07:56Z] |
+| 33 | 089 | Fri 20 Nov | 1 PM | GAMES | Find hidden SAME BRO text | [~ claimed 10 Nov 07:56Z] |
+| 34 | 090 | Fri 20 Nov | 7 PM | BRAVE vs NORMAL | Lightning in open: shelter under tree vs crouch low away | [~ claimed 10 Nov 07:56Z] |
 | 35 | 091 | Fri 20 Nov | 9 PM | SCAM/TRUTH | SCAM: AI voice clone 'your son is in trouble' call | [ ] |
 | 36 | 092 | Sat 21 Nov | 9 AM | RULES | Credit card not closed in 7 days = ₹500/day to you (RBI 2022) | [ ] |
 | 37 | 093 | Sat 21 Nov | 1 PM | GAMES | Cup shuffle #4 (2 balls) | [ ] |
