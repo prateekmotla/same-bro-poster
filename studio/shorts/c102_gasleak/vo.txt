@@ -1,0 +1,7 @@
+[intense] घर आए, kitchen में gas की तेज़ smell. Brave बोला, light on करो, देखते हैं leak कहाँ है. Normal बोला, कोई switch मत छूना, खिड़कियाँ खोलो. तुम किसके साथ हो?
+[intense] Brave ने light का switch दबाने के लिए हाथ बढ़ाया. एक छोटी सी spark, और पूरी gas आग पकड़ सकती है.
+[casual] Normal ने regulator बंद किया, सारी खिड़कियाँ दरवाज़े खोले, और कोई switch, fan या lighter नहीं छुआ.
+कौन सही है? Comment करो, B या N.
+[serious] सही है Normal. Gas companies की safety advice, leak पे कोई भी switch on या off मत करो, spark से आग लग सकती है.
+Regulator बंद, खिड़कियाँ खुली, घर से बाहर निकलो, और LPG emergency helpline one nine zero six पे call करो.
+[casual] Gas की smell आए, तो light नहीं, खिड़की. तुम क्या करते?
