@@ -515,6 +515,10 @@
     "youtube": {
       "id": "7s9uH9QIADw",
       "at": "2026-11-08T04:25:15Z"
+    },
+    "instagram": {
+      "id": "18125395309940176",
+      "at": "2026-11-10T16:26:20Z"
     }
   },
   "041-service-charge-not-compulsory": {
@@ -593,6 +597,12 @@
     "youtube": {
       "id": "2jSEzEhG2LM",
       "at": "2026-11-10T14:29:26Z"
+    }
+  },
+  "051-checking-score-lowers-it": {
+    "youtube": {
+      "id": "PGm2wjq5tHs",
+      "at": "2026-11-10T16:25:16Z"
     }
   }
 }
