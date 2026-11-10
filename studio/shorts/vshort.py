@@ -55,6 +55,15 @@ def line_times(d):
     wl = words_line_times(d)
     if wl:
         return wl
+    import os
+    if os.path.exists(f"{d}/bounds.json"):   # manual line starts read off silencedetect gaps (no Scribe credits)
+        b = json.load(open(f"{d}/bounds.json"))
+        txt = [re.sub(r'\[[^\]]*\]\s*', '', l).strip() for l in open(f"{d}/vo.txt").read().split('\n') if l.strip()]
+        dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                    f"{d}/vo.mp3"], capture_output=True, text=True).stdout)
+        b = b + [dur]
+        assert len(b) == len(txt) + 1, "bounds.json needs one start per vo.txt line"
+        return [[b[i], b[i + 1]] for i in range(len(txt))], txt, dur
     txt = [re.sub(r'\[[^\]]*\]\s*', '', l).strip() for l in open(f"{d}/vo.txt").read().split('\n') if l.strip()]
     out = subprocess.run(["ffmpeg", "-i", f"{d}/vo.mp3", "-af", "silencedetect=n=-35dB:d=0.22", "-f", "null", "-"],
                          capture_output=True, text=True).stderr
