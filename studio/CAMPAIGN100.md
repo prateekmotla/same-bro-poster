@@ -54,7 +54,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 38 | 094 | Sat 21 Nov | 7 PM | BRAVE vs NORMAL | Brakes fail: yank handbrake vs downshift + gradual handbrake | [x] 094-brave-vs-normal-brakes-fail |
 | 39 | 095 | Sat 21 Nov | 9 PM | SCAM/TRUTH | TRUTH: Incognito mode isn't private | [x] 095-incognito-not-private |
 | 40 | 096 | Sun 22 Nov | 9 AM | RULES | Insurance free-look period: return policy, get money back (IRDAI 30 days) | [x] 096-insurance-free-look-30-days |
-| 41 | 097 | Sun 22 Nov | 1 PM | GAMES | Spot 3 differences: metro coach | [~ claimed 10 Nov 11:00Z] |
+| 41 | 097 | Sun 22 Nov | 1 PM | GAMES | Spot 3 differences: metro coach | [x] 097-same-bro-games-spot-metro |
 | 42 | 098 | Sun 22 Nov | 7 PM | BRAVE vs NORMAL | Swept by river current: swim against vs float downstream | [x] 098-brave-vs-normal-river-current |
 | 43 | 099 | Sun 22 Nov | 9 PM | SCAM/TRUTH | SCAM: Fake customer-care number on Google | [~ claimed 10 Nov 11:00Z] |
 | 44 | 100 | Mon 23 Nov | 9 AM | RULES | Minimum-balance penalty can't push balance negative (RBI 2014) | [~ claimed 10 Nov 11:00Z] |
