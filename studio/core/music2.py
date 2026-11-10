@@ -171,7 +171,7 @@ def bed(dur, seed, mood='chill', sr=SR):
                 if stp < 0:
                     continue
                 f = hz(dm(deg + stp) + 36)
-                add(mel, pluck(f, 0.4, M['pluck_cut']), t0 + s * beat / 4, 0.22)
+                add(mel, pluck(f, 0.4, M['pluck_cut'] * 0.6), t0 + s * beat / 4, 0.11)  # softer, duller (no arcade feel)
     # sidechain: duck pad/pluck/drums(not kick) on every kick
     sc_env = np.ones(N)
     rel = int(SR * beat * 0.45)
@@ -210,7 +210,8 @@ def rms_db(x):
     return 20 * np.log10(np.sqrt(np.mean(x ** 2)) + 1e-9)
 
 
-def mix(vo, dur, seed, mood, out_wav, below_db=14.0, duck_db=7.0, sfx=None):
+def mix(vo, dur, seed, mood, out_wav, below_db=18.0, duck_db=7.0, sfx=None):
+    # 18 dB (was 14): Prateek 10 Nov 2026 wants soft, subtle beds, nothing loud or video-game-like.
     """Voice + new bed. Bed sits `below_db` under the voice's speech level, and dips another `duck_db` while words are spoken."""
     v = _read_audio(vo) if isinstance(vo, str) else vo
     v = hp(v, 70)
