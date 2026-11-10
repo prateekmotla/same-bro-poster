@@ -1,0 +1,3 @@
+[excited] Impossible level. चार cups, full speed. देखते हैं तुम track कर पाते हो या नहीं. आँख मत झपकाना.
+[casual] रुको! Ball किस cup में है? Comment करो, एक, दो, तीन या चार.
+[excited] Ball यहाँ है! [casual] पकड़ लिया? तो तुम legend हो. नहीं पकड़ा? फिर से देखो.

@@ -1,0 +1,6 @@
+[excited] Level one. कौन सी line लंबी है? A या B? Comment करो.
+[casual] Answer, दोनों बिल्कुल same. ये arrow वाले सिरे, दिमाग को fool कर देते हैं.
+[excited] Level two. पटरी के बीच ये दो lines. ऊपर वाली लंबी, या नीचे वाली?
+[casual] फिर से same! पीछे जाती पटरी, ऊपर वाली को बड़ा दिखाती है.
+[excited] Final level. कौन सा orange circle बड़ा है? Left या right?
+[casual] दोनों same size! Score कितना हुआ? Comment करो, और फिर से देखो.

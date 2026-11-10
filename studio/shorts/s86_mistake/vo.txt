@@ -1,0 +1,7 @@
+[intense] SMS आया, आपके account में दस हज़ार credit हुए. फिर call, भाई गलती से भेज दिए, please वापस कर दो.
+पर ये SMS fake है. Account में एक रुपया नहीं आया. वो बस चाहते हैं, कि तुम अपनी जेब से भेजो.
+[casual] तुम क्या करोगे? A, honest बन के वापस भेज दो. B, पहले bank app में balance check करो. Comment करो.
+[serious] सही है B. SMS पे नहीं, सिर्फ अपने bank app या passbook पे भरोसा करो.
+और सच में पैसे आए भी हों, तो खुद मत भेजो. बोलो, अपने bank में complaint करो, bank ही reverse करेगा.
+कोई collect request या link आए, तो PIN मत डालो. Fraud लगे, तो 1930 पे call करो.
+[casual] Mummy papa को भेजो, ताकि उन्हें ये call आए, तो वो भी B चुनें.
