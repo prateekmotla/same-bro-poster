@@ -32,7 +32,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 16 | 072 | Mon 16 Nov | 9 AM | RULES | Hospital can't refuse emergency treatment (SC, Parmanand Katara) | [x] 072-hospital-emergency-treat-first |
 | 17 | 073 | Mon 16 Nov | 1 PM | GAMES | Cup shuffle #3 (IMPOSSIBLE) | [x] 073-same-bro-games-impossible-cups |
 | 18 | 074 | Mon 16 Nov | 7 PM | BRAVE vs NORMAL | Friend choking: give water vs back blows | [x] 074-brave-vs-normal-choking |
-| 19 | 075 | Mon 16 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Sent money by mistake, please return' | [~ claimed 2026-11-10 05:55 UTC] |
+| 19 | 075 | Mon 16 Nov | 9 PM | SCAM/TRUTH | SCAM: 'Sent money by mistake, please return' | [x] 075-sent-by-mistake-scam |
 | 20 | 076 | Tue 17 Nov | 9 AM | RULES | Zero FIR: any police station must register it | [~ claimed 2026-11-10 05:55 UTC] |
 | 21 | 077 | Tue 17 Nov | 1 PM | GAMES | Which line is longer? (illusion) | [~ claimed 2026-11-10 05:55 UTC] |
 | 22 | 078 | Tue 17 Nov | 7 PM | BRAVE vs NORMAL | Snake bite on trek: suck venom/tie tight vs stay still & hospital | [~ claimed 2026-11-10 05:55 UTC] |
