@@ -155,6 +155,7 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
 - Lightning note: US NWS no longer recommends the 'lightning crouch' (it doesn't make you safe); Indian IMD/NDMA lists still say squat feet-together as a LAST resort in the open, so 090 says 'building/car first, squat only if stuck'.
 - Fact-check note: WebFetch on ndma.gov.in / rtionline.gov.in / business-standard was blocked this run; facts checked via WebSearch results + RTI Act text. IPL pool share is partly weighted by league position (Business Insider), so 087 says 'every team gets a share', not 'equal share'.
 - Credits 11 Nov run: 086 638, 087 603, 088 538, 089 268, 090 624, 101 260 = 2,931. No Scribe. No credit errors.
+- **CREDITS OUT 11 Nov ~07:03 UTC (12:33 PM IST)**: ElevenLabs quota 131,000 reached, 465 credits left. 11 Nov run 2 voiced 103-107 (flow OvvCIZHeJPZF4nlbaVlu: 103 571, 104 543, 105 240, 106 551, 106/107 588) then 108 FAILED (needs ~584). 108 claim released. Next runs: do nothing until Prateek tops up (see campaign rule 7).
 - Campaign progress after the 11 Nov run: 46 of 100 made (057-102 all done). Stale claims 103-108 (10 Nov 11:13Z) are free to take over; next free rows after those: 109+.
 - Campaign progress after run 5: 34 of 100 made (057-084, 091-096). 085-090 claimed by another run; next free row: 097.
 
