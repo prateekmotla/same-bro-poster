@@ -1,0 +1,6 @@
+[casual] दो packet. एक पे best before निकल गया. दूसरे पे expiry date निकल गई. कौनसा अभी भी safe हो सकता है?
+Question. A, best before वाला. B, expiry वाला. Comment करो.
+[serious] Answer है A. FSSAI के rules में, best before मतलब quality की date. उसके बाद taste थोड़ा कम हो सकता है, पर food safe रह सकता है, अगर packet ठीक है और सही store किया है.
+Expiry या use by मतलब safety की date. उसके बाद food safe नहीं माना जाता, और दुकान उसे बेच ही नहीं सकती.
+[casual] और हर packet पे manufacture date और expiry लिखना ज़रूरी है. Best before optional है.
+Comment करो, last time expiry date कब check की थी?
