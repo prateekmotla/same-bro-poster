@@ -104,8 +104,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 88 | 144 | Fri 04 Dec | 9 AM | RULES | Check your PF balance by missed call (EPFO) | [x] 144-pf-balance-missed-call-rules |
 | 89 | 145 | Fri 04 Dec | 1 PM | GAMES | Odd emoji out (festival) | [x] 145-same-bro-games-festival-odd-diya |
 | 90 | 146 | Fri 04 Dec | 7 PM | BRAVE vs NORMAL | Tyre burst at speed: brake hard vs hold steering, ease off | [x] 146-brave-vs-normal-tyre-burst |
-| 91 | 147 | Fri 04 Dec | 9 PM | SCAM/TRUTH | SCAM: Loan app with 'zero interest' | [~ claimed 2026-11-11T15:56Z] |
-| 92 | 148 | Sat 05 Dec | 9 AM | RULES | Ambulance 108/112 free; 112 single emergency number | [~ claimed 2026-11-11T15:56Z] |
+| 91 | 147 | Fri 04 Dec | 9 PM | SCAM/TRUTH | SCAM: Loan app with 'zero interest' | [x] 147-zero-interest-loan-app-scam |
+| 92 | 148 | Sat 05 Dec | 9 AM | RULES | Ambulance 108/112 free; 112 single emergency number | [x] 148-112-single-emergency-number-rules |
 | 93 | 149 | Sat 05 Dec | 1 PM | GAMES | Spot 3 differences: petrol pump | [x] 149-same-bro-games-spot-petrol-pump |
 | 94 | 150 | Sat 05 Dec | 7 PM | BRAVE vs NORMAL | Burn on hand: ice/toothpaste vs cool running water 20 min | [ ] |
 | 95 | 151 | Sat 05 Dec | 9 PM | SCAM/TRUTH | TRUTH: Cashback 'coins' aren't money | [ ] |
