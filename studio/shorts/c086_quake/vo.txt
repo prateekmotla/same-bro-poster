@@ -1,0 +1,7 @@
+[intense] अचानक building हिलने लगी, earthquake! Brave बोला, भागो, सीढ़ियों से बाहर निकलो. Normal बोला, नहीं, table के नीचे बैठो. तुम किसके साथ हो?
+[intense] Brave हिलती सीढ़ियों की तरफ भागा. ऊपर से glass और सामान गिर रहा है, रास्ते में ही खतरा.
+[casual] Normal नीचे बैठा, मज़बूत table के नीचे घुसा, सिर cover किया, और table पकड़ के रखी.
+कौन सही है? Comment करो, B या N.
+[serious] सही है Normal. NDMA का rule, Drop, Cover, Hold on. हिलते time भागोगे, तो गिरता glass और सामान ही लगेगा.
+Shaking रुकने तक अंदर रहो, खिड़की से दूर, lift बिल्कुल नहीं. रुकने के बाद आराम से सीढ़ियों से बाहर.
+[casual] Earthquake में, भागो मत, बैठो. तुम क्या करते?
