@@ -58,7 +58,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 42 | 098 | Sun 22 Nov | 7 PM | BRAVE vs NORMAL | Swept by river current: swim against vs float downstream | [x] 098-brave-vs-normal-river-current |
 | 43 | 099 | Sun 22 Nov | 9 PM | SCAM/TRUTH | SCAM: Fake customer-care number on Google | [x] 099-fake-customer-care-number-scam |
 | 44 | 100 | Mon 23 Nov | 9 AM | RULES | Minimum-balance penalty can't push balance negative (RBI 2014) | [x] 100-minimum-balance-no-negative |
-| 45 | 101 | Mon 23 Nov | 1 PM | GAMES | Count the notes (₹ total) | [~ claimed 11 Nov 05:58Z] |
+| 45 | 101 | Mon 23 Nov | 1 PM | GAMES | Count the notes (₹ total) | [x] 101-same-bro-games-total-the-notes |
 | 46 | 102 | Mon 23 Nov | 7 PM | BRAVE vs NORMAL | Gas leak smell: switch light on to check vs open windows, touch no switch | [x] 102-brave-vs-normal-gas-leak |
 | 47 | 103 | Mon 23 Nov | 9 PM | SCAM/TRUTH | TRUTH: '₹100 off first order' — what you cost them | [~ claimed 10 Nov 11:13Z] |
 | 48 | 104 | Tue 24 Nov | 9 AM | RULES | 5 free ATM withdrawals/month, then the fee cap (RBI 2025) | [~ claimed 10 Nov 11:13Z] |
