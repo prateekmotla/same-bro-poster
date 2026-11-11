@@ -1,0 +1,3 @@
+[excited] Speed run! तीन cups, एक ball, और इस बार shuffle double speed पे. आँख मत झपकाना.
+[casual] रुको! Ball किस cup में है? Comment करो, one, two या three.
+[excited] यहाँ है! [casual] पकड़ लिया? तो तुम्हारी आँखें fast हैं. नहीं? फिर से देखो.

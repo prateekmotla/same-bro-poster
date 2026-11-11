@@ -70,7 +70,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 54 | 110 | Wed 25 Nov | 7 PM | BRAVE vs NORMAL | Dog bite small scratch: ignore vs wash 15 min + rabies shot | [~ claimed 2026-11-11T09:58Z] |
 | 55 | 111 | Wed 25 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'No added sugar' still has sugar | [~ claimed 2026-11-11T09:58Z] |
 | 56 | 112 | Thu 26 Nov | 9 AM | RULES | TTE can't check tickets of sleeping passengers 10 PM-6 AM (verify Rlys rule) | [~ claimed 2026-11-11T09:58Z] |
-| 57 | 113 | Thu 26 Nov | 1 PM | GAMES | Cup shuffle #5 (speed run) | [~ claimed 2026-11-11T09:58Z] |
+| 57 | 113 | Thu 26 Nov | 1 PM | GAMES | Cup shuffle #5 (speed run) | [x] 113-same-bro-games-cup-speed-run |
 | 58 | 114 | Thu 26 Nov | 7 PM | BRAVE vs NORMAL | Phone fell on metro track: jump down vs call staff | [ ] |
 | 59 | 115 | Thu 26 Nov | 9 PM | SCAM/TRUTH | SCAM: Screen-sharing app 'refund' call | [ ] |
 | 60 | 116 | Fri 27 Nov | 9 AM | RULES | Wrong item / defective product: refund rights + e-Daakhil complaint | [ ] |
