@@ -1,0 +1,6 @@
+[excited] Level one. Car A, दो घंटे में एक सौ बीस km. Car B, एक घंटे में नब्बे km. कौन तेज़? Comment करो.
+[casual] B! A की speed साठ, B की नब्बे km per hour.
+[excited] Level two. Car A, पाँच second में सौ meter. Car B, एक minute में एक km. कौन तेज़?
+[casual] A! A है बहत्तर km per hour, B बस साठ.
+[excited] Final level. एक सौ बीस km. A पूरे रास्ते साठ पे. B आधा रास्ता एक सौ बीस पे, बाकी चालीस पे. कौन पहले पहुँचेगा?
+[casual] Tie! दोनों को पूरे दो घंटे लगे. Average speed का trap. Score कितना हुआ? Comment करो, और फिर से देखो.

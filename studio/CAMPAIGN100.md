@@ -82,7 +82,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 66 | 122 | Sat 28 Nov | 7 PM | BRAVE vs NORMAL | Friend has heatstroke: chug ice water vs cool body in shade | [x] 122-brave-vs-normal-heatstroke |
 | 67 | 123 | Sat 28 Nov | 9 PM | SCAM/TRUTH | SCAM: OLX 'army officer' buyer | [x] 123-olx-army-officer-qr-scam |
 | 68 | 124 | Sun 29 Nov | 9 AM | RULES | Free legal aid: who gets it (NALSA) | [x] 124-free-legal-aid-who-gets-it |
-| 69 | 125 | Sun 29 Nov | 1 PM | GAMES | Which car is faster? (logic) | [~ claimed 2026-11-11T11:55Z] |
+| 69 | 125 | Sun 29 Nov | 1 PM | GAMES | Which car is faster? (logic) | [x] 125-same-bro-games-which-car-faster |
 | 70 | 126 | Sun 29 Nov | 7 PM | BRAVE vs NORMAL | Someone electrocuted: pull by hand vs cut power / dry stick | [ ] |
 | 71 | 127 | Sun 29 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why DMart is cheaper (owns its stores) | [ ] |
 | 72 | 128 | Mon 30 Nov | 9 AM | RULES | Bank locker: bank liable up to 100x rent (RBI 2022) | [ ] |
