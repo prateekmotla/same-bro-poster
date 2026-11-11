@@ -110,7 +110,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 94 | 150 | Sat 05 Dec | 7 PM | BRAVE vs NORMAL | Burn on hand: ice/toothpaste vs cool running water 20 min | [~ claimed 2026-11-11 16:58 UTC] |
 | 95 | 151 | Sat 05 Dec | 9 PM | SCAM/TRUTH | TRUTH: Cashback 'coins' aren't money | [~ claimed 2026-11-11 16:58 UTC] |
 | 96 | 152 | Sun 06 Dec | 9 AM | RULES | Electricity bill wrong? Consumer grievance forum rules (verify state) | [~ claimed 2026-11-11 16:58 UTC] |
-| 97 | 153 | Sun 06 Dec | 1 PM | GAMES | Cup shuffle FINALE (all levels) | [~ claimed 2026-11-11 16:58 UTC] |
+| 97 | 153 | Sun 06 Dec | 1 PM | GAMES | Cup shuffle FINALE (all levels) | [x] 153-same-bro-games-cup-finale |
 | 98 | 154 | Sun 06 Dec | 7 PM | BRAVE vs NORMAL | Dog charging at you: run vs stand still, side-on | [~ claimed 2026-11-11 16:58 UTC] |
 | 99 | 155 | Sun 06 Dec | 9 PM | SCAM/TRUTH | SCAM: WhatsApp 'stock tips' investment group | [~ claimed 2026-11-11 16:58 UTC] |
 | 100 | 156 | Mon 07 Dec | 9 AM | RULES | Expiry date vs best before: what FSSAI says | [ ] |
