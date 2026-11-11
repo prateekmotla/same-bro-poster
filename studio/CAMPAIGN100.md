@@ -89,8 +89,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 73 | 129 | Mon 30 Nov | 1 PM | GAMES | Find the fake ₹500 note (visual details, generic) | [x] 129-same-bro-games-find-fake-note |
 | 74 | 130 | Mon 30 Nov | 7 PM | BRAVE vs NORMAL | Car sinking: open door vs break/open window first | [x] 130-brave-vs-normal-sinking-car |
 | 75 | 131 | Mon 30 Nov | 9 PM | SCAM/TRUTH | SCAM: SIM swap — sudden 'no network' | [x] 131-sim-swap-no-network-scam |
-| 76 | 132 | Tue 01 Dec | 9 AM | RULES | Hotel must give drinking water free? (verify) / else: E-commerce 'no return' still has defect rights | [~ claimed 2026-11-11T13:56Z] |
-| 77 | 133 | Tue 01 Dec | 1 PM | GAMES | Cup shuffle #6 (fake-out swaps) | [~ claimed 2026-11-11T13:56Z] |
+| 76 | 132 | Tue 01 Dec | 9 AM | RULES | SWAPPED (hotel free-water rule rests on the disputed Sarais Act 1867; fallback already used by 116): Phone stolen? Block it all over India on Sanchar Saathi (CEIR) | [x] 132-lost-phone-block-sanchar-saathi |
+| 77 | 133 | Tue 01 Dec | 1 PM | GAMES | Cup shuffle #6 (fake-out swaps) | [x] 133-same-bro-games-fake-out-cups |
 | 78 | 134 | Tue 01 Dec | 7 PM | BRAVE vs NORMAL | Crowd crush: push back vs move diagonally out | [~ claimed 2026-11-11T13:56Z] |
 | 79 | 135 | Tue 01 Dec | 9 PM | SCAM/TRUTH | TRUTH: Charge to 80% for battery life | [~ claimed 2026-11-11T13:56Z] |
 | 80 | 136 | Wed 02 Dec | 9 AM | RULES | Gas cylinder: free ₹50 lakh LPG accident insurance (verify OMC) | [~ claimed 2026-11-11T13:56Z] |

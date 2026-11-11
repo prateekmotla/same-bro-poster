@@ -1,0 +1,6 @@
+[casual] Phone चोरी हो गया. सब बोले, अब गया, भूल जाओ. पर ज़्यादातर लोगों को ये पता ही नहीं.
+Question. A, कुछ नहीं हो सकता. B, सरकार के portal पे phone पूरे India में block करवा सकते हो. Comment करो.
+[serious] Answer है B. पहले police complaint करो, online भी होती है. फिर Sanchar Saathi portal पे, block lost phone.
+IMEI number और complaint की copy डालो. Phone हर network पे block, कोई भी SIM डालो, चलेगा ही नहीं.
+और phone वापस मिल गया, तो उसी portal से unblock.
+[casual] अपने phone का IMEI पता है? Star hash zero six hash dial करो, और note कर लो. Comment करो.

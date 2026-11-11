@@ -31,7 +31,8 @@ def ease(x):
 
 class CupGame:
     def __init__(self, d, segs, caps, title, series, levels=((4, 0.72), (4, 0.5), (4, 0.34)), seed=7,
-                 start_cup=1, cup_col=(0.86, 0.16, 0.2), mood='chill', ncups=3, ball2=None):
+                 start_cup=1, cup_col=(0.86, 0.16, 0.2), mood='chill', ncups=3, ball2=None, fakes=()):
+        self.fakes = set(fakes)  # swap indices that are FAKE-OUTS: cups start to cross, then go back (no swap)
         self.d, self.segs, self.caps, self.title, self.series = d, segs, caps, title, series
         self.n = ncups
         self.SX = SLOTX if ncups == 3 else [180 + i * 240 for i in range(ncups)]
@@ -61,7 +62,9 @@ class CupGame:
         self.ball_cup = start_cup
         self.balls = [start_cup] + ([ball2] if ball2 is not None else [])
         slots = list(range(ncups))  # slots[cup_id] = slot index
-        for (_, _, a, b, _) in self.swaps:
+        for si, (_, _, a, b, _) in enumerate(self.swaps):
+            if si in self.fakes:
+                continue
             ia, ib = slots.index(a), slots.index(b)
             slots[ia], slots[ib] = b, a
         self.final_slot = slots[self.ball_cup]
@@ -74,13 +77,18 @@ class CupGame:
         SX = self.SX
         slots = list(range(self.n))
         pos = [[SX[s], 0.0, 1.0, 0] for s in slots]
-        for (t0, t1, a, b, _) in self.swaps:
+        for si, (t0, t1, a, b, _) in enumerate(self.swaps):
             ia, ib = slots.index(a), slots.index(b)
+            fake = si in self.fakes
+            if t >= t1 and fake:
+                continue
             if t >= t1:
                 slots[ia], slots[ib] = b, a
                 continue
             if t > t0:
                 e = ease((t - t0) / (t1 - t0))
+                if fake:  # go 35% of the way, then back
+                    e = 0.35 * math.sin(math.pi * e)
                 xa = SX[a] + (SX[b] - SX[a]) * e
                 xb = SX[b] + (SX[a] - SX[b]) * e
                 arc = math.sin(math.pi * e)
