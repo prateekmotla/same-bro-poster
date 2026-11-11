@@ -1,0 +1,6 @@
+[intense] दोपहर से phone में no network. Restart किया, फिर भी नहीं. सोचा tower की problem है.
+Question. A, कल तक wait करो. B, अभी alert हो जाओ, ये scam हो सकता है. Comment करो.
+[serious] Answer है B. ये SIM swap हो सकता है. Fraudster ने fake ID से तुम्हारा duplicate SIM निकलवा लिया. Duplicate चालू, तुम्हारी SIM बंद.
+अब bank के OTP उसके पास जाएंगे. इसीलिए नई SIM पे चौबीस घंटे SMS बंद रहते हैं, DoT का rule.
+[casual] तो लंबा no network हो, तो तुरंत operator को call करो, और bank से UPI, net banking block करवाओ.
+Fraud हो गया, तो one nine three zero. और SIM बदलने की call आए, जो तुमने नहीं माँगी, तो मना करो. Comment करो, कभी हुआ ऐसा?
