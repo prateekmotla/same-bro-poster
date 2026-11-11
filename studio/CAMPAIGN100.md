@@ -43,11 +43,11 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 27 | 083 | Wed 18 Nov | 9 PM | SCAM/TRUTH | SCAM: Fake QR sticker at parking/petrol pump | [x] 083-fake-qr-sticker-scam |
 | 28 | 084 | Thu 19 Nov | 9 AM | RULES | DigiLocker licence/RC = valid as original (MoRTH 2018) | [x] 084-digilocker-licence-valid |
 | 29 | 085 | Thu 19 Nov | 1 PM | GAMES | Odd colour out (eye test) | [x] 085-same-bro-games-odd-colour-eye-test |
-| 30 | 086 | Thu 19 Nov | 7 PM | BRAVE vs NORMAL | Earthquake indoors: run out vs drop-cover-hold | [~ claimed 10 Nov 07:56Z] |
-| 31 | 087 | Thu 19 Nov | 9 PM | SCAM/TRUTH | TRUTH: IPL teams earn even when they lose | [~ claimed 10 Nov 07:56Z] |
-| 32 | 088 | Fri 20 Nov | 9 AM | RULES | RTI for ₹10: get answers from any govt office | [~ claimed 10 Nov 07:56Z] |
-| 33 | 089 | Fri 20 Nov | 1 PM | GAMES | Find hidden SAME BRO text | [~ claimed 10 Nov 07:56Z] |
-| 34 | 090 | Fri 20 Nov | 7 PM | BRAVE vs NORMAL | Lightning in open: shelter under tree vs crouch low away | [~ claimed 10 Nov 07:56Z] |
+| 30 | 086 | Thu 19 Nov | 7 PM | BRAVE vs NORMAL | Earthquake indoors: run out vs drop-cover-hold | [~ claimed 11 Nov 05:58Z] |
+| 31 | 087 | Thu 19 Nov | 9 PM | SCAM/TRUTH | TRUTH: IPL teams earn even when they lose | [~ claimed 11 Nov 05:58Z] |
+| 32 | 088 | Fri 20 Nov | 9 AM | RULES | RTI for ₹10: get answers from any govt office | [~ claimed 11 Nov 05:58Z] |
+| 33 | 089 | Fri 20 Nov | 1 PM | GAMES | Find hidden SAME BRO text | [~ claimed 11 Nov 05:58Z] |
+| 34 | 090 | Fri 20 Nov | 7 PM | BRAVE vs NORMAL | Lightning in open: shelter under tree vs crouch low away | [~ claimed 11 Nov 05:58Z] |
 | 35 | 091 | Fri 20 Nov | 9 PM | SCAM/TRUTH | SCAM: AI voice clone 'your son is in trouble' call | [x] 091-ai-voice-clone-scam |
 | 36 | 092 | Sat 21 Nov | 9 AM | RULES | Credit card not closed in 7 days = ₹500/day to you (RBI 2022) | [x] 092-credit-card-closure-500-a-day |
 | 37 | 093 | Sat 21 Nov | 1 PM | GAMES | Cup shuffle #4 (2 balls) | [x] 093-same-bro-games-two-balls |
@@ -58,7 +58,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 42 | 098 | Sun 22 Nov | 7 PM | BRAVE vs NORMAL | Swept by river current: swim against vs float downstream | [x] 098-brave-vs-normal-river-current |
 | 43 | 099 | Sun 22 Nov | 9 PM | SCAM/TRUTH | SCAM: Fake customer-care number on Google | [x] 099-fake-customer-care-number-scam |
 | 44 | 100 | Mon 23 Nov | 9 AM | RULES | Minimum-balance penalty can't push balance negative (RBI 2014) | [x] 100-minimum-balance-no-negative |
-| 45 | 101 | Mon 23 Nov | 1 PM | GAMES | Count the notes (₹ total) | [~ claimed 10 Nov 11:00Z] |
+| 45 | 101 | Mon 23 Nov | 1 PM | GAMES | Count the notes (₹ total) | [~ claimed 11 Nov 05:58Z] |
 | 46 | 102 | Mon 23 Nov | 7 PM | BRAVE vs NORMAL | Gas leak smell: switch light on to check vs open windows, touch no switch | [x] 102-brave-vs-normal-gas-leak |
 | 47 | 103 | Mon 23 Nov | 9 PM | SCAM/TRUTH | TRUTH: '₹100 off first order' — what you cost them | [~ claimed 10 Nov 11:13Z] |
 | 48 | 104 | Tue 24 Nov | 9 AM | RULES | 5 free ATM withdrawals/month, then the fee cap (RBI 2025) | [~ claimed 10 Nov 11:13Z] |
