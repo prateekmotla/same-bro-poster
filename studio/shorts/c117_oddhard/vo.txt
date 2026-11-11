@@ -1,0 +1,3 @@
+[excited] Eye test, hard mode. हर level में, एक circle का colour बस ज़रा सा अलग है. पिछली बार से भी कम. Timer खत्म होने से पहले ढूँढो.
+[casual] रुको! Last level. मिला? Comment करो, row और column, जैसे C5.
+[excited] यहाँ है! [casual] तीनों पकड़े? तो तुम्हारी आँखें pro level हैं. फिर से try करो.
