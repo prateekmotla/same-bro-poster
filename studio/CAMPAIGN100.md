@@ -83,12 +83,12 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 67 | 123 | Sat 28 Nov | 9 PM | SCAM/TRUTH | SCAM: OLX 'army officer' buyer | [x] 123-olx-army-officer-qr-scam |
 | 68 | 124 | Sun 29 Nov | 9 AM | RULES | Free legal aid: who gets it (NALSA) | [x] 124-free-legal-aid-who-gets-it |
 | 69 | 125 | Sun 29 Nov | 1 PM | GAMES | Which car is faster? (logic) | [x] 125-same-bro-games-which-car-faster |
-| 70 | 126 | Sun 29 Nov | 7 PM | BRAVE vs NORMAL | Someone electrocuted: pull by hand vs cut power / dry stick | [ ] |
-| 71 | 127 | Sun 29 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why DMart is cheaper (owns its stores) | [ ] |
-| 72 | 128 | Mon 30 Nov | 9 AM | RULES | Bank locker: bank liable up to 100x rent (RBI 2022) | [ ] |
-| 73 | 129 | Mon 30 Nov | 1 PM | GAMES | Find the fake ₹500 note (visual details, generic) | [ ] |
-| 74 | 130 | Mon 30 Nov | 7 PM | BRAVE vs NORMAL | Car sinking: open door vs break/open window first | [ ] |
-| 75 | 131 | Mon 30 Nov | 9 PM | SCAM/TRUTH | SCAM: SIM swap — sudden 'no network' | [ ] |
+| 70 | 126 | Sun 29 Nov | 7 PM | BRAVE vs NORMAL | Someone electrocuted: pull by hand vs cut power / dry stick | [~ claimed 11 Nov 12:57Z] |
+| 71 | 127 | Sun 29 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why DMart is cheaper (owns its stores) | [~ claimed 11 Nov 12:57Z] |
+| 72 | 128 | Mon 30 Nov | 9 AM | RULES | Bank locker: bank liable up to 100x rent (RBI 2022) | [~ claimed 11 Nov 12:57Z] |
+| 73 | 129 | Mon 30 Nov | 1 PM | GAMES | Find the fake ₹500 note (visual details, generic) | [~ claimed 11 Nov 12:57Z] |
+| 74 | 130 | Mon 30 Nov | 7 PM | BRAVE vs NORMAL | Car sinking: open door vs break/open window first | [~ claimed 11 Nov 12:57Z] |
+| 75 | 131 | Mon 30 Nov | 9 PM | SCAM/TRUTH | SCAM: SIM swap — sudden 'no network' | [~ claimed 11 Nov 12:57Z] |
 | 76 | 132 | Tue 01 Dec | 9 AM | RULES | Hotel must give drinking water free? (verify) / else: E-commerce 'no return' still has defect rights | [ ] |
 | 77 | 133 | Tue 01 Dec | 1 PM | GAMES | Cup shuffle #6 (fake-out swaps) | [ ] |
 | 78 | 134 | Tue 01 Dec | 7 PM | BRAVE vs NORMAL | Crowd crush: push back vs move diagonally out | [ ] |
