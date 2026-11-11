@@ -44,7 +44,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 28 | 084 | Thu 19 Nov | 9 AM | RULES | DigiLocker licence/RC = valid as original (MoRTH 2018) | [x] 084-digilocker-licence-valid |
 | 29 | 085 | Thu 19 Nov | 1 PM | GAMES | Odd colour out (eye test) | [x] 085-same-bro-games-odd-colour-eye-test |
 | 30 | 086 | Thu 19 Nov | 7 PM | BRAVE vs NORMAL | Earthquake indoors: run out vs drop-cover-hold | [x] 086-brave-vs-normal-earthquake |
-| 31 | 087 | Thu 19 Nov | 9 PM | SCAM/TRUTH | TRUTH: IPL teams earn even when they lose | [~ claimed 11 Nov 05:58Z] |
+| 31 | 087 | Thu 19 Nov | 9 PM | SCAM/TRUTH | TRUTH: IPL teams earn even when they lose | [x] 087-ipl-teams-earn-even-when-they-lose |
 | 32 | 088 | Fri 20 Nov | 9 AM | RULES | RTI for ₹10: get answers from any govt office | [~ claimed 11 Nov 05:58Z] |
 | 33 | 089 | Fri 20 Nov | 1 PM | GAMES | Find hidden SAME BRO text | [~ claimed 11 Nov 05:58Z] |
 | 34 | 090 | Fri 20 Nov | 7 PM | BRAVE vs NORMAL | Lightning in open: shelter under tree vs crouch low away | [x] 090-brave-vs-normal-lightning |
