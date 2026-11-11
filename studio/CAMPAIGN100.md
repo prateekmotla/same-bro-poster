@@ -42,7 +42,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 26 | 082 | Wed 18 Nov | 7 PM | BRAVE vs NORMAL | Lost in a forest: keep walking vs stay put | [x] 082-brave-vs-normal-lost-in-forest |
 | 27 | 083 | Wed 18 Nov | 9 PM | SCAM/TRUTH | SCAM: Fake QR sticker at parking/petrol pump | [x] 083-fake-qr-sticker-scam |
 | 28 | 084 | Thu 19 Nov | 9 AM | RULES | DigiLocker licence/RC = valid as original (MoRTH 2018) | [x] 084-digilocker-licence-valid |
-| 29 | 085 | Thu 19 Nov | 1 PM | GAMES | Odd colour out (eye test) | [~ claimed 2026-11-11T05:40Z live chat] |
+| 29 | 085 | Thu 19 Nov | 1 PM | GAMES | Odd colour out (eye test) | [x] 085-same-bro-games-odd-colour-eye-test |
 | 30 | 086 | Thu 19 Nov | 7 PM | BRAVE vs NORMAL | Earthquake indoors: run out vs drop-cover-hold | [~ claimed 10 Nov 07:56Z] |
 | 31 | 087 | Thu 19 Nov | 9 PM | SCAM/TRUTH | TRUTH: IPL teams earn even when they lose | [~ claimed 10 Nov 07:56Z] |
 | 32 | 088 | Fri 20 Nov | 9 AM | RULES | RTI for ₹10: get answers from any govt office | [~ claimed 10 Nov 07:56Z] |

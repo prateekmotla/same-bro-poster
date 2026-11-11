@@ -150,6 +150,7 @@ Glyph tip: Poppins has no arrow glyphs (→ ↑ ↓ show as boxes). Use ">" or w
 - Series numbers used by run 5 ASSUME the claimed 085-090 get: Games #9 (085) / #10 (089), Brave vs Normal #8 (086) / #9 (090), They're Tricking You #4 (087), Rules #10 (088). If that run swaps a series, renumber.
 - Script dirs from run 5 on are named c<folder>_<slug> (e.g. c091_voiceclone) to avoid s96+ name clashes between parallel runs. bounds.json = line STARTS only (no end time).
 - Credits 10 Nov run 5: 091 650, 092 598, 093 231, 094 709, 095 582, 096 585 = 3,355. No Scribe. Day total ~15,300. No credit errors.
+- 11 Nov ~11:10 AM IST (live chat, Prateek 'make 1 short'): queued HELD 085 Same Bro Games #9 odd colour eye test (c085_oddcolour, oddgrid.py with a colour-dot icon, answers B5/A3/B2), 279 credits. Scheduled runs were failing with USAGE LIMIT since 10 Nov evening; stale claims 086-090, 101, 103-108 still open.
 - Campaign progress after run 5: 34 of 100 made (057-084, 091-096). 085-090 claimed by another run; next free row: 097.
 
 ## Queue / status

@@ -1,0 +1,3 @@
+[excited] Eye test. हर level में, एक circle का colour बाकी सब से थोड़ा अलग है. Timer खत्म होने से पहले ढूँढो.
+[casual] रुको! Last level. मिला? Comment करो, row और column, जैसे B4.
+[excited] यहाँ है! [casual] तीनों levels पकड़े? तो तुम्हारी आँखें सच में sharp हैं. फिर से try करो.
