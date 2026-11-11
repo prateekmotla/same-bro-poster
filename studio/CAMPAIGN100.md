@@ -89,12 +89,12 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 73 | 129 | Mon 30 Nov | 1 PM | GAMES | Find the fake ₹500 note (visual details, generic) | [x] 129-same-bro-games-find-fake-note |
 | 74 | 130 | Mon 30 Nov | 7 PM | BRAVE vs NORMAL | Car sinking: open door vs break/open window first | [x] 130-brave-vs-normal-sinking-car |
 | 75 | 131 | Mon 30 Nov | 9 PM | SCAM/TRUTH | SCAM: SIM swap — sudden 'no network' | [x] 131-sim-swap-no-network-scam |
-| 76 | 132 | Tue 01 Dec | 9 AM | RULES | Hotel must give drinking water free? (verify) / else: E-commerce 'no return' still has defect rights | [ ] |
-| 77 | 133 | Tue 01 Dec | 1 PM | GAMES | Cup shuffle #6 (fake-out swaps) | [ ] |
-| 78 | 134 | Tue 01 Dec | 7 PM | BRAVE vs NORMAL | Crowd crush: push back vs move diagonally out | [ ] |
-| 79 | 135 | Tue 01 Dec | 9 PM | SCAM/TRUTH | TRUTH: Charge to 80% for battery life | [ ] |
-| 80 | 136 | Wed 02 Dec | 9 AM | RULES | Gas cylinder: free ₹50 lakh LPG accident insurance (verify OMC) | [ ] |
-| 81 | 137 | Wed 02 Dec | 1 PM | GAMES | Count the triangles | [ ] |
+| 76 | 132 | Tue 01 Dec | 9 AM | RULES | Hotel must give drinking water free? (verify) / else: E-commerce 'no return' still has defect rights | [~ claimed 2026-11-11T13:56Z] |
+| 77 | 133 | Tue 01 Dec | 1 PM | GAMES | Cup shuffle #6 (fake-out swaps) | [~ claimed 2026-11-11T13:56Z] |
+| 78 | 134 | Tue 01 Dec | 7 PM | BRAVE vs NORMAL | Crowd crush: push back vs move diagonally out | [~ claimed 2026-11-11T13:56Z] |
+| 79 | 135 | Tue 01 Dec | 9 PM | SCAM/TRUTH | TRUTH: Charge to 80% for battery life | [~ claimed 2026-11-11T13:56Z] |
+| 80 | 136 | Wed 02 Dec | 9 AM | RULES | Gas cylinder: free ₹50 lakh LPG accident insurance (verify OMC) | [~ claimed 2026-11-11T13:56Z] |
+| 81 | 137 | Wed 02 Dec | 1 PM | GAMES | Count the triangles | [~ claimed 2026-11-11T13:56Z] |
 | 82 | 138 | Wed 02 Dec | 7 PM | BRAVE vs NORMAL | Bee swarm: jump in water vs run straight, cover face | [ ] |
 | 83 | 139 | Wed 02 Dec | 9 PM | SCAM/TRUTH | SCAM: Fake lucky draw from shopping app | [ ] |
 | 84 | 140 | Thu 03 Dec | 9 AM | RULES | Railway: 'Chain pull' legit reasons vs fine | [ ] |
