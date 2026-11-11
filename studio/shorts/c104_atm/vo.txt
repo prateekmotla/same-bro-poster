@@ -1,0 +1,6 @@
+[casual] ATM से पैसे निकाले, और account से चुपके से तेईस रुपये और कट गए. क्यों?
+Question. अपने bank के ATM पे, हर महीने कितने free transactions? A, unlimited. B, सिर्फ पाँच. Comment करो.
+[serious] Answer है B. RBI का rule, अपने bank के ATM पे महीने के पाँच free. दूसरे bank के ATM पे, metro में तीन, बाकी शहरों में पाँच.
+और balance check भी इसी में गिना जाता है. उसके बाद, हर transaction पे max तेईस रुपये, ऊपर से tax.
+[casual] तो छोटी छोटी withdrawals मत करो, एक बार में निकालो, और balance app पे check करो.
+ATM charge से बचना है? Save कर लो.

@@ -1,0 +1,6 @@
+[casual] नया app, पहले order पे सौ रुपये off. Free का पैसा? या तुम ही product हो?
+Question. ये सौ रुपये का discount, company का loss है? A, हाँ, loss. B, नहीं, ये तुम्हें खरीदने की कीमत है. Comment करो.
+[serious] Answer है B. इसे customer acquisition cost बोलते हैं, मतलब नया customer लाने का खर्चा.
+Harvard Business Review के हिसाब से, नया customer लाना, पुराना रखने से पाँच से पच्चीस गुना महंगा पड़ता है.
+इसलिए पहला order सस्ता, ताकि आदत लग जाए. असली कमाई, अगले orders से होती है.
+[casual] तो discount लो, पर आदत नहीं. Order से पहले price compare करो. ये दोस्त को भेजो.

@@ -1,0 +1,6 @@
+[intense] SMS आया, Dear customer, आपका KYC pending है, आज रात account block हो जाएगा. Link पे click करो.
+[casual] क्या करोगे? A, link खोलके KYC update कर दो. B, link छोड़ो, खुद bank से पूछो. Comment करो.
+[serious] सही है B. RBI ने खुद warning दी है, KYC के नाम पे fake SMS और calls आते हैं, account block की धमकी के साथ.
+Link से app install करवाते हैं, फिर login, OTP, PIN, सब उनके पास. Account खाली.
+KYC का message आए, तो सीधे bank से confirm करो, number सिर्फ official website से. Fraud हुआ, तो one nine three zero.
+[casual] ये मम्मी पापा को भेजो, सबसे ज़्यादा उन्हीं को आते हैं ये SMS.

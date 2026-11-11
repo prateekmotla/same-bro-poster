@@ -1,0 +1,3 @@
+[excited] ODD NUMBER OUT! हर level में सारे numbers same हैं, बस एक अलग है. ढूँढो, timer चालू.
+[casual] रुको! Last level. मिला? Comment करो, row और column, जैसे D2.
+[excited] यहाँ है! [casual] तीनों पकड़े? तो दिमाग sharp है. फिर से try करो.
