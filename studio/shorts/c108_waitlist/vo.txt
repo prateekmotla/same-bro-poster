@@ -1,0 +1,6 @@
+[casual] Online ticket waitlist में अटक गया, chart बन गया. अब train में चढ़ जाऊँ?
+A, चढ़ जाओ, TTE adjust कर देगा. B, मत चढ़ो, refund लो. तुम बताओ, A या B? Comment करो.
+[serious] Answer है B. मत चढ़ो. Online waitlisted ticket chart के बाद अपने आप cancel हो जाता है.
+Refund खुद आ जाता है, उसी account में, बस छोटा सा clerkage कटता है. Counter जाने की ज़रूरत नहीं.
+[casual] और waitlisted ticket पे sleeper या AC में बैठे, तो fine लगेगा और general coach भेज दिए जाओगे.
+Waitlist वाला दोस्त है? उसको भेज दो.
