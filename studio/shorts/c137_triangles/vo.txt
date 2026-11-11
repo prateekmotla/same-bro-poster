@@ -1,0 +1,3 @@
+[excited] कितने triangles हैं? गिनो! दिखने में आसान, पर ज़्यादातर लोग कुछ miss कर देते हैं. Timer चालू.
+[casual] रुको! कितने triangles? Comment करो, number.
+[excited] Answer है, बारह! [casual] सही गिना? तो तुम्हारी आँखें sharp हैं. फिर से try करो.

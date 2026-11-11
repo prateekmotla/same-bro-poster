@@ -93,8 +93,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 77 | 133 | Tue 01 Dec | 1 PM | GAMES | Cup shuffle #6 (fake-out swaps) | [x] 133-same-bro-games-fake-out-cups |
 | 78 | 134 | Tue 01 Dec | 7 PM | BRAVE vs NORMAL | Crowd crush: push back vs move diagonally out | [x] 134-brave-vs-normal-crowd-crush |
 | 79 | 135 | Tue 01 Dec | 9 PM | SCAM/TRUTH | TRUTH: Charge to 80% for battery life | [x] 135-charge-to-80-percent-truth |
-| 80 | 136 | Wed 02 Dec | 9 AM | RULES | Gas cylinder: free ₹50 lakh LPG accident insurance (verify OMC) | [~ claimed 2026-11-11T13:56Z] |
-| 81 | 137 | Wed 02 Dec | 1 PM | GAMES | Count the triangles | [~ claimed 2026-11-11T13:56Z] |
+| 80 | 136 | Wed 02 Dec | 9 AM | RULES | LPG accident insurance for registered customers (₹6 lakh death / ₹2 lakh treatment per person; '₹50 lakh' is an old per-event limit) | [x] 136-lpg-cylinder-accident-insurance |
+| 81 | 137 | Wed 02 Dec | 1 PM | GAMES | Count the triangles | [x] 137-same-bro-games-count-triangles |
 | 82 | 138 | Wed 02 Dec | 7 PM | BRAVE vs NORMAL | Bee swarm: jump in water vs run straight, cover face | [ ] |
 | 83 | 139 | Wed 02 Dec | 9 PM | SCAM/TRUTH | SCAM: Fake lucky draw from shopping app | [ ] |
 | 84 | 140 | Thu 03 Dec | 9 AM | RULES | Railway: 'Chain pull' legit reasons vs fine | [ ] |
