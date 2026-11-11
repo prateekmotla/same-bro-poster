@@ -1,0 +1,3 @@
+[excited] Memory test! सात numbers, एक एक करके flash होंगे. ध्यान से याद रखो, फिर बताना है, सही order कौन सा था.
+[casual] रुको! A, B या C? Comment करो.
+[excited] Answer है, B! [casual] पकड़ लिया? तो तुम्हारी memory तेज़ है. फिर से try करो.
