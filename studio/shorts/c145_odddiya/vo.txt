@@ -1,0 +1,3 @@
+[excited] Festival special, odd one out! हर level में, एक दिया बाकी सब से अलग है. Timer खत्म होने से पहले ढूँढो.
+[casual] रुको! Last level. मिला? Comment करो, row और column, जैसे C5.
+[excited] यहाँ है! [casual] तीनों levels पकड़े? तो तुम्हारी नज़र एकदम sharp है. फिर से खेलो.
