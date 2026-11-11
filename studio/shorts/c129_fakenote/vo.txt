@@ -1,0 +1,6 @@
+[excited] Same Bro Games! तीन notes, एक नकली. Level one, note को tilt करो. असली की thread हरे से नीली होती है. नकली कौन? A, B या C?
+[casual] B! उसकी thread हरी ही रही.
+[excited] Level two. Light के सामने रखो. असली में watermark दिखता है. नकली कौन?
+[casual] C! Watermark गायब.
+[excited] Final level. Number panel देखो. असली में numbers छोटे से बड़े होते जाते हैं. नकली कौन?
+[casual] A! सारे numbers same size. Score कितना हुआ? Comment करो, और फिर से देखो.
