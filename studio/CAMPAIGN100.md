@@ -64,7 +64,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 48 | 104 | Tue 24 Nov | 9 AM | RULES | 5 free ATM withdrawals/month, then the fee cap (RBI 2025) | [x] 104-atm-5-free-then-23 |
 | 49 | 105 | Tue 24 Nov | 1 PM | GAMES | Odd number out (grid) | [x] 105-same-bro-games-odd-number-out |
 | 50 | 106 | Tue 24 Nov | 7 PM | BRAVE vs NORMAL | Oil pan on fire: throw water vs cover with lid | [x] 106-brave-vs-normal-oil-pan-fire |
-| 51 | 107 | Tue 24 Nov | 9 PM | SCAM/TRUTH | SCAM: KYC update / account blocked SMS | [~ claimed 11 Nov 06:56Z] |
+| 51 | 107 | Tue 24 Nov | 9 PM | SCAM/TRUTH | SCAM: KYC update / account blocked SMS | [x] 107-kyc-update-sms-scam |
 | 52 | 108 | Wed 25 Nov | 9 AM | RULES | Waitlisted e-ticket auto-cancels + refund (IRCTC) | [ ] |
 | 53 | 109 | Wed 25 Nov | 1 PM | GAMES | Memory flash: 6 apps on a phone | [ ] |
 | 54 | 110 | Wed 25 Nov | 7 PM | BRAVE vs NORMAL | Dog bite small scratch: ignore vs wash 15 min + rabies shot | [ ] |
