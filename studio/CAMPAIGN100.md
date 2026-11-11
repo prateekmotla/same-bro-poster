@@ -76,7 +76,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 60 | 116 | Fri 27 Nov | 9 AM | RULES | Wrong item / defective product: refund rights + e-Daakhil complaint | [x] 116-wrong-item-no-return-refund |
 | 61 | 117 | Fri 27 Nov | 1 PM | GAMES | Odd colour out (HARDER) | [x] 117-same-bro-games-odd-colour-hard |
 | 62 | 118 | Fri 27 Nov | 7 PM | BRAVE vs NORMAL | Robbed at knifepoint: fight vs hand it over | [x] 118-brave-vs-normal-robbed-knifepoint |
-| 63 | 119 | Fri 27 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'Fruit drink' vs 'fruit juice' label (FSSAI) | [~ claimed 2026-11-11 10:54Z] |
+| 63 | 119 | Fri 27 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'Fruit drink' vs 'fruit juice' label (FSSAI) | [x] 119-fruit-drink-not-juice |
 | 64 | 120 | Sat 28 Nov | 9 AM | RULES | Lok Adalat: settle a case free, no court fee | [ ] |
 | 65 | 121 | Sat 28 Nov | 1 PM | GAMES | Spot 3 differences: chai stall | [ ] |
 | 66 | 122 | Sat 28 Nov | 7 PM | BRAVE vs NORMAL | Friend has heatstroke: chug ice water vs cool body in shade | [ ] |
