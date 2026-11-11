@@ -97,7 +97,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 81 | 137 | Wed 02 Dec | 1 PM | GAMES | Count the triangles | [x] 137-same-bro-games-count-triangles |
 | 82 | 138 | Wed 02 Dec | 7 PM | BRAVE vs NORMAL | Bee swarm: jump in water vs run straight, cover face | [x] 138-brave-vs-normal-bee-swarm |
 | 83 | 139 | Wed 02 Dec | 9 PM | SCAM/TRUTH | SCAM: Fake lucky draw from shopping app | [x] 139-fake-lucky-draw-car-scam |
-| 84 | 140 | Thu 03 Dec | 9 AM | RULES | Railway: 'Chain pull' legit reasons vs fine | [~ claimed 2026-11-11T14:58Z] |
+| 84 | 140 | Thu 03 Dec | 9 AM | RULES | Railway: 'Chain pull' legit reasons vs fine | [x] 140-train-alarm-chain-rules |
 | 85 | 141 | Thu 03 Dec | 1 PM | GAMES | Memory flash: number sequence | [x] 141-same-bro-games-number-memory |
 | 86 | 142 | Thu 03 Dec | 7 PM | BRAVE vs NORMAL | Someone fainted: pour water/give water vs lay flat, legs up | [~ claimed 2026-11-11T14:58Z] |
 | 87 | 143 | Thu 03 Dec | 9 PM | SCAM/TRUTH | TRUTH: BNPL 'pay later' late fees | [~ claimed 2026-11-11T14:58Z] |
