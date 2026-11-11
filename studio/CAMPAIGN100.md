@@ -107,10 +107,10 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 91 | 147 | Fri 04 Dec | 9 PM | SCAM/TRUTH | SCAM: Loan app with 'zero interest' | [x] 147-zero-interest-loan-app-scam |
 | 92 | 148 | Sat 05 Dec | 9 AM | RULES | Ambulance 108/112 free; 112 single emergency number | [x] 148-112-single-emergency-number-rules |
 | 93 | 149 | Sat 05 Dec | 1 PM | GAMES | Spot 3 differences: petrol pump | [x] 149-same-bro-games-spot-petrol-pump |
-| 94 | 150 | Sat 05 Dec | 7 PM | BRAVE vs NORMAL | Burn on hand: ice/toothpaste vs cool running water 20 min | [ ] |
-| 95 | 151 | Sat 05 Dec | 9 PM | SCAM/TRUTH | TRUTH: Cashback 'coins' aren't money | [ ] |
-| 96 | 152 | Sun 06 Dec | 9 AM | RULES | Electricity bill wrong? Consumer grievance forum rules (verify state) | [ ] |
-| 97 | 153 | Sun 06 Dec | 1 PM | GAMES | Cup shuffle FINALE (all levels) | [ ] |
-| 98 | 154 | Sun 06 Dec | 7 PM | BRAVE vs NORMAL | Dog charging at you: run vs stand still, side-on | [ ] |
-| 99 | 155 | Sun 06 Dec | 9 PM | SCAM/TRUTH | SCAM: WhatsApp 'stock tips' investment group | [ ] |
+| 94 | 150 | Sat 05 Dec | 7 PM | BRAVE vs NORMAL | Burn on hand: ice/toothpaste vs cool running water 20 min | [~ claimed 2026-11-11 16:58 UTC] |
+| 95 | 151 | Sat 05 Dec | 9 PM | SCAM/TRUTH | TRUTH: Cashback 'coins' aren't money | [~ claimed 2026-11-11 16:58 UTC] |
+| 96 | 152 | Sun 06 Dec | 9 AM | RULES | Electricity bill wrong? Consumer grievance forum rules (verify state) | [~ claimed 2026-11-11 16:58 UTC] |
+| 97 | 153 | Sun 06 Dec | 1 PM | GAMES | Cup shuffle FINALE (all levels) | [~ claimed 2026-11-11 16:58 UTC] |
+| 98 | 154 | Sun 06 Dec | 7 PM | BRAVE vs NORMAL | Dog charging at you: run vs stand still, side-on | [~ claimed 2026-11-11 16:58 UTC] |
+| 99 | 155 | Sun 06 Dec | 9 PM | SCAM/TRUTH | SCAM: WhatsApp 'stock tips' investment group | [~ claimed 2026-11-11 16:58 UTC] |
 | 100 | 156 | Mon 07 Dec | 9 AM | RULES | Expiry date vs best before: what FSSAI says | [ ] |
