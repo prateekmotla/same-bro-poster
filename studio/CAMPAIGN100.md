@@ -113,4 +113,4 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 97 | 153 | Sun 06 Dec | 1 PM | GAMES | Cup shuffle FINALE (all levels) | [x] 153-same-bro-games-cup-finale |
 | 98 | 154 | Sun 06 Dec | 7 PM | BRAVE vs NORMAL | Dog charging at you: run vs stand still, side-on | [x] 154-brave-vs-normal-dog-charging |
 | 99 | 155 | Sun 06 Dec | 9 PM | SCAM/TRUTH | SCAM: WhatsApp 'stock tips' investment group | [x] 155-whatsapp-stock-tips-group-scam |
-| 100 | 156 | Mon 07 Dec | 9 AM | RULES | Expiry date vs best before: what FSSAI says | [ ] |
+| 100 | 156 | Mon 07 Dec | 9 AM | RULES | Expiry date vs best before: what FSSAI says | [~ claimed 2026-11-11 17:56 UTC] |
