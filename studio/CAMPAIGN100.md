@@ -71,12 +71,12 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 55 | 111 | Wed 25 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'No added sugar' still has sugar | [x] 111-no-added-sugar-trick |
 | 56 | 112 | Thu 26 Nov | 9 AM | RULES | IRCTC 45-paise travel insurance, up to ₹10 lakh (swapped: TTE 10 PM rule unverifiable) | [x] 112-irctc-45-paise-insurance |
 | 57 | 113 | Thu 26 Nov | 1 PM | GAMES | Cup shuffle #5 (speed run) | [x] 113-same-bro-games-cup-speed-run |
-| 58 | 114 | Thu 26 Nov | 7 PM | BRAVE vs NORMAL | Phone fell on metro track: jump down vs call staff | [ ] |
-| 59 | 115 | Thu 26 Nov | 9 PM | SCAM/TRUTH | SCAM: Screen-sharing app 'refund' call | [ ] |
-| 60 | 116 | Fri 27 Nov | 9 AM | RULES | Wrong item / defective product: refund rights + e-Daakhil complaint | [ ] |
-| 61 | 117 | Fri 27 Nov | 1 PM | GAMES | Odd colour out (HARDER) | [ ] |
-| 62 | 118 | Fri 27 Nov | 7 PM | BRAVE vs NORMAL | Robbed at knifepoint: fight vs hand it over | [ ] |
-| 63 | 119 | Fri 27 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'Fruit drink' vs 'fruit juice' label (FSSAI) | [ ] |
+| 58 | 114 | Thu 26 Nov | 7 PM | BRAVE vs NORMAL | Phone fell on metro track: jump down vs call staff | [~ claimed 2026-11-11 10:54Z] |
+| 59 | 115 | Thu 26 Nov | 9 PM | SCAM/TRUTH | SCAM: Screen-sharing app 'refund' call | [~ claimed 2026-11-11 10:54Z] |
+| 60 | 116 | Fri 27 Nov | 9 AM | RULES | Wrong item / defective product: refund rights + e-Daakhil complaint | [~ claimed 2026-11-11 10:54Z] |
+| 61 | 117 | Fri 27 Nov | 1 PM | GAMES | Odd colour out (HARDER) | [~ claimed 2026-11-11 10:54Z] |
+| 62 | 118 | Fri 27 Nov | 7 PM | BRAVE vs NORMAL | Robbed at knifepoint: fight vs hand it over | [~ claimed 2026-11-11 10:54Z] |
+| 63 | 119 | Fri 27 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'Fruit drink' vs 'fruit juice' label (FSSAI) | [~ claimed 2026-11-11 10:54Z] |
 | 64 | 120 | Sat 28 Nov | 9 AM | RULES | Lok Adalat: settle a case free, no court fee | [ ] |
 | 65 | 121 | Sat 28 Nov | 1 PM | GAMES | Spot 3 differences: chai stall | [ ] |
 | 66 | 122 | Sat 28 Nov | 7 PM | BRAVE vs NORMAL | Friend has heatstroke: chug ice water vs cool body in shade | [ ] |
