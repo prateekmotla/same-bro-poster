@@ -65,12 +65,12 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 49 | 105 | Tue 24 Nov | 1 PM | GAMES | Odd number out (grid) | [x] 105-same-bro-games-odd-number-out |
 | 50 | 106 | Tue 24 Nov | 7 PM | BRAVE vs NORMAL | Oil pan on fire: throw water vs cover with lid | [x] 106-brave-vs-normal-oil-pan-fire |
 | 51 | 107 | Tue 24 Nov | 9 PM | SCAM/TRUTH | SCAM: KYC update / account blocked SMS | [x] 107-kyc-update-sms-scam |
-| 52 | 108 | Wed 25 Nov | 9 AM | RULES | Waitlisted e-ticket auto-cancels + refund (IRCTC) | [ ] |
-| 53 | 109 | Wed 25 Nov | 1 PM | GAMES | Memory flash: 6 apps on a phone | [ ] |
-| 54 | 110 | Wed 25 Nov | 7 PM | BRAVE vs NORMAL | Dog bite small scratch: ignore vs wash 15 min + rabies shot | [ ] |
-| 55 | 111 | Wed 25 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'No added sugar' still has sugar | [ ] |
-| 56 | 112 | Thu 26 Nov | 9 AM | RULES | TTE can't check tickets of sleeping passengers 10 PM-6 AM (verify Rlys rule) | [ ] |
-| 57 | 113 | Thu 26 Nov | 1 PM | GAMES | Cup shuffle #5 (speed run) | [ ] |
+| 52 | 108 | Wed 25 Nov | 9 AM | RULES | Waitlisted e-ticket auto-cancels + refund (IRCTC) | [~ claimed 2026-11-11T09:58Z] |
+| 53 | 109 | Wed 25 Nov | 1 PM | GAMES | Memory flash: 6 apps on a phone | [~ claimed 2026-11-11T09:58Z] |
+| 54 | 110 | Wed 25 Nov | 7 PM | BRAVE vs NORMAL | Dog bite small scratch: ignore vs wash 15 min + rabies shot | [~ claimed 2026-11-11T09:58Z] |
+| 55 | 111 | Wed 25 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'No added sugar' still has sugar | [~ claimed 2026-11-11T09:58Z] |
+| 56 | 112 | Thu 26 Nov | 9 AM | RULES | TTE can't check tickets of sleeping passengers 10 PM-6 AM (verify Rlys rule) | [~ claimed 2026-11-11T09:58Z] |
+| 57 | 113 | Thu 26 Nov | 1 PM | GAMES | Cup shuffle #5 (speed run) | [~ claimed 2026-11-11T09:58Z] |
 | 58 | 114 | Thu 26 Nov | 7 PM | BRAVE vs NORMAL | Phone fell on metro track: jump down vs call staff | [ ] |
 | 59 | 115 | Thu 26 Nov | 9 PM | SCAM/TRUTH | SCAM: Screen-sharing app 'refund' call | [ ] |
 | 60 | 116 | Fri 27 Nov | 9 AM | RULES | Wrong item / defective product: refund rights + e-Daakhil complaint | [ ] |
