@@ -1,0 +1,6 @@
+[casual] Order का refund अटका था. फिर call आया, Sir, refund के लिए बस ये app install करो, और screen share करो.
+क्या करोगे? A, app install करके refund ले लो. B, call काट दो. Comment करो.
+[serious] सही है B. RBI और NPCI, दोनों ने warning दी है, AnyDesk जैसे screen sharing apps से fraud होता है.
+Screen share किया, तो वो तुम्हारा OTP, PIN, banking app, सब live देखते हैं. फिर account खाली.
+Refund के लिए कोई app install नहीं करवाता, और पैसा लेने के लिए PIN कभी नहीं लगता. Fraud हुआ, तो one nine three zero.
+[casual] Refund चाहिए? सिर्फ official app या website से, खुद. ये घर पे सबको भेजो.

@@ -72,7 +72,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 56 | 112 | Thu 26 Nov | 9 AM | RULES | IRCTC 45-paise travel insurance, up to ₹10 lakh (swapped: TTE 10 PM rule unverifiable) | [x] 112-irctc-45-paise-insurance |
 | 57 | 113 | Thu 26 Nov | 1 PM | GAMES | Cup shuffle #5 (speed run) | [x] 113-same-bro-games-cup-speed-run |
 | 58 | 114 | Thu 26 Nov | 7 PM | BRAVE vs NORMAL | Phone fell on metro track: jump down vs call staff | [x] 114-brave-vs-normal-metro-phone |
-| 59 | 115 | Thu 26 Nov | 9 PM | SCAM/TRUTH | SCAM: Screen-sharing app 'refund' call | [~ claimed 2026-11-11 10:54Z] |
+| 59 | 115 | Thu 26 Nov | 9 PM | SCAM/TRUTH | SCAM: Screen-sharing app 'refund' call | [x] 115-screen-share-refund-scam |
 | 60 | 116 | Fri 27 Nov | 9 AM | RULES | Wrong item / defective product: refund rights + e-Daakhil complaint | [~ claimed 2026-11-11 10:54Z] |
 | 61 | 117 | Fri 27 Nov | 1 PM | GAMES | Odd colour out (HARDER) | [x] 117-same-bro-games-odd-colour-hard |
 | 62 | 118 | Fri 27 Nov | 7 PM | BRAVE vs NORMAL | Robbed at knifepoint: fight vs hand it over | [x] 118-brave-vs-normal-robbed-knifepoint |
