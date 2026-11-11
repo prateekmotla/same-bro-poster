@@ -99,8 +99,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 83 | 139 | Wed 02 Dec | 9 PM | SCAM/TRUTH | SCAM: Fake lucky draw from shopping app | [x] 139-fake-lucky-draw-car-scam |
 | 84 | 140 | Thu 03 Dec | 9 AM | RULES | Railway: 'Chain pull' legit reasons vs fine | [x] 140-train-alarm-chain-rules |
 | 85 | 141 | Thu 03 Dec | 1 PM | GAMES | Memory flash: number sequence | [x] 141-same-bro-games-number-memory |
-| 86 | 142 | Thu 03 Dec | 7 PM | BRAVE vs NORMAL | Someone fainted: pour water/give water vs lay flat, legs up | [~ claimed 2026-11-11T14:58Z] |
-| 87 | 143 | Thu 03 Dec | 9 PM | SCAM/TRUTH | TRUTH: BNPL 'pay later' late fees | [~ claimed 2026-11-11T14:58Z] |
+| 86 | 142 | Thu 03 Dec | 7 PM | BRAVE vs NORMAL | Someone fainted: pour water/give water vs lay flat, legs up | [x] 142-brave-vs-normal-someone-fainted |
+| 87 | 143 | Thu 03 Dec | 9 PM | SCAM/TRUTH | TRUTH: BNPL 'pay later' late fees | [x] 143-pay-later-is-a-loan-truth |
 | 88 | 144 | Fri 04 Dec | 9 AM | RULES | Check your PF balance by missed call (EPFO) | [ ] |
 | 89 | 145 | Fri 04 Dec | 1 PM | GAMES | Odd emoji out (festival) | [ ] |
 | 90 | 146 | Fri 04 Dec | 7 PM | BRAVE vs NORMAL | Tyre burst at speed: brake hard vs hold steering, ease off | [ ] |
