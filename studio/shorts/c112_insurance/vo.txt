@@ -1,0 +1,6 @@
+[casual] Train ticket book करते वक़्त एक छोटा सा box आता है, insurance का. ज़्यादातर लोग skip कर देते हैं.
+Question. उस box की कीमत कितनी? A, सौ रुपये. B, सिर्फ पैंतालीस पैसे. Comment करो.
+[serious] Answer है B. IRCTC पे online ticket के साथ, पैंतालीस पैसे में travel insurance.
+Train accident में मौत या पूरी disability पे, दस लाख तक का cover. Optional है, खुद tick करना पड़ता है.
+[casual] और nominee ज़रूर भरो, वरना claim में दिक्कत. एक रुपया भी नहीं लगता, फिर भी skip?
+अगली booking पे, वो box tick कर देना.
