@@ -66,7 +66,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 50 | 106 | Tue 24 Nov | 7 PM | BRAVE vs NORMAL | Oil pan on fire: throw water vs cover with lid | [x] 106-brave-vs-normal-oil-pan-fire |
 | 51 | 107 | Tue 24 Nov | 9 PM | SCAM/TRUTH | SCAM: KYC update / account blocked SMS | [x] 107-kyc-update-sms-scam |
 | 52 | 108 | Wed 25 Nov | 9 AM | RULES | Waitlisted e-ticket auto-cancels + refund (IRCTC) | [~ claimed 2026-11-11T09:58Z] |
-| 53 | 109 | Wed 25 Nov | 1 PM | GAMES | Memory flash: 6 apps on a phone | [~ claimed 2026-11-11T09:58Z] |
+| 53 | 109 | Wed 25 Nov | 1 PM | GAMES | Memory flash: 6 apps on a phone | [x] 109-same-bro-games-memory-apps |
 | 54 | 110 | Wed 25 Nov | 7 PM | BRAVE vs NORMAL | Dog bite small scratch: ignore vs wash 15 min + rabies shot | [~ claimed 2026-11-11T09:58Z] |
 | 55 | 111 | Wed 25 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'No added sugar' still has sugar | [~ claimed 2026-11-11T09:58Z] |
 | 56 | 112 | Thu 26 Nov | 9 AM | RULES | TTE can't check tickets of sleeping passengers 10 PM-6 AM (verify Rlys rule) | [~ claimed 2026-11-11T09:58Z] |

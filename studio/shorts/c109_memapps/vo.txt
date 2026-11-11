@@ -1,0 +1,3 @@
+[excited] Memory test! Phone पे छह apps, सिर्फ कुछ seconds के लिए. ध्यान से देखो, फिर एक गायब हो जाएगी.
+[casual] रुको! कौन सी app गायब हुई? Comment करो.
+[excited] Answer है, camera! [casual] पकड़ लिया? तो तुम्हारी memory तेज़ है. फिर से try करो.

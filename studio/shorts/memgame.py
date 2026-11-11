@@ -92,19 +92,25 @@ ITEMS = dict(PHONE=i_phone, KEYS=i_key, SUNGLASSES=i_glasses, WATCH=i_watch, CHA
 
 
 class MemGame(OG.OddGrid):
-    def __init__(self, d, segs, caps, title, series, missing='SUNGLASSES', mem=8.0, hunt=5.0, seed=5, mood='chill'):
+    def __init__(self, d, segs, caps, title, series, missing='SUNGLASSES', mem=8.0, hunt=5.0, seed=5, mood='chill',
+                 items=None, gone_title=("ONE IS GONE!", "Cards got SHUFFLED too"), ask="WHICH ONE VANISHED? COMMENT"):
         self.d, self.segs, self.caps, self.title, self.series, self.mood = d, segs, caps, title, series, mood
+        self.items = items or ITEMS          # name -> icon draw fn; 9 items = 3x3 grid, 6 items = 3x2 grid
+        self.ns = len(self.items)
+        self.rows = (self.ns + 2) // 3
+        self.gy = GY + CELL * (3 - self.rows) / 2
+        self.gone_title, self.ask = gone_title, ask
         rnd = random.Random(seed)
-        names = list(ITEMS)
+        names = list(self.items)
         rnd.shuffle(names)
-        self.pos1 = {n: p for n, p in zip(names, range(9))}           # first layout
+        self.pos1 = {n: p for n, p in zip(names, range(self.ns))}     # first layout
         rest = [n for n in names if n != missing]
-        slots = list(range(9))
+        slots = list(range(self.ns))
         rnd.shuffle(slots)
         while slots[-1] == self.pos1[missing]:                         # '?' card in a different slot
             rnd.shuffle(slots)
-        self.pos2 = {n: s for n, s in zip(rest, slots[:8])}
-        self.qslot = slots[8]
+        self.pos2 = {n: s for n, s in zip(rest, slots[:self.ns - 1])}
+        self.qslot = slots[self.ns - 1]
         self.missing = missing
         self.t_mem = 0.05 + mem
         self.t_back = self.t_mem + 0.9
@@ -118,10 +124,9 @@ class MemGame(OG.OddGrid):
         self.answer = missing
         json.dump(dict(answer=missing, dur=self.dur), open(f"{d}/game.json", "w"))
 
-    @staticmethod
-    def cell(slot):
+    def cell(self, slot):
         r, cc = divmod(slot, 3)
-        return GX + CELL * (cc + 0.5), GY + CELL * (r + 0.5)
+        return GX + CELL * (cc + 0.5), getattr(self, 'gy', GY) + CELL * (r + 0.5)
 
     def card(self, c, slot, draw, flip=1.0, hl=None):
         x, y = self.cell(slot)
@@ -142,19 +147,19 @@ class MemGame(OG.OddGrid):
         g = cairo.LinearGradient(0, 0, 0, VH)
         g.add_color_stop_rgb(0, 0.08, 0.06, 0.16); g.add_color_stop_rgb(1, 0.04, 0.03, 0.07)
         c.set_source(g); c.paint()
-        S.rrect(c, GX - 30, GY - 30, CELL * 3 + 60, CELL * 3 + 60, 36); c.set_source_rgba(0.05, 0.06, 0.1, 0.9); c.fill()
+        S.rrect(c, GX - 30, self.gy - 30, CELL * 3 + 60, CELL * self.rows + 60, 36); c.set_source_rgba(0.05, 0.06, 0.1, 0.9); c.fill()
         if t < self.t_mem:
             for n, s in self.pos1.items():
                 pop = U.eob(k(t, 0.05 + s * 0.04, 0.3 + s * 0.04))
                 if pop > 0:
                     x, y = self.cell(s)
                     c.save(); c.translate(x, y); c.scale(pop, pop); c.translate(-x, -y)
-                    self.card(c, s, ITEMS[n]); c.restore()
+                    self.card(c, s, self.items[n]); c.restore()
         elif t < self.t_back:
             f = (t - self.t_mem) / (self.t_back - self.t_mem)        # 0..1 flip to back and to new front
             fl = math.cos(f * 2 * math.pi)                            # 1 -> -1 -> 1
             show_new = f > 0.5
-            for s in range(9):
+            for s in range(self.ns):
                 if show_new:
                     n = next((n_ for n_, s_ in self.pos2.items() if s_ == s), None)
                 else:
@@ -162,17 +167,17 @@ class MemGame(OG.OddGrid):
                 if show_new and s == self.qslot:
                     self.card(c, s, None, -max(0.02, abs(fl)))
                 else:
-                    self.card(c, s, ITEMS[n] if n else None, fl if fl > 0 else -max(0.02, -fl))
+                    self.card(c, s, self.items[n] if n else None, fl if fl > 0 else -max(0.02, -fl))
         else:
             for n, s in self.pos2.items():
-                self.card(c, s, ITEMS[n])
+                self.card(c, s, self.items[n])
             ra = k(t, self.t_reveal + 0.1, self.t_reveal + 0.6)
             x, y = self.cell(self.qslot)
             if ra <= 0:
                 self.card(c, self.qslot, None, -1)
             else:
                 self.card(c, self.qslot, None)
-                c.save(); c.translate(x, y); sc = U.eob(ra); c.scale(sc, sc); ITEMS[self.missing](c); c.restore()
+                c.save(); c.translate(x, y); sc = U.eob(ra); c.scale(sc, sc); self.items[self.missing](c); c.restore()
                 c.arc(x, y, 175 * (1.5 - 0.5 * sc), 0, 2 * math.pi); c.set_source_rgba(*GRN, ra); c.set_line_width(10); c.stroke()
         sf.flush()
         rgb = VS.FXV.post(sf, 'studio', i, 0)
@@ -194,15 +199,15 @@ class MemGame(OG.OddGrid):
             S.rrect(o, 110, 380, 860, 24, 12); o.set_source_rgba(1, 1, 1, 0.12); o.fill()
             S.rrect(o, 110, 380, max(24, 860 * fr), 24, 12); o.set_source_rgba(*(RED if fr < 0.3 else GRN), 0.95); o.fill()
         elif t < self.t_freeze:
-            T(o, "ONE IS GONE!", 540, 225, 90, RED, lw=12)
-            T(o, "Cards got SHUFFLED too", 540, 318, 50, YEL, lw=10)
+            T(o, self.gone_title[0], 540, 225, 90, RED, lw=12)
+            T(o, self.gone_title[1], 540, 318, 50, YEL, lw=10)
             fr = 1 - (t - self.t_back) / (self.t_freeze - self.t_back) if t > self.t_back else 1
             S.rrect(o, 110, 380, 860, 24, 12); o.set_source_rgba(1, 1, 1, 0.12); o.fill()
             S.rrect(o, 110, 380, max(24, 860 * fr), 24, 12); o.set_source_rgba(*(RED if fr < 0.3 else GRN), 0.95); o.fill()
         elif t < self.t_reveal:
             T(o, "STOP!", 540, 240, 120, RED, lw=14)
             S.rrect(o, 100, 310, 880, 96, 48); o.set_source_rgba(0.05, 0.05, 0.08, 0.92); o.fill()
-            T(o, "WHICH ONE VANISHED? COMMENT", 540, 374, 42, YEL, stroke=None)
+            T(o, self.ask, 540, 374, 42, YEL, stroke=None)
             if t > self.t_count:
                 m = 3 - int(t - self.t_count)
                 f = (t - self.t_count) % 1
