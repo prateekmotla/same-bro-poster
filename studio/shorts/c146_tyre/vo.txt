@@ -1,0 +1,7 @@
+[intense] Highway पे fast जा रहे थे, और अचानक tyre फट गया. Brave बोला, ज़ोर से brake मारो. Normal बोला, steering पकड़ो, धीरे धीरे slow करो. तुम?
+[intense] Brave ने पूरा brake दबा दिया. Car एक side खिंचने लगी.
+[casual] Normal ने दोनों हाथों से steering कसके पकड़ी, accelerator धीरे से छोड़ा, और car सीधी रखी.
+कौन सही है? Comment करो, B या N.
+[serious] सही है Normal. Tyre फटने पे ज़ोर का brake, car को घुमा सकता है, पलटा भी सकता है.
+Steering सीधी रखो, speed अपने आप गिरने दो, फिर हल्का brake, hazard lights, और side में रुको.
+[casual] और tyre pressure time time पे check करो. असली brave वो, जो सही करे. तुम क्या करते?
