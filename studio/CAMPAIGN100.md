@@ -69,7 +69,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 53 | 109 | Wed 25 Nov | 1 PM | GAMES | Memory flash: 6 apps on a phone | [x] 109-same-bro-games-memory-apps |
 | 54 | 110 | Wed 25 Nov | 7 PM | BRAVE vs NORMAL | Dog bite small scratch: ignore vs wash 15 min + rabies shot | [x] 110-brave-vs-normal-dog-scratch |
 | 55 | 111 | Wed 25 Nov | 9 PM | SCAM/TRUTH | TRUTH: 'No added sugar' still has sugar | [x] 111-no-added-sugar-trick |
-| 56 | 112 | Thu 26 Nov | 9 AM | RULES | TTE can't check tickets of sleeping passengers 10 PM-6 AM (verify Rlys rule) | [x] 112-irctc-45-paise-insurance |
+| 56 | 112 | Thu 26 Nov | 9 AM | RULES | IRCTC 45-paise travel insurance, up to ₹10 lakh (swapped: TTE 10 PM rule unverifiable) | [x] 112-irctc-45-paise-insurance |
 | 57 | 113 | Thu 26 Nov | 1 PM | GAMES | Cup shuffle #5 (speed run) | [x] 113-same-bro-games-cup-speed-run |
 | 58 | 114 | Thu 26 Nov | 7 PM | BRAVE vs NORMAL | Phone fell on metro track: jump down vs call staff | [ ] |
 | 59 | 115 | Thu 26 Nov | 9 PM | SCAM/TRUTH | SCAM: Screen-sharing app 'refund' call | [ ] |
