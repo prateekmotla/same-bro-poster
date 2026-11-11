@@ -1,0 +1,8 @@
+[intense] Chai बनाते बनाते हाथ जल गया. Brave बोला, ice लगाओ, ऊपर से toothpaste. Normal बोला, ठंडे बहते पानी के नीचे रखो. तुम?
+[casual] Brave ने ice रगड़ा, फिर toothpaste पोत दिया. थोड़ी देर ठंडा लगा, पर burn ठंडा नहीं हुआ.
+[casual] Normal ने हाथ नल के नीचे रख दिया. बीस minute, ठंडा बहता पानी.
+कौन सही है? Comment करो, B या N.
+[serious] सही है Normal. Red Cross कहता है, कम से कम बीस minute ठंडा बहता पानी.
+Toothpaste और butter burn को ठंडा नहीं करते, और NHS कहता है, ice भी मत लगाओ.
+[casual] फिर cling film से हल्का ढको. बड़ा burn हो, या face पे, तो सीधा doctor.
+असली brave वो, जो सही करे. तुम क्या करते?
