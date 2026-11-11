@@ -1,12 +1,22 @@
 {
   "type": "short",
-  "approved": false,
-  "hold": "campaign100 - awaiting Prateek's schedule",
-  "platforms": ["instagram", "youtube"],
+  "approved": true,
+  "platforms": [
+    "instagram",
+    "youtube"
+  ],
   "youtube_title": "File Stuck in a Govt Office? Rs 10 Gets You a Written Answer. Rules You Didn't Know #10 #Shorts",
   "youtube_description": "RULES YOU DIDN'T KNOW #10. Your file is stuck in a government office for months and every time it's 'come tomorrow'. For just Rs 10, can you demand a written answer? A: fake. B: true.\nAnswer: B. Under the Right to Information Act, 2005 any citizen can ask a public authority for information, no reason needed. For central government offices the fee is Rs 10 (RTI Rules 2012) and you can file online at rtionline.gov.in; states have their own fee rules. The officer must reply within 30 days, or within 48 hours if it concerns someone's life or liberty. Applicants below the poverty line pay no fee. No reply? File a first appeal.\nSource: RTI Act 2005, RTI Rules 2012.\n#samebro #rulesyoudidntknow #rti #righttoinformation #shorts",
   "instagram_caption": "Government office mein file mahinon se atki hai, aur har baar — 'kal aana' 😤\nSirf ₹10 mein likhit jawab maang sakte ho? A: fake. B: sach.\nSahi hai B ✅ RTI Act 2005. Central govt offices ke liye fee sirf ₹10, online bhi file hota hai (rtionline.gov.in). Officer ko 30 din mein jawab dena hota hai, jaan ya azaadi ka mamla ho toh 48 ghante mein. BPL walon se koi fee nahi. Jawab nahi aaya? First appeal karo.\nRules You Didn't Know #10\nKabhi RTI file kiya hai? Comment karo 👇 Save karo, kaam aayega.\nSource: RTI Act 2005, RTI Rules 2012\n#samebro #rti #righttoinformation #rulesyoudidntknow #knowyourrights #india",
-  "tags": ["same bro", "rti", "right to information", "how to file rti", "rti fee", "know your rights", "shorts"],
+  "tags": [
+    "same bro",
+    "rti",
+    "right to information",
+    "how to file rti",
+    "rti fee",
+    "know your rights",
+    "shorts"
+  ],
   "category_id": 27,
   "youtube_privacy": "public",
   "made_for_kids": false

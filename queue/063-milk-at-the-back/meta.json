@@ -1,7 +1,6 @@
 {
   "type": "short",
-  "approved": false,
-  "hold": "campaign100 - awaiting Prateek's schedule",
+  "approved": true,
   "platforms": [
     "instagram",
     "youtube"

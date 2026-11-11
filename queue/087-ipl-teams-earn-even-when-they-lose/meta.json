@@ -1,12 +1,22 @@
 {
   "type": "short",
-  "approved": false,
-  "hold": "campaign100 - awaiting Prateek's schedule",
-  "platforms": ["instagram", "youtube"],
+  "approved": true,
+  "platforms": [
+    "instagram",
+    "youtube"
+  ],
   "youtube_title": "Your IPL Team Lost. The Owner Still Earned. How? They're Tricking You #4 #Shorts",
   "youtube_description": "THEY'RE TRICKING YOU #4. Your team lost and you're heartbroken. Does the team that finishes last go into loss? A: yes. B: no, it still earns.\nAnswer: B. The IPL's TV and digital media rights for 2023-2027 were sold for Rs 48,390 crore. Every franchise gets a share of this central pool every season, win or lose, on top of its own jersey sponsors and ticket money. The trophy prize money is a small slice next to all that.\nSource: BCCI media rights announcement (June 2022).\n#samebro #theyretrickingyou #ipl #cricket #shorts",
   "instagram_caption": "Tumhari team haar gayi, tum udaas ho 💔 Par team ka owner? Woh phir bhi kama raha hai.\nLast aane wali team loss mein jaati hai? A: haan. B: nahi, phir bhi kamaati hai.\nSahi hai B ✅ IPL ke TV + digital rights 2023-27 ka deal ₹48,390 crore ka hai. Is central pool ka hissa har team ko milta hai, jeete ya haare. Upar se jersey sponsors aur tickets ka paisa. Trophy ka prize money? Chhota sa hissa.\nDil tumhara toota hai, owner ka wallet nahi 😅\nThey're Tricking You #4\nTumhari team kaunsi hai? Comment karo 👇 Cricket wale dost ko bhejo.\nSource: BCCI IPL media rights 2023-27 announcement\n#samebro #ipl #cricket #iplbusiness #theyretrickingyou #india",
-  "tags": ["same bro", "ipl", "ipl business model", "how ipl teams make money", "media rights", "cricket", "shorts"],
+  "tags": [
+    "same bro",
+    "ipl",
+    "ipl business model",
+    "how ipl teams make money",
+    "media rights",
+    "cricket",
+    "shorts"
+  ],
   "category_id": 27,
   "youtube_privacy": "public",
   "made_for_kids": false
