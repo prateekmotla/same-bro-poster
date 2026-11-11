@@ -1,0 +1,7 @@
+[intense] रात में car नहर में गिर गई, पानी अंदर आ रहा है. Brave बोला, door खोल के निकलो. Normal बोला, पहले seatbelt, फिर window. तुम?
+[intense] Brave door पे पूरा ज़ोर लगा रहा है. पर बाहर का पानी door को दबा रहा है, हिल भी नहीं रहा.
+[casual] Normal ने seatbelt खोली, तुरंत window नीचे की, और window से बाहर, ऊपर की तरफ़.
+कौन सही है? Comment करो, B या N.
+[serious] सही है Normal. बाहर के पानी का pressure door को बंद रखता है. निकलने का time बस पहला एक minute है.
+Seatbelt, window, बच्चे पहले, फिर out. Window ना खुले, तो side का शीशा तोड़ो. Car में escape hammer रखो.
+[casual] Phone पे time waste नहीं, पहले बाहर. तुम क्या करते?

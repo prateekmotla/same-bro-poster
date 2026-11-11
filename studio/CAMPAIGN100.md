@@ -87,7 +87,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 71 | 127 | Sun 29 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why DMart is cheaper (owns its stores) | [~ claimed 11 Nov 12:57Z] |
 | 72 | 128 | Mon 30 Nov | 9 AM | RULES | Bank locker: bank liable up to 100x rent (RBI 2022) | [~ claimed 11 Nov 12:57Z] |
 | 73 | 129 | Mon 30 Nov | 1 PM | GAMES | Find the fake ₹500 note (visual details, generic) | [x] 129-same-bro-games-find-fake-note |
-| 74 | 130 | Mon 30 Nov | 7 PM | BRAVE vs NORMAL | Car sinking: open door vs break/open window first | [~ claimed 11 Nov 12:57Z] |
+| 74 | 130 | Mon 30 Nov | 7 PM | BRAVE vs NORMAL | Car sinking: open door vs break/open window first | [x] 130-brave-vs-normal-sinking-car |
 | 75 | 131 | Mon 30 Nov | 9 PM | SCAM/TRUTH | SCAM: SIM swap — sudden 'no network' | [~ claimed 11 Nov 12:57Z] |
 | 76 | 132 | Tue 01 Dec | 9 AM | RULES | Hotel must give drinking water free? (verify) / else: E-commerce 'no return' still has defect rights | [ ] |
 | 77 | 133 | Tue 01 Dec | 1 PM | GAMES | Cup shuffle #6 (fake-out swaps) | [ ] |
