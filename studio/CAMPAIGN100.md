@@ -91,8 +91,8 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 75 | 131 | Mon 30 Nov | 9 PM | SCAM/TRUTH | SCAM: SIM swap — sudden 'no network' | [x] 131-sim-swap-no-network-scam |
 | 76 | 132 | Tue 01 Dec | 9 AM | RULES | SWAPPED (hotel free-water rule rests on the disputed Sarais Act 1867; fallback already used by 116): Phone stolen? Block it all over India on Sanchar Saathi (CEIR) | [x] 132-lost-phone-block-sanchar-saathi |
 | 77 | 133 | Tue 01 Dec | 1 PM | GAMES | Cup shuffle #6 (fake-out swaps) | [x] 133-same-bro-games-fake-out-cups |
-| 78 | 134 | Tue 01 Dec | 7 PM | BRAVE vs NORMAL | Crowd crush: push back vs move diagonally out | [~ claimed 2026-11-11T13:56Z] |
-| 79 | 135 | Tue 01 Dec | 9 PM | SCAM/TRUTH | TRUTH: Charge to 80% for battery life | [~ claimed 2026-11-11T13:56Z] |
+| 78 | 134 | Tue 01 Dec | 7 PM | BRAVE vs NORMAL | Crowd crush: push back vs move diagonally out | [x] 134-brave-vs-normal-crowd-crush |
+| 79 | 135 | Tue 01 Dec | 9 PM | SCAM/TRUTH | TRUTH: Charge to 80% for battery life | [x] 135-charge-to-80-percent-truth |
 | 80 | 136 | Wed 02 Dec | 9 AM | RULES | Gas cylinder: free ₹50 lakh LPG accident insurance (verify OMC) | [~ claimed 2026-11-11T13:56Z] |
 | 81 | 137 | Wed 02 Dec | 1 PM | GAMES | Count the triangles | [~ claimed 2026-11-11T13:56Z] |
 | 82 | 138 | Wed 02 Dec | 7 PM | BRAVE vs NORMAL | Bee swarm: jump in water vs run straight, cover face | [ ] |

@@ -1,0 +1,6 @@
+[casual] रोज़ रात phone सौ percent charge. लोग बोलते हैं, अस्सी पे रोको, battery लंबी चलेगी. Myth है या सच?
+Question. A, myth है, सौ तक charge करो. B, सच है, अस्सी पे रोकना battery के लिए better है. Comment करो.
+[serious] Answer है B. Lithium battery ज़्यादा देर full charge पे रहे, और गरम हो, तो जल्दी घिसती है.
+इसीलिए iPhone में eighty percent limit का option है, और Samsung में battery protection.
+पर panic मत करो. कभी कभी सौ ठीक है. असली दुश्मन है गर्मी, जैसे charging पे heavy gaming.
+[casual] तुम्हारी battery health कितनी है? Comment करो.
