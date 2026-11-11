@@ -85,7 +85,7 @@ RULES for every campaign short (from Prateek's latest direction, 8-9 Nov):
 | 69 | 125 | Sun 29 Nov | 1 PM | GAMES | Which car is faster? (logic) | [x] 125-same-bro-games-which-car-faster |
 | 70 | 126 | Sun 29 Nov | 7 PM | BRAVE vs NORMAL | Someone electrocuted: pull by hand vs cut power / dry stick | [x] 126-brave-vs-normal-electric-shock |
 | 71 | 127 | Sun 29 Nov | 9 PM | SCAM/TRUTH | TRUTH: Why DMart is cheaper (owns its stores) | [x] 127-why-dmart-is-cheaper |
-| 72 | 128 | Mon 30 Nov | 9 AM | RULES | Bank locker: bank liable up to 100x rent (RBI 2022) | [~ claimed 11 Nov 12:57Z] |
+| 72 | 128 | Mon 30 Nov | 9 AM | RULES | Bank locker: bank liable up to 100x rent (RBI 2022) | [x] 128-bank-locker-100x-rent |
 | 73 | 129 | Mon 30 Nov | 1 PM | GAMES | Find the fake ₹500 note (visual details, generic) | [x] 129-same-bro-games-find-fake-note |
 | 74 | 130 | Mon 30 Nov | 7 PM | BRAVE vs NORMAL | Car sinking: open door vs break/open window first | [x] 130-brave-vs-normal-sinking-car |
 | 75 | 131 | Mon 30 Nov | 9 PM | SCAM/TRUTH | SCAM: SIM swap — sudden 'no network' | [~ claimed 11 Nov 12:57Z] |
