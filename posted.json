@@ -633,6 +633,10 @@
     "youtube": {
       "id": "2jSEzEhG2LM",
       "at": "2026-11-10T14:29:26Z"
+    },
+    "instagram": {
+      "id": "18099139877435425",
+      "at": "2026-11-14T04:28:14Z"
     }
   },
   "051-checking-score-lowers-it": {
@@ -717,6 +721,12 @@
     "youtube": {
       "id": "wmVxrIkXJ3o",
       "at": "2026-11-13T14:33:27Z"
+    }
+  },
+  "062-brave-vs-normal-drowning": {
+    "youtube": {
+      "id": "Nflrjrxaa_Y",
+      "at": "2026-11-14T04:27:15Z"
     }
   }
 }
