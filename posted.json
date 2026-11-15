@@ -689,6 +689,10 @@
     "youtube": {
       "id": "v6VnmhSzU4M",
       "at": "2026-11-11T16:29:21Z"
+    },
+    "instagram": {
+      "id": "18000767967045149",
+      "at": "2026-11-15T14:19:39Z"
     }
   },
   "056-ten-rupee-coin-valid": {
@@ -779,6 +783,12 @@
     "instagram": {
       "id": "17966983755236863",
       "at": "2026-11-15T11:30:57Z"
+    }
+  },
+  "067-power-cut-sms-scam": {
+    "youtube": {
+      "id": "aKrcIDw2NRU",
+      "at": "2026-11-15T14:18:42Z"
     }
   }
 }
