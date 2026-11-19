@@ -833,6 +833,10 @@
     "youtube": {
       "id": "aKrcIDw2NRU",
       "at": "2026-11-15T14:18:42Z"
+    },
+    "instagram": {
+      "id": "18076350314749256",
+      "at": "2026-11-19T14:33:51Z"
     }
   },
   "068-toll-100m-rule-withdrawn": {
@@ -923,6 +927,12 @@
     "instagram": {
       "id": "18072912350787097",
       "at": "2026-11-19T11:47:44Z"
+    }
+  },
+  "079-free-delivery-above-199": {
+    "youtube": {
+      "id": "hFXpfl3bwFM",
+      "at": "2026-11-19T14:33:01Z"
     }
   }
 }
