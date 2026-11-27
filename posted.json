@@ -1109,6 +1109,10 @@
     "youtube": {
       "id": "qPDPVxjs-aA",
       "at": "2026-11-23T14:40:33Z"
+    },
+    "instagram": {
+      "id": "18114961580461430",
+      "at": "2026-11-27T22:15:50Z"
     }
   },
   "092-credit-card-closure-500-a-day": {
@@ -1175,6 +1179,12 @@
     "youtube": {
       "id": "nh1h1P00Wh0",
       "at": "2026-11-27T17:38:45Z"
+    }
+  },
+  "100-minimum-balance-no-negative": {
+    "youtube": {
+      "id": "WvPN6ddEC3g",
+      "at": "2026-11-27T22:15:12Z"
     }
   }
 }
